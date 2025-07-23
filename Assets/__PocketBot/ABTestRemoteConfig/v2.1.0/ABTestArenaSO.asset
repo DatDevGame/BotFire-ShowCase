@@ -1,0 +1,763 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 485cc6ac2682b4918b66a11194defea8, type: 3}
+  m_Name: ABTestArenaSO
+  m_EditorClassIdentifier: 
+  emptyArenaSO: {fileID: 11400000, guid: 031e866b459164dada7beb16650b5fe2, type: 2}
+  tournamentSO: {fileID: 11400000, guid: 9a0426fac9fdf44b2b57ae93c80bcb38, type: 2}
+  arenaDataTierGroups:
+  - tiers:
+    - numOfRounds: 1
+      wonNumOfTrophies: 20
+      lostNumOfTrophies: 5
+      requiredNumOfTrophiesToUnlock: 0
+      chassisParts:
+      - {fileID: 11400000, guid: 23cb2f3508a4846f4b31d0a75fa30e81, type: 2}
+      - {fileID: 11400000, guid: 336f70b5b03b14c7eafdea135b68b3bb, type: 2}
+      upperParts:
+      - {fileID: 11400000, guid: 9a4329937452d4205bc288bdb0a7d4c4, type: 2}
+      - {fileID: 11400000, guid: 9c870211a2de1404683b52cb25f9f30b, type: 2}
+      - {fileID: 11400000, guid: f90f5f4391f234f7789f91ee5aec09e6, type: 2}
+      - {fileID: 11400000, guid: 8e4a9b0633dfc48908fde214fad3d0e9, type: 2}
+      frontParts: []
+      wheelParts: []
+      specialBots: []
+      scriptedGachaBoxes: {fileID: 11400000, guid: 22b7d4f9b4c6c4124905e114836bb2c9,
+        type: 2}
+    - numOfRounds: 1
+      wonNumOfTrophies: 10
+      lostNumOfTrophies: 4
+      requiredNumOfTrophiesToUnlock: 0
+      chassisParts:
+      - {fileID: 11400000, guid: 2dfb75c6b201a48129eb6c74ed7a7718, type: 2}
+      - {fileID: 11400000, guid: d3ff9dedc8a4942e6b629045b469248c, type: 2}
+      - {fileID: 11400000, guid: c0b9d8b0d9ff9439c81994476040b5bd, type: 2}
+      upperParts:
+      - {fileID: 11400000, guid: f9606dd34bc004e1891049cb869c1524, type: 2}
+      - {fileID: 11400000, guid: 47e0958195c63448e8691d988cb2804a, type: 2}
+      - {fileID: 11400000, guid: b55094cd773b14c1cad520f83ceaad3a, type: 2}
+      frontParts:
+      - {fileID: 11400000, guid: 6f52648d7e5dd4f28bafc41542a81a12, type: 2}
+      - {fileID: 11400000, guid: 775f0d8c786e144fe90fa1725350513b, type: 2}
+      - {fileID: 11400000, guid: 4089a59c0283a4a9397a82275ee797a0, type: 2}
+      wheelParts: []
+      specialBots:
+      - {fileID: 11400000, guid: 9b0987a748b9c4d7496e4a01271e4e37, type: 2}
+      - {fileID: 11400000, guid: 9bcd1cd630f7a4e6c97f403196640e24, type: 2}
+      scriptedGachaBoxes: {fileID: 11400000, guid: 5dd28727cba734287a62224cb8d07774,
+        type: 2}
+    - numOfRounds: 1
+      wonNumOfTrophies: 10
+      lostNumOfTrophies: 4
+      requiredNumOfTrophiesToUnlock: 0
+      chassisParts:
+      - {fileID: 11400000, guid: 2dfb75c6b201a48129eb6c74ed7a7718, type: 2}
+      - {fileID: 11400000, guid: d3ff9dedc8a4942e6b629045b469248c, type: 2}
+      - {fileID: 11400000, guid: c0b9d8b0d9ff9439c81994476040b5bd, type: 2}
+      upperParts:
+      - {fileID: 11400000, guid: f9606dd34bc004e1891049cb869c1524, type: 2}
+      - {fileID: 11400000, guid: 47e0958195c63448e8691d988cb2804a, type: 2}
+      - {fileID: 11400000, guid: b55094cd773b14c1cad520f83ceaad3a, type: 2}
+      frontParts:
+      - {fileID: 11400000, guid: 6f52648d7e5dd4f28bafc41542a81a12, type: 2}
+      - {fileID: 11400000, guid: 775f0d8c786e144fe90fa1725350513b, type: 2}
+      - {fileID: 11400000, guid: 4089a59c0283a4a9397a82275ee797a0, type: 2}
+      - {fileID: 11400000, guid: 6d3bc30a44557487390bfb4e893d3ae5, type: 2}
+      wheelParts: []
+      specialBots:
+      - {fileID: 11400000, guid: 9b0987a748b9c4d7496e4a01271e4e37, type: 2}
+      - {fileID: 11400000, guid: 9bcd1cd630f7a4e6c97f403196640e24, type: 2}
+      scriptedGachaBoxes: {fileID: 11400000, guid: 2cc61a9df2b86405fb8b8b8bc2c3194d,
+        type: 2}
+    - numOfRounds: 1
+      wonNumOfTrophies: 10
+      lostNumOfTrophies: 4
+      requiredNumOfTrophiesToUnlock: 0
+      chassisParts:
+      - {fileID: 11400000, guid: 2dfb75c6b201a48129eb6c74ed7a7718, type: 2}
+      - {fileID: 11400000, guid: d3ff9dedc8a4942e6b629045b469248c, type: 2}
+      - {fileID: 11400000, guid: c0b9d8b0d9ff9439c81994476040b5bd, type: 2}
+      upperParts:
+      - {fileID: 11400000, guid: f9606dd34bc004e1891049cb869c1524, type: 2}
+      - {fileID: 11400000, guid: 47e0958195c63448e8691d988cb2804a, type: 2}
+      - {fileID: 11400000, guid: b55094cd773b14c1cad520f83ceaad3a, type: 2}
+      frontParts:
+      - {fileID: 11400000, guid: 6f52648d7e5dd4f28bafc41542a81a12, type: 2}
+      - {fileID: 11400000, guid: 775f0d8c786e144fe90fa1725350513b, type: 2}
+      - {fileID: 11400000, guid: 4089a59c0283a4a9397a82275ee797a0, type: 2}
+      - {fileID: 11400000, guid: 6d3bc30a44557487390bfb4e893d3ae5, type: 2}
+      wheelParts: []
+      specialBots:
+      - {fileID: 11400000, guid: 9b0987a748b9c4d7496e4a01271e4e37, type: 2}
+      - {fileID: 11400000, guid: 9bcd1cd630f7a4e6c97f403196640e24, type: 2}
+      scriptedGachaBoxes: {fileID: 11400000, guid: c22e307bdf71a468b9e11268a00a59fa,
+        type: 2}
+    - numOfRounds: 1
+      wonNumOfTrophies: 10
+      lostNumOfTrophies: 4
+      requiredNumOfTrophiesToUnlock: 0
+      chassisParts:
+      - {fileID: 11400000, guid: 2dfb75c6b201a48129eb6c74ed7a7718, type: 2}
+      - {fileID: 11400000, guid: d3ff9dedc8a4942e6b629045b469248c, type: 2}
+      - {fileID: 11400000, guid: c0b9d8b0d9ff9439c81994476040b5bd, type: 2}
+      upperParts:
+      - {fileID: 11400000, guid: f9606dd34bc004e1891049cb869c1524, type: 2}
+      - {fileID: 11400000, guid: 47e0958195c63448e8691d988cb2804a, type: 2}
+      - {fileID: 11400000, guid: b55094cd773b14c1cad520f83ceaad3a, type: 2}
+      frontParts:
+      - {fileID: 11400000, guid: 6f52648d7e5dd4f28bafc41542a81a12, type: 2}
+      - {fileID: 11400000, guid: 775f0d8c786e144fe90fa1725350513b, type: 2}
+      - {fileID: 11400000, guid: 4089a59c0283a4a9397a82275ee797a0, type: 2}
+      wheelParts: []
+      specialBots:
+      - {fileID: 11400000, guid: 9b0987a748b9c4d7496e4a01271e4e37, type: 2}
+      - {fileID: 11400000, guid: 9bcd1cd630f7a4e6c97f403196640e24, type: 2}
+      scriptedGachaBoxes: {fileID: 11400000, guid: 6b6e53467de0a4732a1b44df0057be39,
+        type: 2}
+  - tiers:
+    - numOfRounds: 1
+      wonNumOfTrophies: 22
+      lostNumOfTrophies: 6
+      requiredNumOfTrophiesToUnlock: 200
+      chassisParts:
+      - {fileID: 11400000, guid: 23cb2f3508a4846f4b31d0a75fa30e81, type: 2}
+      - {fileID: 11400000, guid: 336f70b5b03b14c7eafdea135b68b3bb, type: 2}
+      - {fileID: 11400000, guid: a5c5866f084bf4eeaa12d19a97a7cf06, type: 2}
+      upperParts:
+      - {fileID: 11400000, guid: 9a4329937452d4205bc288bdb0a7d4c4, type: 2}
+      - {fileID: 11400000, guid: 9c870211a2de1404683b52cb25f9f30b, type: 2}
+      - {fileID: 11400000, guid: f90f5f4391f234f7789f91ee5aec09e6, type: 2}
+      - {fileID: 11400000, guid: 8e4a9b0633dfc48908fde214fad3d0e9, type: 2}
+      - {fileID: 11400000, guid: f7838f9c213db442f8cc04ecde75a0d0, type: 2}
+      - {fileID: 11400000, guid: 50ef4f81d90524115aa2c6b05675fe8d, type: 2}
+      frontParts: []
+      wheelParts: []
+      specialBots: []
+      scriptedGachaBoxes: {fileID: 11400000, guid: d5c2d5be735954eb5b3bfa64bf794865,
+        type: 2}
+    - numOfRounds: 1
+      wonNumOfTrophies: 12
+      lostNumOfTrophies: 6
+      requiredNumOfTrophiesToUnlock: 230
+      chassisParts:
+      - {fileID: 11400000, guid: 2dfb75c6b201a48129eb6c74ed7a7718, type: 2}
+      - {fileID: 11400000, guid: d3ff9dedc8a4942e6b629045b469248c, type: 2}
+      - {fileID: 11400000, guid: c0b9d8b0d9ff9439c81994476040b5bd, type: 2}
+      - {fileID: 11400000, guid: 9ab8b9e0f337b43dd9ba2c56fe0e44e6, type: 2}
+      - {fileID: 11400000, guid: f8f760eaaf90142c987a4b498b070bd3, type: 2}
+      upperParts:
+      - {fileID: 11400000, guid: f9606dd34bc004e1891049cb869c1524, type: 2}
+      - {fileID: 11400000, guid: 47e0958195c63448e8691d988cb2804a, type: 2}
+      - {fileID: 11400000, guid: b55094cd773b14c1cad520f83ceaad3a, type: 2}
+      - {fileID: 11400000, guid: 8672c374c7d5b4aff9476dfd444209d5, type: 2}
+      - {fileID: 11400000, guid: 0df4ccefd018f4cc9b8daff4cad3df16, type: 2}
+      - {fileID: 11400000, guid: 89cab8bbaf2004c7091c1eadb8f3541f, type: 2}
+      - {fileID: 11400000, guid: 9303f52be8b54403aa3b8819a624a380, type: 2}
+      frontParts:
+      - {fileID: 11400000, guid: 6f52648d7e5dd4f28bafc41542a81a12, type: 2}
+      - {fileID: 11400000, guid: 775f0d8c786e144fe90fa1725350513b, type: 2}
+      - {fileID: 11400000, guid: 4089a59c0283a4a9397a82275ee797a0, type: 2}
+      - {fileID: 11400000, guid: 6d3bc30a44557487390bfb4e893d3ae5, type: 2}
+      - {fileID: 11400000, guid: 13bd3f69283af4c579af8c9e2df0ee26, type: 2}
+      - {fileID: 11400000, guid: 0474a965459344d1da5fa337c0b3869b, type: 2}
+      - {fileID: 11400000, guid: e4ef24a62aca047a5932a96404786fda, type: 2}
+      - {fileID: 11400000, guid: 9a251cd02a0ff4437bbfe66bd4e7f1c1, type: 2}
+      wheelParts: []
+      specialBots:
+      - {fileID: 11400000, guid: 9bcd1cd630f7a4e6c97f403196640e24, type: 2}
+      - {fileID: 11400000, guid: 1b31f4ff9039345c5ac58433ce86327d, type: 2}
+      - {fileID: 11400000, guid: 5905da2c11ede4ead96fe4883b772ff5, type: 2}
+      - {fileID: 11400000, guid: 304432cc8fa68494fa16d38d1e8b2b48, type: 2}
+      scriptedGachaBoxes: {fileID: 11400000, guid: d31ca3e19dc054be08a48637adc9770b,
+        type: 2}
+    - numOfRounds: 1
+      wonNumOfTrophies: 12
+      lostNumOfTrophies: 6
+      requiredNumOfTrophiesToUnlock: 200
+      chassisParts:
+      - {fileID: 11400000, guid: 2dfb75c6b201a48129eb6c74ed7a7718, type: 2}
+      - {fileID: 11400000, guid: d3ff9dedc8a4942e6b629045b469248c, type: 2}
+      - {fileID: 11400000, guid: c0b9d8b0d9ff9439c81994476040b5bd, type: 2}
+      - {fileID: 11400000, guid: 9ab8b9e0f337b43dd9ba2c56fe0e44e6, type: 2}
+      - {fileID: 11400000, guid: 594bf98233714408ebfea25fc7352bd1, type: 2}
+      - {fileID: 11400000, guid: f8f760eaaf90142c987a4b498b070bd3, type: 2}
+      upperParts:
+      - {fileID: 11400000, guid: f9606dd34bc004e1891049cb869c1524, type: 2}
+      - {fileID: 11400000, guid: 47e0958195c63448e8691d988cb2804a, type: 2}
+      - {fileID: 11400000, guid: b55094cd773b14c1cad520f83ceaad3a, type: 2}
+      - {fileID: 11400000, guid: 89cab8bbaf2004c7091c1eadb8f3541f, type: 2}
+      - {fileID: 11400000, guid: 0a23a7834350a4473826c0d5b9956b38, type: 2}
+      - {fileID: 11400000, guid: 8672c374c7d5b4aff9476dfd444209d5, type: 2}
+      - {fileID: 11400000, guid: 0df4ccefd018f4cc9b8daff4cad3df16, type: 2}
+      - {fileID: 11400000, guid: a82fa0553abcf44378b1a36239ad42cd, type: 2}
+      - {fileID: 11400000, guid: 9303f52be8b54403aa3b8819a624a380, type: 2}
+      - {fileID: 11400000, guid: 85a52bd9c6c76417698c83038771dc07, type: 2}
+      frontParts:
+      - {fileID: 11400000, guid: 6f52648d7e5dd4f28bafc41542a81a12, type: 2}
+      - {fileID: 11400000, guid: 775f0d8c786e144fe90fa1725350513b, type: 2}
+      - {fileID: 11400000, guid: 4089a59c0283a4a9397a82275ee797a0, type: 2}
+      - {fileID: 11400000, guid: 6d3bc30a44557487390bfb4e893d3ae5, type: 2}
+      - {fileID: 11400000, guid: 0474a965459344d1da5fa337c0b3869b, type: 2}
+      - {fileID: 11400000, guid: e4ef24a62aca047a5932a96404786fda, type: 2}
+      - {fileID: 11400000, guid: a44a8e6b02a97485192849a5a8fa33de, type: 2}
+      - {fileID: 11400000, guid: 13bd3f69283af4c579af8c9e2df0ee26, type: 2}
+      - {fileID: 11400000, guid: 459a54e2984054e99a9bbccc28b04051, type: 2}
+      - {fileID: 11400000, guid: 9a251cd02a0ff4437bbfe66bd4e7f1c1, type: 2}
+      - {fileID: 11400000, guid: 0a7ccbc438b8f476586cbd9d9ed5e0fa, type: 2}
+      wheelParts: []
+      specialBots:
+      - {fileID: 11400000, guid: 9bcd1cd630f7a4e6c97f403196640e24, type: 2}
+      - {fileID: 11400000, guid: 1b31f4ff9039345c5ac58433ce86327d, type: 2}
+      - {fileID: 11400000, guid: 5905da2c11ede4ead96fe4883b772ff5, type: 2}
+      - {fileID: 11400000, guid: 304432cc8fa68494fa16d38d1e8b2b48, type: 2}
+      scriptedGachaBoxes: {fileID: 11400000, guid: d5346daba9af34272899ac9d6239b0d1,
+        type: 2}
+    - numOfRounds: 1
+      wonNumOfTrophies: 12
+      lostNumOfTrophies: 6
+      requiredNumOfTrophiesToUnlock: 230
+      chassisParts:
+      - {fileID: 11400000, guid: 2dfb75c6b201a48129eb6c74ed7a7718, type: 2}
+      - {fileID: 11400000, guid: d3ff9dedc8a4942e6b629045b469248c, type: 2}
+      - {fileID: 11400000, guid: c0b9d8b0d9ff9439c81994476040b5bd, type: 2}
+      - {fileID: 11400000, guid: 9ab8b9e0f337b43dd9ba2c56fe0e44e6, type: 2}
+      - {fileID: 11400000, guid: f8f760eaaf90142c987a4b498b070bd3, type: 2}
+      upperParts:
+      - {fileID: 11400000, guid: f9606dd34bc004e1891049cb869c1524, type: 2}
+      - {fileID: 11400000, guid: 47e0958195c63448e8691d988cb2804a, type: 2}
+      - {fileID: 11400000, guid: b55094cd773b14c1cad520f83ceaad3a, type: 2}
+      - {fileID: 11400000, guid: 8672c374c7d5b4aff9476dfd444209d5, type: 2}
+      - {fileID: 11400000, guid: 0df4ccefd018f4cc9b8daff4cad3df16, type: 2}
+      - {fileID: 11400000, guid: 89cab8bbaf2004c7091c1eadb8f3541f, type: 2}
+      - {fileID: 11400000, guid: 9303f52be8b54403aa3b8819a624a380, type: 2}
+      - {fileID: 11400000, guid: a82fa0553abcf44378b1a36239ad42cd, type: 2}
+      frontParts:
+      - {fileID: 11400000, guid: 6f52648d7e5dd4f28bafc41542a81a12, type: 2}
+      - {fileID: 11400000, guid: 775f0d8c786e144fe90fa1725350513b, type: 2}
+      - {fileID: 11400000, guid: 4089a59c0283a4a9397a82275ee797a0, type: 2}
+      - {fileID: 11400000, guid: 6d3bc30a44557487390bfb4e893d3ae5, type: 2}
+      - {fileID: 11400000, guid: 13bd3f69283af4c579af8c9e2df0ee26, type: 2}
+      - {fileID: 11400000, guid: 0474a965459344d1da5fa337c0b3869b, type: 2}
+      - {fileID: 11400000, guid: e4ef24a62aca047a5932a96404786fda, type: 2}
+      - {fileID: 11400000, guid: 9a251cd02a0ff4437bbfe66bd4e7f1c1, type: 2}
+      - {fileID: 11400000, guid: a44a8e6b02a97485192849a5a8fa33de, type: 2}
+      wheelParts: []
+      specialBots:
+      - {fileID: 11400000, guid: 9bcd1cd630f7a4e6c97f403196640e24, type: 2}
+      - {fileID: 11400000, guid: 1b31f4ff9039345c5ac58433ce86327d, type: 2}
+      - {fileID: 11400000, guid: 5905da2c11ede4ead96fe4883b772ff5, type: 2}
+      - {fileID: 11400000, guid: 304432cc8fa68494fa16d38d1e8b2b48, type: 2}
+      scriptedGachaBoxes: {fileID: 11400000, guid: 91ecc7f93bee047158c8779d185fe73d,
+        type: 2}
+    - numOfRounds: 1
+      wonNumOfTrophies: 12
+      lostNumOfTrophies: 6
+      requiredNumOfTrophiesToUnlock: 230
+      chassisParts:
+      - {fileID: 11400000, guid: 2dfb75c6b201a48129eb6c74ed7a7718, type: 2}
+      - {fileID: 11400000, guid: d3ff9dedc8a4942e6b629045b469248c, type: 2}
+      - {fileID: 11400000, guid: c0b9d8b0d9ff9439c81994476040b5bd, type: 2}
+      - {fileID: 11400000, guid: 9ab8b9e0f337b43dd9ba2c56fe0e44e6, type: 2}
+      - {fileID: 11400000, guid: f8f760eaaf90142c987a4b498b070bd3, type: 2}
+      upperParts:
+      - {fileID: 11400000, guid: f9606dd34bc004e1891049cb869c1524, type: 2}
+      - {fileID: 11400000, guid: 47e0958195c63448e8691d988cb2804a, type: 2}
+      - {fileID: 11400000, guid: b55094cd773b14c1cad520f83ceaad3a, type: 2}
+      - {fileID: 11400000, guid: 8672c374c7d5b4aff9476dfd444209d5, type: 2}
+      - {fileID: 11400000, guid: 0df4ccefd018f4cc9b8daff4cad3df16, type: 2}
+      - {fileID: 11400000, guid: 89cab8bbaf2004c7091c1eadb8f3541f, type: 2}
+      - {fileID: 11400000, guid: 9303f52be8b54403aa3b8819a624a380, type: 2}
+      frontParts:
+      - {fileID: 11400000, guid: 6f52648d7e5dd4f28bafc41542a81a12, type: 2}
+      - {fileID: 11400000, guid: 775f0d8c786e144fe90fa1725350513b, type: 2}
+      - {fileID: 11400000, guid: 4089a59c0283a4a9397a82275ee797a0, type: 2}
+      - {fileID: 11400000, guid: 6d3bc30a44557487390bfb4e893d3ae5, type: 2}
+      - {fileID: 11400000, guid: 13bd3f69283af4c579af8c9e2df0ee26, type: 2}
+      - {fileID: 11400000, guid: 0474a965459344d1da5fa337c0b3869b, type: 2}
+      - {fileID: 11400000, guid: e4ef24a62aca047a5932a96404786fda, type: 2}
+      - {fileID: 11400000, guid: 9a251cd02a0ff4437bbfe66bd4e7f1c1, type: 2}
+      wheelParts: []
+      specialBots:
+      - {fileID: 11400000, guid: 9bcd1cd630f7a4e6c97f403196640e24, type: 2}
+      - {fileID: 11400000, guid: 1b31f4ff9039345c5ac58433ce86327d, type: 2}
+      - {fileID: 11400000, guid: 5905da2c11ede4ead96fe4883b772ff5, type: 2}
+      - {fileID: 11400000, guid: 304432cc8fa68494fa16d38d1e8b2b48, type: 2}
+      scriptedGachaBoxes: {fileID: 11400000, guid: 19743a02aa82644dbace76852a0ad33b,
+        type: 2}
+  - tiers:
+    - numOfRounds: 1
+      wonNumOfTrophies: 24
+      lostNumOfTrophies: 7
+      requiredNumOfTrophiesToUnlock: 400
+      chassisParts:
+      - {fileID: 11400000, guid: 23cb2f3508a4846f4b31d0a75fa30e81, type: 2}
+      - {fileID: 11400000, guid: 336f70b5b03b14c7eafdea135b68b3bb, type: 2}
+      - {fileID: 11400000, guid: a5c5866f084bf4eeaa12d19a97a7cf06, type: 2}
+      - {fileID: 11400000, guid: e165cb1d2bc574108b49ea60c815112d, type: 2}
+      upperParts:
+      - {fileID: 11400000, guid: 9a4329937452d4205bc288bdb0a7d4c4, type: 2}
+      - {fileID: 11400000, guid: 9c870211a2de1404683b52cb25f9f30b, type: 2}
+      - {fileID: 11400000, guid: f90f5f4391f234f7789f91ee5aec09e6, type: 2}
+      - {fileID: 11400000, guid: 8e4a9b0633dfc48908fde214fad3d0e9, type: 2}
+      - {fileID: 11400000, guid: f7838f9c213db442f8cc04ecde75a0d0, type: 2}
+      - {fileID: 11400000, guid: 50ef4f81d90524115aa2c6b05675fe8d, type: 2}
+      - {fileID: 11400000, guid: 15746e410fc094fc69615523b9303973, type: 2}
+      frontParts: []
+      wheelParts: []
+      specialBots: []
+      scriptedGachaBoxes: {fileID: 11400000, guid: 72370f681c87a48b09f586de9df0fa5b,
+        type: 2}
+    - numOfRounds: 1
+      wonNumOfTrophies: 14
+      lostNumOfTrophies: 7
+      requiredNumOfTrophiesToUnlock: 720
+      chassisParts:
+      - {fileID: 11400000, guid: c0b9d8b0d9ff9439c81994476040b5bd, type: 2}
+      - {fileID: 11400000, guid: 9ab8b9e0f337b43dd9ba2c56fe0e44e6, type: 2}
+      - {fileID: 11400000, guid: f8f760eaaf90142c987a4b498b070bd3, type: 2}
+      - {fileID: 11400000, guid: 594bf98233714408ebfea25fc7352bd1, type: 2}
+      - {fileID: 11400000, guid: c343669af7a3f4cdb8b58fc483243c00, type: 2}
+      upperParts:
+      - {fileID: 11400000, guid: b55094cd773b14c1cad520f83ceaad3a, type: 2}
+      - {fileID: 11400000, guid: 8672c374c7d5b4aff9476dfd444209d5, type: 2}
+      - {fileID: 11400000, guid: 0df4ccefd018f4cc9b8daff4cad3df16, type: 2}
+      - {fileID: 11400000, guid: 89cab8bbaf2004c7091c1eadb8f3541f, type: 2}
+      - {fileID: 11400000, guid: 9303f52be8b54403aa3b8819a624a380, type: 2}
+      - {fileID: 11400000, guid: a82fa0553abcf44378b1a36239ad42cd, type: 2}
+      - {fileID: 11400000, guid: 0a23a7834350a4473826c0d5b9956b38, type: 2}
+      - {fileID: 11400000, guid: 85a52bd9c6c76417698c83038771dc07, type: 2}
+      - {fileID: 11400000, guid: 073d3c50738964ec0a195928dca8d619, type: 2}
+      - {fileID: 11400000, guid: 0e376940657e84c80b62788d03a8272d, type: 2}
+      frontParts:
+      - {fileID: 11400000, guid: 13bd3f69283af4c579af8c9e2df0ee26, type: 2}
+      - {fileID: 11400000, guid: 0474a965459344d1da5fa337c0b3869b, type: 2}
+      - {fileID: 11400000, guid: e4ef24a62aca047a5932a96404786fda, type: 2}
+      - {fileID: 11400000, guid: 9a251cd02a0ff4437bbfe66bd4e7f1c1, type: 2}
+      - {fileID: 11400000, guid: a44a8e6b02a97485192849a5a8fa33de, type: 2}
+      - {fileID: 11400000, guid: 459a54e2984054e99a9bbccc28b04051, type: 2}
+      - {fileID: 11400000, guid: 0a7ccbc438b8f476586cbd9d9ed5e0fa, type: 2}
+      - {fileID: 11400000, guid: 1ef2b5725290a4e1caba5d0549936eb8, type: 2}
+      - {fileID: 11400000, guid: 85d57a2ac331c463fa7b1c7cef5be8da, type: 2}
+      wheelParts: []
+      specialBots:
+      - {fileID: 11400000, guid: 1b31f4ff9039345c5ac58433ce86327d, type: 2}
+      - {fileID: 11400000, guid: 5905da2c11ede4ead96fe4883b772ff5, type: 2}
+      - {fileID: 11400000, guid: 304432cc8fa68494fa16d38d1e8b2b48, type: 2}
+      - {fileID: 11400000, guid: f7c34cfc5e6964e8f9aeb1c826012a07, type: 2}
+      - {fileID: 11400000, guid: 9837b455ae5e64fdca2454d32251eb75, type: 2}
+      scriptedGachaBoxes: {fileID: 11400000, guid: f8aa7b255825d40418f924349f41f70c,
+        type: 2}
+    - numOfRounds: 1
+      wonNumOfTrophies: 14
+      lostNumOfTrophies: 7
+      requiredNumOfTrophiesToUnlock: 650
+      chassisParts:
+      - {fileID: 11400000, guid: c0b9d8b0d9ff9439c81994476040b5bd, type: 2}
+      - {fileID: 11400000, guid: 9ab8b9e0f337b43dd9ba2c56fe0e44e6, type: 2}
+      - {fileID: 11400000, guid: 594bf98233714408ebfea25fc7352bd1, type: 2}
+      - {fileID: 11400000, guid: f8f760eaaf90142c987a4b498b070bd3, type: 2}
+      - {fileID: 11400000, guid: d81891766356d4f339c6091206967187, type: 2}
+      - {fileID: 11400000, guid: 719977d22f160402a8c748419841858f, type: 2}
+      - {fileID: 11400000, guid: c343669af7a3f4cdb8b58fc483243c00, type: 2}
+      upperParts:
+      - {fileID: 11400000, guid: 89cab8bbaf2004c7091c1eadb8f3541f, type: 2}
+      - {fileID: 11400000, guid: 0a23a7834350a4473826c0d5b9956b38, type: 2}
+      - {fileID: 11400000, guid: 8672c374c7d5b4aff9476dfd444209d5, type: 2}
+      - {fileID: 11400000, guid: 0df4ccefd018f4cc9b8daff4cad3df16, type: 2}
+      - {fileID: 11400000, guid: a82fa0553abcf44378b1a36239ad42cd, type: 2}
+      - {fileID: 11400000, guid: 9303f52be8b54403aa3b8819a624a380, type: 2}
+      - {fileID: 11400000, guid: 85a52bd9c6c76417698c83038771dc07, type: 2}
+      - {fileID: 11400000, guid: dceced72f63d54b3e95fbc659923791d, type: 2}
+      - {fileID: 11400000, guid: 691acc7ac336a481dbc88f92ddc86799, type: 2}
+      - {fileID: 11400000, guid: 0e376940657e84c80b62788d03a8272d, type: 2}
+      - {fileID: 11400000, guid: 5efc1e1b938544e248b89b28d84d1ef9, type: 2}
+      - {fileID: 11400000, guid: 6f023c812899b4b599ab80e75cb1f204, type: 2}
+      - {fileID: 11400000, guid: 073d3c50738964ec0a195928dca8d619, type: 2}
+      - {fileID: 11400000, guid: 73cecdc59cf0540e68780f5be3f5afbf, type: 2}
+      - {fileID: 11400000, guid: 7df922ae7208849ec8e826e1d5001a64, type: 2}
+      - {fileID: 11400000, guid: 771e16b8b6ea64477b6bfd06f11574d4, type: 2}
+      frontParts:
+      - {fileID: 11400000, guid: 0474a965459344d1da5fa337c0b3869b, type: 2}
+      - {fileID: 11400000, guid: e4ef24a62aca047a5932a96404786fda, type: 2}
+      - {fileID: 11400000, guid: a44a8e6b02a97485192849a5a8fa33de, type: 2}
+      - {fileID: 11400000, guid: 13bd3f69283af4c579af8c9e2df0ee26, type: 2}
+      - {fileID: 11400000, guid: 459a54e2984054e99a9bbccc28b04051, type: 2}
+      - {fileID: 11400000, guid: 9a251cd02a0ff4437bbfe66bd4e7f1c1, type: 2}
+      - {fileID: 11400000, guid: 0a7ccbc438b8f476586cbd9d9ed5e0fa, type: 2}
+      - {fileID: 11400000, guid: 85d57a2ac331c463fa7b1c7cef5be8da, type: 2}
+      - {fileID: 11400000, guid: 1ef2b5725290a4e1caba5d0549936eb8, type: 2}
+      - {fileID: 11400000, guid: 16ce775ac264444f2be8d7f5cd950dda, type: 2}
+      - {fileID: 11400000, guid: 01516f21af92844848cc62fcc548f1ad, type: 2}
+      - {fileID: 11400000, guid: bdd040ea032b64e4f9c3472147d2d80c, type: 2}
+      - {fileID: 11400000, guid: f10d1629b48954119ba08db62c490f59, type: 2}
+      - {fileID: 11400000, guid: 24b4f6075c2334c3b800868429de880b, type: 2}
+      wheelParts: []
+      specialBots:
+      - {fileID: 11400000, guid: 1b31f4ff9039345c5ac58433ce86327d, type: 2}
+      - {fileID: 11400000, guid: 5905da2c11ede4ead96fe4883b772ff5, type: 2}
+      - {fileID: 11400000, guid: 304432cc8fa68494fa16d38d1e8b2b48, type: 2}
+      - {fileID: 11400000, guid: f7c34cfc5e6964e8f9aeb1c826012a07, type: 2}
+      - {fileID: 11400000, guid: 9837b455ae5e64fdca2454d32251eb75, type: 2}
+      scriptedGachaBoxes: {fileID: 11400000, guid: 7b9ae2467fd6f48fcb4c7057951b72d6,
+        type: 2}
+    - numOfRounds: 1
+      wonNumOfTrophies: 14
+      lostNumOfTrophies: 7
+      requiredNumOfTrophiesToUnlock: 720
+      chassisParts:
+      - {fileID: 11400000, guid: c0b9d8b0d9ff9439c81994476040b5bd, type: 2}
+      - {fileID: 11400000, guid: 9ab8b9e0f337b43dd9ba2c56fe0e44e6, type: 2}
+      - {fileID: 11400000, guid: f8f760eaaf90142c987a4b498b070bd3, type: 2}
+      - {fileID: 11400000, guid: 594bf98233714408ebfea25fc7352bd1, type: 2}
+      - {fileID: 11400000, guid: c343669af7a3f4cdb8b58fc483243c00, type: 2}
+      upperParts:
+      - {fileID: 11400000, guid: b55094cd773b14c1cad520f83ceaad3a, type: 2}
+      - {fileID: 11400000, guid: 8672c374c7d5b4aff9476dfd444209d5, type: 2}
+      - {fileID: 11400000, guid: 0df4ccefd018f4cc9b8daff4cad3df16, type: 2}
+      - {fileID: 11400000, guid: 89cab8bbaf2004c7091c1eadb8f3541f, type: 2}
+      - {fileID: 11400000, guid: 9303f52be8b54403aa3b8819a624a380, type: 2}
+      - {fileID: 11400000, guid: a82fa0553abcf44378b1a36239ad42cd, type: 2}
+      - {fileID: 11400000, guid: 0a23a7834350a4473826c0d5b9956b38, type: 2}
+      - {fileID: 11400000, guid: 85a52bd9c6c76417698c83038771dc07, type: 2}
+      - {fileID: 11400000, guid: 073d3c50738964ec0a195928dca8d619, type: 2}
+      - {fileID: 11400000, guid: 0e376940657e84c80b62788d03a8272d, type: 2}
+      - {fileID: 11400000, guid: 691acc7ac336a481dbc88f92ddc86799, type: 2}
+      - {fileID: 11400000, guid: dceced72f63d54b3e95fbc659923791d, type: 2}
+      - {fileID: 11400000, guid: 6f023c812899b4b599ab80e75cb1f204, type: 2}
+      frontParts:
+      - {fileID: 11400000, guid: 13bd3f69283af4c579af8c9e2df0ee26, type: 2}
+      - {fileID: 11400000, guid: 0474a965459344d1da5fa337c0b3869b, type: 2}
+      - {fileID: 11400000, guid: e4ef24a62aca047a5932a96404786fda, type: 2}
+      - {fileID: 11400000, guid: 9a251cd02a0ff4437bbfe66bd4e7f1c1, type: 2}
+      - {fileID: 11400000, guid: a44a8e6b02a97485192849a5a8fa33de, type: 2}
+      - {fileID: 11400000, guid: 459a54e2984054e99a9bbccc28b04051, type: 2}
+      - {fileID: 11400000, guid: 0a7ccbc438b8f476586cbd9d9ed5e0fa, type: 2}
+      - {fileID: 11400000, guid: 1ef2b5725290a4e1caba5d0549936eb8, type: 2}
+      - {fileID: 11400000, guid: 85d57a2ac331c463fa7b1c7cef5be8da, type: 2}
+      - {fileID: 11400000, guid: 01516f21af92844848cc62fcc548f1ad, type: 2}
+      wheelParts: []
+      specialBots:
+      - {fileID: 11400000, guid: 1b31f4ff9039345c5ac58433ce86327d, type: 2}
+      - {fileID: 11400000, guid: 5905da2c11ede4ead96fe4883b772ff5, type: 2}
+      - {fileID: 11400000, guid: 304432cc8fa68494fa16d38d1e8b2b48, type: 2}
+      - {fileID: 11400000, guid: f7c34cfc5e6964e8f9aeb1c826012a07, type: 2}
+      - {fileID: 11400000, guid: 9837b455ae5e64fdca2454d32251eb75, type: 2}
+      scriptedGachaBoxes: {fileID: 11400000, guid: 91ecc7f93bee047158c8779d185fe73d,
+        type: 2}
+    - numOfRounds: 1
+      wonNumOfTrophies: 14
+      lostNumOfTrophies: 7
+      requiredNumOfTrophiesToUnlock: 720
+      chassisParts:
+      - {fileID: 11400000, guid: c0b9d8b0d9ff9439c81994476040b5bd, type: 2}
+      - {fileID: 11400000, guid: 9ab8b9e0f337b43dd9ba2c56fe0e44e6, type: 2}
+      - {fileID: 11400000, guid: f8f760eaaf90142c987a4b498b070bd3, type: 2}
+      - {fileID: 11400000, guid: 594bf98233714408ebfea25fc7352bd1, type: 2}
+      - {fileID: 11400000, guid: c343669af7a3f4cdb8b58fc483243c00, type: 2}
+      upperParts:
+      - {fileID: 11400000, guid: b55094cd773b14c1cad520f83ceaad3a, type: 2}
+      - {fileID: 11400000, guid: 8672c374c7d5b4aff9476dfd444209d5, type: 2}
+      - {fileID: 11400000, guid: 0df4ccefd018f4cc9b8daff4cad3df16, type: 2}
+      - {fileID: 11400000, guid: 89cab8bbaf2004c7091c1eadb8f3541f, type: 2}
+      - {fileID: 11400000, guid: 9303f52be8b54403aa3b8819a624a380, type: 2}
+      - {fileID: 11400000, guid: a82fa0553abcf44378b1a36239ad42cd, type: 2}
+      - {fileID: 11400000, guid: 0a23a7834350a4473826c0d5b9956b38, type: 2}
+      - {fileID: 11400000, guid: 85a52bd9c6c76417698c83038771dc07, type: 2}
+      - {fileID: 11400000, guid: 073d3c50738964ec0a195928dca8d619, type: 2}
+      - {fileID: 11400000, guid: 0e376940657e84c80b62788d03a8272d, type: 2}
+      frontParts:
+      - {fileID: 11400000, guid: 13bd3f69283af4c579af8c9e2df0ee26, type: 2}
+      - {fileID: 11400000, guid: 0474a965459344d1da5fa337c0b3869b, type: 2}
+      - {fileID: 11400000, guid: e4ef24a62aca047a5932a96404786fda, type: 2}
+      - {fileID: 11400000, guid: 9a251cd02a0ff4437bbfe66bd4e7f1c1, type: 2}
+      - {fileID: 11400000, guid: a44a8e6b02a97485192849a5a8fa33de, type: 2}
+      - {fileID: 11400000, guid: 459a54e2984054e99a9bbccc28b04051, type: 2}
+      - {fileID: 11400000, guid: 0a7ccbc438b8f476586cbd9d9ed5e0fa, type: 2}
+      - {fileID: 11400000, guid: 1ef2b5725290a4e1caba5d0549936eb8, type: 2}
+      - {fileID: 11400000, guid: 85d57a2ac331c463fa7b1c7cef5be8da, type: 2}
+      wheelParts: []
+      specialBots:
+      - {fileID: 11400000, guid: 1b31f4ff9039345c5ac58433ce86327d, type: 2}
+      - {fileID: 11400000, guid: 5905da2c11ede4ead96fe4883b772ff5, type: 2}
+      - {fileID: 11400000, guid: 304432cc8fa68494fa16d38d1e8b2b48, type: 2}
+      - {fileID: 11400000, guid: f7c34cfc5e6964e8f9aeb1c826012a07, type: 2}
+      - {fileID: 11400000, guid: 9837b455ae5e64fdca2454d32251eb75, type: 2}
+      scriptedGachaBoxes: {fileID: 11400000, guid: c5c4b8ae64ae34c3cb83e0b5b6a13d3b,
+        type: 2}
+  - tiers:
+    - numOfRounds: 1
+      wonNumOfTrophies: 26
+      lostNumOfTrophies: 8
+      requiredNumOfTrophiesToUnlock: 600
+      chassisParts:
+      - {fileID: 11400000, guid: 23cb2f3508a4846f4b31d0a75fa30e81, type: 2}
+      - {fileID: 11400000, guid: 336f70b5b03b14c7eafdea135b68b3bb, type: 2}
+      - {fileID: 11400000, guid: a5c5866f084bf4eeaa12d19a97a7cf06, type: 2}
+      - {fileID: 11400000, guid: e165cb1d2bc574108b49ea60c815112d, type: 2}
+      upperParts:
+      - {fileID: 11400000, guid: 9a4329937452d4205bc288bdb0a7d4c4, type: 2}
+      - {fileID: 11400000, guid: 9c870211a2de1404683b52cb25f9f30b, type: 2}
+      - {fileID: 11400000, guid: f90f5f4391f234f7789f91ee5aec09e6, type: 2}
+      - {fileID: 11400000, guid: 8e4a9b0633dfc48908fde214fad3d0e9, type: 2}
+      - {fileID: 11400000, guid: f7838f9c213db442f8cc04ecde75a0d0, type: 2}
+      - {fileID: 11400000, guid: 50ef4f81d90524115aa2c6b05675fe8d, type: 2}
+      - {fileID: 11400000, guid: 15746e410fc094fc69615523b9303973, type: 2}
+      frontParts: []
+      wheelParts: []
+      specialBots: []
+      scriptedGachaBoxes: {fileID: 11400000, guid: de81c88d8263d4791890fb0693e39d05,
+        type: 2}
+    - numOfRounds: 1
+      wonNumOfTrophies: 16
+      lostNumOfTrophies: 9
+      requiredNumOfTrophiesToUnlock: 1350
+      chassisParts:
+      - {fileID: 11400000, guid: 9ab8b9e0f337b43dd9ba2c56fe0e44e6, type: 2}
+      - {fileID: 11400000, guid: f8f760eaaf90142c987a4b498b070bd3, type: 2}
+      - {fileID: 11400000, guid: 594bf98233714408ebfea25fc7352bd1, type: 2}
+      - {fileID: 11400000, guid: c343669af7a3f4cdb8b58fc483243c00, type: 2}
+      - {fileID: 11400000, guid: d81891766356d4f339c6091206967187, type: 2}
+      - {fileID: 11400000, guid: 719977d22f160402a8c748419841858f, type: 2}
+      - {fileID: 11400000, guid: 662d152247afb4c38a073c36900e1b81, type: 2}
+      upperParts:
+      - {fileID: 11400000, guid: 8672c374c7d5b4aff9476dfd444209d5, type: 2}
+      - {fileID: 11400000, guid: 0df4ccefd018f4cc9b8daff4cad3df16, type: 2}
+      - {fileID: 11400000, guid: 89cab8bbaf2004c7091c1eadb8f3541f, type: 2}
+      - {fileID: 11400000, guid: 9303f52be8b54403aa3b8819a624a380, type: 2}
+      - {fileID: 11400000, guid: a82fa0553abcf44378b1a36239ad42cd, type: 2}
+      - {fileID: 11400000, guid: 0a23a7834350a4473826c0d5b9956b38, type: 2}
+      - {fileID: 11400000, guid: 85a52bd9c6c76417698c83038771dc07, type: 2}
+      - {fileID: 11400000, guid: 073d3c50738964ec0a195928dca8d619, type: 2}
+      - {fileID: 11400000, guid: 0e376940657e84c80b62788d03a8272d, type: 2}
+      - {fileID: 11400000, guid: 691acc7ac336a481dbc88f92ddc86799, type: 2}
+      - {fileID: 11400000, guid: dceced72f63d54b3e95fbc659923791d, type: 2}
+      - {fileID: 11400000, guid: 6f023c812899b4b599ab80e75cb1f204, type: 2}
+      - {fileID: 11400000, guid: 5efc1e1b938544e248b89b28d84d1ef9, type: 2}
+      - {fileID: 11400000, guid: 7df922ae7208849ec8e826e1d5001a64, type: 2}
+      - {fileID: 11400000, guid: 73cecdc59cf0540e68780f5be3f5afbf, type: 2}
+      - {fileID: 11400000, guid: 771e16b8b6ea64477b6bfd06f11574d4, type: 2}
+      frontParts:
+      - {fileID: 11400000, guid: 13bd3f69283af4c579af8c9e2df0ee26, type: 2}
+      - {fileID: 11400000, guid: 0474a965459344d1da5fa337c0b3869b, type: 2}
+      - {fileID: 11400000, guid: e4ef24a62aca047a5932a96404786fda, type: 2}
+      - {fileID: 11400000, guid: 9a251cd02a0ff4437bbfe66bd4e7f1c1, type: 2}
+      - {fileID: 11400000, guid: a44a8e6b02a97485192849a5a8fa33de, type: 2}
+      - {fileID: 11400000, guid: 459a54e2984054e99a9bbccc28b04051, type: 2}
+      - {fileID: 11400000, guid: 0a7ccbc438b8f476586cbd9d9ed5e0fa, type: 2}
+      - {fileID: 11400000, guid: 1ef2b5725290a4e1caba5d0549936eb8, type: 2}
+      - {fileID: 11400000, guid: 85d57a2ac331c463fa7b1c7cef5be8da, type: 2}
+      - {fileID: 11400000, guid: 01516f21af92844848cc62fcc548f1ad, type: 2}
+      - {fileID: 11400000, guid: f10d1629b48954119ba08db62c490f59, type: 2}
+      - {fileID: 11400000, guid: 24b4f6075c2334c3b800868429de880b, type: 2}
+      - {fileID: 11400000, guid: bdd040ea032b64e4f9c3472147d2d80c, type: 2}
+      - {fileID: 11400000, guid: 16ce775ac264444f2be8d7f5cd950dda, type: 2}
+      wheelParts: []
+      specialBots:
+      - {fileID: 11400000, guid: 5905da2c11ede4ead96fe4883b772ff5, type: 2}
+      - {fileID: 11400000, guid: 304432cc8fa68494fa16d38d1e8b2b48, type: 2}
+      - {fileID: 11400000, guid: f7c34cfc5e6964e8f9aeb1c826012a07, type: 2}
+      - {fileID: 11400000, guid: 9837b455ae5e64fdca2454d32251eb75, type: 2}
+      scriptedGachaBoxes: {fileID: 11400000, guid: 659ffac23e5ce43369c3ff1e78457f21,
+        type: 2}
+    - numOfRounds: 1
+      wonNumOfTrophies: 16
+      lostNumOfTrophies: 9
+      requiredNumOfTrophiesToUnlock: 1250
+      chassisParts:
+      - {fileID: 11400000, guid: 9ab8b9e0f337b43dd9ba2c56fe0e44e6, type: 2}
+      - {fileID: 11400000, guid: 594bf98233714408ebfea25fc7352bd1, type: 2}
+      - {fileID: 11400000, guid: f8f760eaaf90142c987a4b498b070bd3, type: 2}
+      - {fileID: 11400000, guid: d81891766356d4f339c6091206967187, type: 2}
+      - {fileID: 11400000, guid: 719977d22f160402a8c748419841858f, type: 2}
+      - {fileID: 11400000, guid: c343669af7a3f4cdb8b58fc483243c00, type: 2}
+      - {fileID: 11400000, guid: 662d152247afb4c38a073c36900e1b81, type: 2}
+      upperParts:
+      - {fileID: 11400000, guid: dceced72f63d54b3e95fbc659923791d, type: 2}
+      - {fileID: 11400000, guid: 691acc7ac336a481dbc88f92ddc86799, type: 2}
+      - {fileID: 11400000, guid: 0e376940657e84c80b62788d03a8272d, type: 2}
+      - {fileID: 11400000, guid: 5efc1e1b938544e248b89b28d84d1ef9, type: 2}
+      - {fileID: 11400000, guid: 6f023c812899b4b599ab80e75cb1f204, type: 2}
+      - {fileID: 11400000, guid: 073d3c50738964ec0a195928dca8d619, type: 2}
+      - {fileID: 11400000, guid: 73cecdc59cf0540e68780f5be3f5afbf, type: 2}
+      - {fileID: 11400000, guid: 7df922ae7208849ec8e826e1d5001a64, type: 2}
+      - {fileID: 11400000, guid: 771e16b8b6ea64477b6bfd06f11574d4, type: 2}
+      frontParts:
+      - {fileID: 11400000, guid: 85d57a2ac331c463fa7b1c7cef5be8da, type: 2}
+      - {fileID: 11400000, guid: 1ef2b5725290a4e1caba5d0549936eb8, type: 2}
+      - {fileID: 11400000, guid: 16ce775ac264444f2be8d7f5cd950dda, type: 2}
+      - {fileID: 11400000, guid: 01516f21af92844848cc62fcc548f1ad, type: 2}
+      - {fileID: 11400000, guid: bdd040ea032b64e4f9c3472147d2d80c, type: 2}
+      - {fileID: 11400000, guid: f10d1629b48954119ba08db62c490f59, type: 2}
+      - {fileID: 11400000, guid: 24b4f6075c2334c3b800868429de880b, type: 2}
+      wheelParts: []
+      specialBots:
+      - {fileID: 11400000, guid: 5905da2c11ede4ead96fe4883b772ff5, type: 2}
+      - {fileID: 11400000, guid: 304432cc8fa68494fa16d38d1e8b2b48, type: 2}
+      - {fileID: 11400000, guid: f7c34cfc5e6964e8f9aeb1c826012a07, type: 2}
+      - {fileID: 11400000, guid: 9837b455ae5e64fdca2454d32251eb75, type: 2}
+      scriptedGachaBoxes: {fileID: 11400000, guid: 74686f0b793674fa09714f3b5eecdb43,
+        type: 2}
+    - numOfRounds: 1
+      wonNumOfTrophies: 16
+      lostNumOfTrophies: 9
+      requiredNumOfTrophiesToUnlock: 1350
+      chassisParts:
+      - {fileID: 11400000, guid: 9ab8b9e0f337b43dd9ba2c56fe0e44e6, type: 2}
+      - {fileID: 11400000, guid: f8f760eaaf90142c987a4b498b070bd3, type: 2}
+      - {fileID: 11400000, guid: 594bf98233714408ebfea25fc7352bd1, type: 2}
+      - {fileID: 11400000, guid: c343669af7a3f4cdb8b58fc483243c00, type: 2}
+      - {fileID: 11400000, guid: d81891766356d4f339c6091206967187, type: 2}
+      - {fileID: 11400000, guid: 719977d22f160402a8c748419841858f, type: 2}
+      - {fileID: 11400000, guid: 662d152247afb4c38a073c36900e1b81, type: 2}
+      upperParts:
+      - {fileID: 11400000, guid: 8672c374c7d5b4aff9476dfd444209d5, type: 2}
+      - {fileID: 11400000, guid: 0df4ccefd018f4cc9b8daff4cad3df16, type: 2}
+      - {fileID: 11400000, guid: 89cab8bbaf2004c7091c1eadb8f3541f, type: 2}
+      - {fileID: 11400000, guid: 9303f52be8b54403aa3b8819a624a380, type: 2}
+      - {fileID: 11400000, guid: a82fa0553abcf44378b1a36239ad42cd, type: 2}
+      - {fileID: 11400000, guid: 0a23a7834350a4473826c0d5b9956b38, type: 2}
+      - {fileID: 11400000, guid: 85a52bd9c6c76417698c83038771dc07, type: 2}
+      - {fileID: 11400000, guid: 073d3c50738964ec0a195928dca8d619, type: 2}
+      - {fileID: 11400000, guid: 0e376940657e84c80b62788d03a8272d, type: 2}
+      - {fileID: 11400000, guid: 691acc7ac336a481dbc88f92ddc86799, type: 2}
+      - {fileID: 11400000, guid: dceced72f63d54b3e95fbc659923791d, type: 2}
+      - {fileID: 11400000, guid: 6f023c812899b4b599ab80e75cb1f204, type: 2}
+      - {fileID: 11400000, guid: 5efc1e1b938544e248b89b28d84d1ef9, type: 2}
+      - {fileID: 11400000, guid: 7df922ae7208849ec8e826e1d5001a64, type: 2}
+      - {fileID: 11400000, guid: 73cecdc59cf0540e68780f5be3f5afbf, type: 2}
+      - {fileID: 11400000, guid: 771e16b8b6ea64477b6bfd06f11574d4, type: 2}
+      frontParts:
+      - {fileID: 11400000, guid: 13bd3f69283af4c579af8c9e2df0ee26, type: 2}
+      - {fileID: 11400000, guid: 0474a965459344d1da5fa337c0b3869b, type: 2}
+      - {fileID: 11400000, guid: e4ef24a62aca047a5932a96404786fda, type: 2}
+      - {fileID: 11400000, guid: 9a251cd02a0ff4437bbfe66bd4e7f1c1, type: 2}
+      - {fileID: 11400000, guid: a44a8e6b02a97485192849a5a8fa33de, type: 2}
+      - {fileID: 11400000, guid: 459a54e2984054e99a9bbccc28b04051, type: 2}
+      - {fileID: 11400000, guid: 0a7ccbc438b8f476586cbd9d9ed5e0fa, type: 2}
+      - {fileID: 11400000, guid: 1ef2b5725290a4e1caba5d0549936eb8, type: 2}
+      - {fileID: 11400000, guid: 85d57a2ac331c463fa7b1c7cef5be8da, type: 2}
+      - {fileID: 11400000, guid: 01516f21af92844848cc62fcc548f1ad, type: 2}
+      - {fileID: 11400000, guid: f10d1629b48954119ba08db62c490f59, type: 2}
+      - {fileID: 11400000, guid: 24b4f6075c2334c3b800868429de880b, type: 2}
+      - {fileID: 11400000, guid: bdd040ea032b64e4f9c3472147d2d80c, type: 2}
+      - {fileID: 11400000, guid: 16ce775ac264444f2be8d7f5cd950dda, type: 2}
+      wheelParts: []
+      specialBots:
+      - {fileID: 11400000, guid: 5905da2c11ede4ead96fe4883b772ff5, type: 2}
+      - {fileID: 11400000, guid: 304432cc8fa68494fa16d38d1e8b2b48, type: 2}
+      - {fileID: 11400000, guid: f7c34cfc5e6964e8f9aeb1c826012a07, type: 2}
+      - {fileID: 11400000, guid: 9837b455ae5e64fdca2454d32251eb75, type: 2}
+      scriptedGachaBoxes: {fileID: 11400000, guid: 1db821a4b8b794f2a82f18c084dc59c0,
+        type: 2}
+    - numOfRounds: 1
+      wonNumOfTrophies: 16
+      lostNumOfTrophies: 9
+      requiredNumOfTrophiesToUnlock: 1350
+      chassisParts:
+      - {fileID: 11400000, guid: 9ab8b9e0f337b43dd9ba2c56fe0e44e6, type: 2}
+      - {fileID: 11400000, guid: f8f760eaaf90142c987a4b498b070bd3, type: 2}
+      - {fileID: 11400000, guid: 594bf98233714408ebfea25fc7352bd1, type: 2}
+      - {fileID: 11400000, guid: c343669af7a3f4cdb8b58fc483243c00, type: 2}
+      - {fileID: 11400000, guid: d81891766356d4f339c6091206967187, type: 2}
+      - {fileID: 11400000, guid: 719977d22f160402a8c748419841858f, type: 2}
+      - {fileID: 11400000, guid: 662d152247afb4c38a073c36900e1b81, type: 2}
+      upperParts:
+      - {fileID: 11400000, guid: 8672c374c7d5b4aff9476dfd444209d5, type: 2}
+      - {fileID: 11400000, guid: 0df4ccefd018f4cc9b8daff4cad3df16, type: 2}
+      - {fileID: 11400000, guid: 89cab8bbaf2004c7091c1eadb8f3541f, type: 2}
+      - {fileID: 11400000, guid: 9303f52be8b54403aa3b8819a624a380, type: 2}
+      - {fileID: 11400000, guid: a82fa0553abcf44378b1a36239ad42cd, type: 2}
+      - {fileID: 11400000, guid: 0a23a7834350a4473826c0d5b9956b38, type: 2}
+      - {fileID: 11400000, guid: 85a52bd9c6c76417698c83038771dc07, type: 2}
+      - {fileID: 11400000, guid: 073d3c50738964ec0a195928dca8d619, type: 2}
+      - {fileID: 11400000, guid: 0e376940657e84c80b62788d03a8272d, type: 2}
+      - {fileID: 11400000, guid: 691acc7ac336a481dbc88f92ddc86799, type: 2}
+      - {fileID: 11400000, guid: dceced72f63d54b3e95fbc659923791d, type: 2}
+      - {fileID: 11400000, guid: 6f023c812899b4b599ab80e75cb1f204, type: 2}
+      - {fileID: 11400000, guid: 5efc1e1b938544e248b89b28d84d1ef9, type: 2}
+      - {fileID: 11400000, guid: 7df922ae7208849ec8e826e1d5001a64, type: 2}
+      - {fileID: 11400000, guid: 73cecdc59cf0540e68780f5be3f5afbf, type: 2}
+      - {fileID: 11400000, guid: 771e16b8b6ea64477b6bfd06f11574d4, type: 2}
+      frontParts:
+      - {fileID: 11400000, guid: 13bd3f69283af4c579af8c9e2df0ee26, type: 2}
+      - {fileID: 11400000, guid: 0474a965459344d1da5fa337c0b3869b, type: 2}
+      - {fileID: 11400000, guid: e4ef24a62aca047a5932a96404786fda, type: 2}
+      - {fileID: 11400000, guid: 9a251cd02a0ff4437bbfe66bd4e7f1c1, type: 2}
+      - {fileID: 11400000, guid: a44a8e6b02a97485192849a5a8fa33de, type: 2}
+      - {fileID: 11400000, guid: 459a54e2984054e99a9bbccc28b04051, type: 2}
+      - {fileID: 11400000, guid: 0a7ccbc438b8f476586cbd9d9ed5e0fa, type: 2}
+      - {fileID: 11400000, guid: 1ef2b5725290a4e1caba5d0549936eb8, type: 2}
+      - {fileID: 11400000, guid: 85d57a2ac331c463fa7b1c7cef5be8da, type: 2}
+      - {fileID: 11400000, guid: 01516f21af92844848cc62fcc548f1ad, type: 2}
+      - {fileID: 11400000, guid: f10d1629b48954119ba08db62c490f59, type: 2}
+      - {fileID: 11400000, guid: 24b4f6075c2334c3b800868429de880b, type: 2}
+      - {fileID: 11400000, guid: bdd040ea032b64e4f9c3472147d2d80c, type: 2}
+      - {fileID: 11400000, guid: 16ce775ac264444f2be8d7f5cd950dda, type: 2}
+      wheelParts: []
+      specialBots:
+      - {fileID: 11400000, guid: 5905da2c11ede4ead96fe4883b772ff5, type: 2}
+      - {fileID: 11400000, guid: 304432cc8fa68494fa16d38d1e8b2b48, type: 2}
+      - {fileID: 11400000, guid: f7c34cfc5e6964e8f9aeb1c826012a07, type: 2}
+      - {fileID: 11400000, guid: 9837b455ae5e64fdca2454d32251eb75, type: 2}
+      scriptedGachaBoxes: {fileID: 11400000, guid: 5c44a6d9e52184c4db7cabb4588386dc,
+        type: 2}
+  - tiers:
+    - numOfRounds: 1
+      wonNumOfTrophies: 0
+      lostNumOfTrophies: 0
+      requiredNumOfTrophiesToUnlock: 1500
+      chassisParts: []
+      upperParts: []
+      frontParts: []
+      wheelParts: []
+      specialBots: []
+      scriptedGachaBoxes: {fileID: 0}
+    - numOfRounds: 1
+      wonNumOfTrophies: 0
+      lostNumOfTrophies: 0
+      requiredNumOfTrophiesToUnlock: 5500
+      chassisParts: []
+      upperParts: []
+      frontParts: []
+      wheelParts: []
+      specialBots: []
+      scriptedGachaBoxes: {fileID: 0}
+    - numOfRounds: 1
+      wonNumOfTrophies: 0
+      lostNumOfTrophies: 0
+      requiredNumOfTrophiesToUnlock: 2050
+      chassisParts: []
+      upperParts: []
+      frontParts: []
+      wheelParts: []
+      specialBots: []
+      scriptedGachaBoxes: {fileID: 0}
+    - numOfRounds: 1
+      wonNumOfTrophies: 0
+      lostNumOfTrophies: 0
+      requiredNumOfTrophiesToUnlock: 5500
+      chassisParts: []
+      upperParts: []
+      frontParts: []
+      wheelParts: []
+      specialBots: []
+      scriptedGachaBoxes: {fileID: 0}
+    - numOfRounds: 1
+      wonNumOfTrophies: 0
+      lostNumOfTrophies: 0
+      requiredNumOfTrophiesToUnlock: 5500
+      chassisParts: []
+      upperParts: []
+      frontParts: []
+      wheelParts: []
+      specialBots: []
+      scriptedGachaBoxes: {fileID: 0}

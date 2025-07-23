@@ -1,0 +1,604 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2cd99957673d04c59921a9be114f051f, type: 3}
+  m_Name: PvPArenaSO 2
+  m_EditorClassIdentifier: 
+  m_guid: 87feeb1ff6b5a4c4c976971c3ad70db5
+  m_ItemModules:
+  - rid: 5186548133153472519
+  - rid: 1187546386286247940
+  - rid: 7416085126588399623
+  m_NumOfRounds: 1
+  m_Tournament: {fileID: 11400000, guid: 9a0426fac9fdf44b2b57ae93c80bcb38, type: 2}
+  m_EntryRequirementTree:
+    rid: 8989555717484052480
+  m_RewardItems:
+  - rid: 5186548133153472516
+  - rid: 5186548133153472518
+  - rid: 3433709011554271233
+  m_Punishments:
+  - rid: 3433709053503078455
+  m_PricePoolDistribute:
+  - 170
+  - 70
+  - 30
+  - 15
+  m_BattleBetArenaBG: {fileID: 21300000, guid: 114310c71dcbc4a408dcdff60ade1661, type: 3}
+  m_BattleBetArenaLogo: {fileID: 21300000, guid: 568e7bfe841e14206bb0235dd16eff90,
+    type: 3}
+  m_BattleBetPatternColor: {r: 1, g: 1, b: 1, a: 0.13725491}
+  m_ChosenModeVariable: {fileID: 11400000, guid: ceca480396a4e4e438561f8df3dddb9c,
+    type: 2}
+  m_LogoArena: {fileID: 2100000, guid: 76702bfd5b504446dacaa48899d6394a, type: 2}
+  m_boardSpriteArena: {fileID: 21300000, guid: 743fffc1266464c7fa874abf1be09744, type: 3}
+  m_ModeConfigs:
+    m_Keys: 000000000100000002000000
+    m_Values:
+    - m_MatchTime: 120
+      m_NumOfContestant: 2
+    - m_MatchTime: 120
+      m_NumOfContestant: 8
+    - m_MatchTime: 120
+      m_NumOfContestant: 2
+    m_KeyTemp: 0
+    m_ValueTemp:
+      m_MatchTime: 0
+      m_NumOfContestant: 0
+  stages:
+  - mode: 0
+    scriptedStageList:
+    - m_StagePrefab: {fileID: 3672738083445567200, guid: cff19373943c54133b066d27344c898c,
+        type: 3}
+    - m_StagePrefab: {fileID: 3672738083445567200, guid: cff19373943c54133b066d27344c898c,
+        type: 3}
+    - m_StagePrefab: {fileID: 1831597086769793806, guid: a0f01049eba1d4494a77de75ad9eb186,
+        type: 3}
+    - m_StagePrefab: {fileID: 3672738083445567200, guid: cff19373943c54133b066d27344c898c,
+        type: 3}
+    - m_StagePrefab: {fileID: 1987743957037712748, guid: 53eecc1e89fb842829b5110c4b0e8cd4,
+        type: 3}
+    - m_StagePrefab: {fileID: 3672738083445567200, guid: cff19373943c54133b066d27344c898c,
+        type: 3}
+    - m_StagePrefab: {fileID: 1831597086769793806, guid: a0f01049eba1d4494a77de75ad9eb186,
+        type: 3}
+    - m_StagePrefab: {fileID: 3672738083445567200, guid: cff19373943c54133b066d27344c898c,
+        type: 3}
+    randomStageList:
+    - m_StagePrefab: {fileID: 3672738083445567200, guid: cff19373943c54133b066d27344c898c,
+        type: 3}
+    - m_StagePrefab: {fileID: 1831597086769793806, guid: a0f01049eba1d4494a77de75ad9eb186,
+        type: 3}
+    - m_StagePrefab: {fileID: 1987743957037712748, guid: 53eecc1e89fb842829b5110c4b0e8cd4,
+        type: 3}
+    arenaSO: {fileID: 11400000}
+  - mode: 1
+    scriptedStageList:
+    - m_StagePrefab: {fileID: 3672738083445567200, guid: cff19373943c54133b066d27344c898c,
+        type: 3}
+    - m_StagePrefab: {fileID: 3672738083445567200, guid: cff19373943c54133b066d27344c898c,
+        type: 3}
+    - m_StagePrefab: {fileID: 1831597086769793806, guid: a0f01049eba1d4494a77de75ad9eb186,
+        type: 3}
+    - m_StagePrefab: {fileID: 3672738083445567200, guid: cff19373943c54133b066d27344c898c,
+        type: 3}
+    - m_StagePrefab: {fileID: 1987743957037712748, guid: 53eecc1e89fb842829b5110c4b0e8cd4,
+        type: 3}
+    - m_StagePrefab: {fileID: 3672738083445567200, guid: cff19373943c54133b066d27344c898c,
+        type: 3}
+    - m_StagePrefab: {fileID: 1831597086769793806, guid: a0f01049eba1d4494a77de75ad9eb186,
+        type: 3}
+    - m_StagePrefab: {fileID: 3672738083445567200, guid: cff19373943c54133b066d27344c898c,
+        type: 3}
+    randomStageList:
+    - m_StagePrefab: {fileID: 3672738083445567200, guid: cff19373943c54133b066d27344c898c,
+        type: 3}
+    - m_StagePrefab: {fileID: 1831597086769793806, guid: a0f01049eba1d4494a77de75ad9eb186,
+        type: 3}
+    - m_StagePrefab: {fileID: 1987743957037712748, guid: 53eecc1e89fb842829b5110c4b0e8cd4,
+        type: 3}
+    arenaSO: {fileID: 11400000}
+  m_ProfileTable_Normal:
+    m_StatsScoreDiffRngInfos:
+    - m_Probability: 0.15
+      m_RandomRange:
+        m_MinValue: 0.42
+        m_MaxValue: 0.54
+    - m_Probability: 0.4
+      m_RandomRange:
+        m_MinValue: 0.6
+        m_MaxValue: 0.72
+    - m_Probability: 0.3
+      m_RandomRange:
+        m_MinValue: 0.78
+        m_MaxValue: 0.9
+    - m_Probability: 0.15
+      m_RandomRange:
+        m_MinValue: 0.96
+        m_MaxValue: 1.08
+    - m_Probability: 0
+      m_RandomRange:
+        m_MinValue: 1.14
+        m_MaxValue: 1.26
+    - m_Probability: 0
+      m_RandomRange:
+        m_MinValue: 1.32
+        m_MaxValue: 1.44
+    - m_Probability: 0
+      m_RandomRange:
+        m_MinValue: 1.5
+        m_MaxValue: 1.62
+    m_AIProfileRngInfos:
+    - m_Probability: 0
+      m_AIProfile: {fileID: 11400000, guid: 8072be413d31b4132a94ed82e10d12fc, type: 2}
+    - m_Probability: 0.15
+      m_AIProfile: {fileID: 11400000, guid: 7fc6573a3ad044a0aa8415d5dc956f64, type: 2}
+    - m_Probability: 0.3
+      m_AIProfile: {fileID: 11400000, guid: 862a5254341a34dbf9ad409c3d3e6992, type: 2}
+    - m_Probability: 0.3
+      m_AIProfile: {fileID: 11400000, guid: 72cff3a13b1ae4c3dad75842d58c1749, type: 2}
+    - m_Probability: 0.25
+      m_AIProfile: {fileID: 11400000, guid: e2048b9abb0414cd291e56a2a076124e, type: 2}
+    - m_Probability: 0
+      m_AIProfile: {fileID: 11400000, guid: 06ba6741dd32145359f4e4c132f125a9, type: 2}
+    - m_Probability: 0
+      m_AIProfile: {fileID: 11400000, guid: a6c892828dea54b73ad66edf2cf814db, type: 2}
+    m_SkillUsageRate: 0.15
+    m_SkillCardQuantityRngInfos:
+    - m_CardQuantity: 1
+      m_Probability: 0.75
+    - m_CardQuantity: 2
+      m_Probability: 0.17
+    - m_CardQuantity: 3
+      m_Probability: 0.06
+    - m_CardQuantity: 4
+      m_Probability: 0.02
+  m_ProfileTable_PlayerBias:
+    m_StatsScoreDiffRngInfos:
+    - m_Probability: 0.45
+      m_RandomRange:
+        m_MinValue: 0.36
+        m_MaxValue: 0.48
+    - m_Probability: 0.4
+      m_RandomRange:
+        m_MinValue: 0.54
+        m_MaxValue: 0.66
+    - m_Probability: 0.15
+      m_RandomRange:
+        m_MinValue: 0.72
+        m_MaxValue: 0.84
+    - m_Probability: 0
+      m_RandomRange:
+        m_MinValue: 0.9
+        m_MaxValue: 1.02
+    - m_Probability: 0
+      m_RandomRange:
+        m_MinValue: 1.08
+        m_MaxValue: 1.2
+    - m_Probability: 0
+      m_RandomRange:
+        m_MinValue: 1.26
+        m_MaxValue: 1.38
+    - m_Probability: 0
+      m_RandomRange:
+        m_MinValue: 1.44
+        m_MaxValue: 1.56
+    m_AIProfileRngInfos:
+    - m_Probability: 0
+      m_AIProfile: {fileID: 11400000, guid: 8072be413d31b4132a94ed82e10d12fc, type: 2}
+    - m_Probability: 0.3
+      m_AIProfile: {fileID: 11400000, guid: 7fc6573a3ad044a0aa8415d5dc956f64, type: 2}
+    - m_Probability: 0.5
+      m_AIProfile: {fileID: 11400000, guid: 862a5254341a34dbf9ad409c3d3e6992, type: 2}
+    - m_Probability: 0.2
+      m_AIProfile: {fileID: 11400000, guid: 72cff3a13b1ae4c3dad75842d58c1749, type: 2}
+    - m_Probability: 0
+      m_AIProfile: {fileID: 11400000, guid: e2048b9abb0414cd291e56a2a076124e, type: 2}
+    - m_Probability: 0
+      m_AIProfile: {fileID: 11400000, guid: 06ba6741dd32145359f4e4c132f125a9, type: 2}
+    - m_Probability: 0
+      m_AIProfile: {fileID: 11400000, guid: a6c892828dea54b73ad66edf2cf814db, type: 2}
+    m_SkillUsageRate: 0.075
+    m_SkillCardQuantityRngInfos:
+    - m_CardQuantity: 1
+      m_Probability: 0.9
+    - m_CardQuantity: 2
+      m_Probability: 0.1
+    - m_CardQuantity: 3
+      m_Probability: 0
+    - m_CardQuantity: 4
+      m_Probability: 0
+  m_ProfileTable_OpponentBias:
+    m_StatsScoreDiffRngInfos:
+    - m_Probability: 0
+      m_RandomRange:
+        m_MinValue: 0.42
+        m_MaxValue: 0.54
+    - m_Probability: 0.15
+      m_RandomRange:
+        m_MinValue: 0.6
+        m_MaxValue: 0.72
+    - m_Probability: 0.45
+      m_RandomRange:
+        m_MinValue: 0.78
+        m_MaxValue: 0.9
+    - m_Probability: 0.25
+      m_RandomRange:
+        m_MinValue: 0.96
+        m_MaxValue: 1.08
+    - m_Probability: 0.13
+      m_RandomRange:
+        m_MinValue: 1.14
+        m_MaxValue: 1.26
+    - m_Probability: 0.02
+      m_RandomRange:
+        m_MinValue: 1.32
+        m_MaxValue: 1.44
+    - m_Probability: 0
+      m_RandomRange:
+        m_MinValue: 1.5
+        m_MaxValue: 1.62
+    m_AIProfileRngInfos:
+    - m_Probability: 0
+      m_AIProfile: {fileID: 11400000, guid: 8072be413d31b4132a94ed82e10d12fc, type: 2}
+    - m_Probability: 0
+      m_AIProfile: {fileID: 11400000, guid: 7fc6573a3ad044a0aa8415d5dc956f64, type: 2}
+    - m_Probability: 0.2
+      m_AIProfile: {fileID: 11400000, guid: 862a5254341a34dbf9ad409c3d3e6992, type: 2}
+    - m_Probability: 0.25
+      m_AIProfile: {fileID: 11400000, guid: 72cff3a13b1ae4c3dad75842d58c1749, type: 2}
+    - m_Probability: 0.3
+      m_AIProfile: {fileID: 11400000, guid: e2048b9abb0414cd291e56a2a076124e, type: 2}
+    - m_Probability: 0.15
+      m_AIProfile: {fileID: 11400000, guid: 06ba6741dd32145359f4e4c132f125a9, type: 2}
+    - m_Probability: 0.1
+      m_AIProfile: {fileID: 11400000, guid: a6c892828dea54b73ad66edf2cf814db, type: 2}
+    m_SkillUsageRate: 0.3
+    m_SkillCardQuantityRngInfos:
+    - m_CardQuantity: 1
+      m_Probability: 0.34
+    - m_CardQuantity: 2
+      m_Probability: 0.5
+    - m_CardQuantity: 3
+      m_Probability: 0.12
+    - m_CardQuantity: 4
+      m_Probability: 0.04
+  m_ProfileTable_Normal_Battle:
+    m_StatsScoreDiffRngInfos:
+    - m_Probability: 0.15
+      m_RandomRange:
+        m_MinValue: 0.42
+        m_MaxValue: 0.54
+    - m_Probability: 0.4
+      m_RandomRange:
+        m_MinValue: 0.6
+        m_MaxValue: 0.72
+    - m_Probability: 0.3
+      m_RandomRange:
+        m_MinValue: 0.78
+        m_MaxValue: 0.9
+    - m_Probability: 0.15
+      m_RandomRange:
+        m_MinValue: 0.96
+        m_MaxValue: 1.08
+    - m_Probability: 0
+      m_RandomRange:
+        m_MinValue: 1.14
+        m_MaxValue: 1.26
+    - m_Probability: 0
+      m_RandomRange:
+        m_MinValue: 1.32
+        m_MaxValue: 1.44
+    - m_Probability: 0
+      m_RandomRange:
+        m_MinValue: 1.5
+        m_MaxValue: 1.62
+    m_AIProfileRngInfos:
+    - m_Probability: 0
+      m_AIProfile: {fileID: 11400000, guid: 8072be413d31b4132a94ed82e10d12fc, type: 2}
+    - m_Probability: 0.15
+      m_AIProfile: {fileID: 11400000, guid: 7fc6573a3ad044a0aa8415d5dc956f64, type: 2}
+    - m_Probability: 0.3
+      m_AIProfile: {fileID: 11400000, guid: 862a5254341a34dbf9ad409c3d3e6992, type: 2}
+    - m_Probability: 0.3
+      m_AIProfile: {fileID: 11400000, guid: 72cff3a13b1ae4c3dad75842d58c1749, type: 2}
+    - m_Probability: 0.25
+      m_AIProfile: {fileID: 11400000, guid: e2048b9abb0414cd291e56a2a076124e, type: 2}
+    - m_Probability: 0
+      m_AIProfile: {fileID: 11400000, guid: 06ba6741dd32145359f4e4c132f125a9, type: 2}
+    - m_Probability: 0
+      m_AIProfile: {fileID: 11400000, guid: a6c892828dea54b73ad66edf2cf814db, type: 2}
+    m_SkillUsageRate: 0.15
+    m_SkillCardQuantityRngInfos:
+    - m_CardQuantity: 1
+      m_Probability: 0.75
+    - m_CardQuantity: 2
+      m_Probability: 0.17
+    - m_CardQuantity: 3
+      m_Probability: 0.06
+    - m_CardQuantity: 4
+      m_Probability: 0.02
+  m_ProfileTable_PlayerBias_Battle:
+    m_StatsScoreDiffRngInfos:
+    - m_Probability: 0.45
+      m_RandomRange:
+        m_MinValue: 0.36
+        m_MaxValue: 0.48
+    - m_Probability: 0.4
+      m_RandomRange:
+        m_MinValue: 0.54
+        m_MaxValue: 0.66
+    - m_Probability: 0.15
+      m_RandomRange:
+        m_MinValue: 0.72
+        m_MaxValue: 0.84
+    - m_Probability: 0
+      m_RandomRange:
+        m_MinValue: 0.9
+        m_MaxValue: 1.02
+    - m_Probability: 0
+      m_RandomRange:
+        m_MinValue: 1.08
+        m_MaxValue: 1.2
+    - m_Probability: 0
+      m_RandomRange:
+        m_MinValue: 1.26
+        m_MaxValue: 1.38
+    - m_Probability: 0
+      m_RandomRange:
+        m_MinValue: 1.44
+        m_MaxValue: 1.56
+    m_AIProfileRngInfos:
+    - m_Probability: 0
+      m_AIProfile: {fileID: 11400000, guid: 8072be413d31b4132a94ed82e10d12fc, type: 2}
+    - m_Probability: 0.3
+      m_AIProfile: {fileID: 11400000, guid: 7fc6573a3ad044a0aa8415d5dc956f64, type: 2}
+    - m_Probability: 0.5
+      m_AIProfile: {fileID: 11400000, guid: 862a5254341a34dbf9ad409c3d3e6992, type: 2}
+    - m_Probability: 0.2
+      m_AIProfile: {fileID: 11400000, guid: 72cff3a13b1ae4c3dad75842d58c1749, type: 2}
+    - m_Probability: 0
+      m_AIProfile: {fileID: 11400000, guid: e2048b9abb0414cd291e56a2a076124e, type: 2}
+    - m_Probability: 0
+      m_AIProfile: {fileID: 11400000, guid: 06ba6741dd32145359f4e4c132f125a9, type: 2}
+    - m_Probability: 0
+      m_AIProfile: {fileID: 11400000, guid: a6c892828dea54b73ad66edf2cf814db, type: 2}
+    m_SkillUsageRate: 0.075
+    m_SkillCardQuantityRngInfos:
+    - m_CardQuantity: 1
+      m_Probability: 0.9
+    - m_CardQuantity: 2
+      m_Probability: 0.1
+    - m_CardQuantity: 3
+      m_Probability: 0
+    - m_CardQuantity: 4
+      m_Probability: 0
+  m_ProfileTable_OpponentBias_Battle:
+    m_StatsScoreDiffRngInfos:
+    - m_Probability: 0
+      m_RandomRange:
+        m_MinValue: 0.42
+        m_MaxValue: 0.54
+    - m_Probability: 0.15
+      m_RandomRange:
+        m_MinValue: 0.6
+        m_MaxValue: 0.72
+    - m_Probability: 0.45
+      m_RandomRange:
+        m_MinValue: 0.78
+        m_MaxValue: 0.9
+    - m_Probability: 0.25
+      m_RandomRange:
+        m_MinValue: 0.96
+        m_MaxValue: 1.08
+    - m_Probability: 0.13
+      m_RandomRange:
+        m_MinValue: 1.14
+        m_MaxValue: 1.26
+    - m_Probability: 0.02
+      m_RandomRange:
+        m_MinValue: 1.32
+        m_MaxValue: 1.44
+    - m_Probability: 0
+      m_RandomRange:
+        m_MinValue: 1.5
+        m_MaxValue: 1.62
+    m_AIProfileRngInfos:
+    - m_Probability: 0
+      m_AIProfile: {fileID: 11400000, guid: 8072be413d31b4132a94ed82e10d12fc, type: 2}
+    - m_Probability: 0
+      m_AIProfile: {fileID: 11400000, guid: 7fc6573a3ad044a0aa8415d5dc956f64, type: 2}
+    - m_Probability: 0.2
+      m_AIProfile: {fileID: 11400000, guid: 862a5254341a34dbf9ad409c3d3e6992, type: 2}
+    - m_Probability: 0.25
+      m_AIProfile: {fileID: 11400000, guid: 72cff3a13b1ae4c3dad75842d58c1749, type: 2}
+    - m_Probability: 0.3
+      m_AIProfile: {fileID: 11400000, guid: e2048b9abb0414cd291e56a2a076124e, type: 2}
+    - m_Probability: 0.15
+      m_AIProfile: {fileID: 11400000, guid: 06ba6741dd32145359f4e4c132f125a9, type: 2}
+    - m_Probability: 0.1
+      m_AIProfile: {fileID: 11400000, guid: a6c892828dea54b73ad66edf2cf814db, type: 2}
+    m_SkillUsageRate: 0.3
+    m_SkillCardQuantityRngInfos:
+    - m_CardQuantity: 1
+      m_Probability: 0.34
+    - m_CardQuantity: 2
+      m_Probability: 0.5
+    - m_CardQuantity: 3
+      m_Probability: 0.12
+    - m_CardQuantity: 4
+      m_Probability: 0.04
+  battleBuffInfo:
+    BotNumbers:
+      m_MinValue: 2
+      m_MaxValue: 3
+    BuffRatio:
+      m_MinValue: 1
+      m_MaxValue: 1
+  chassisParts:
+  - {fileID: 11400000, guid: 23cb2f3508a4846f4b31d0a75fa30e81, type: 2}
+  - {fileID: 11400000, guid: 336f70b5b03b14c7eafdea135b68b3bb, type: 2}
+  - {fileID: 11400000, guid: a5c5866f084bf4eeaa12d19a97a7cf06, type: 2}
+  upperParts:
+  - {fileID: 11400000, guid: 9a4329937452d4205bc288bdb0a7d4c4, type: 2}
+  - {fileID: 11400000, guid: 9c870211a2de1404683b52cb25f9f30b, type: 2}
+  - {fileID: 11400000, guid: f90f5f4391f234f7789f91ee5aec09e6, type: 2}
+  - {fileID: 11400000, guid: 8e4a9b0633dfc48908fde214fad3d0e9, type: 2}
+  - {fileID: 11400000, guid: f7838f9c213db442f8cc04ecde75a0d0, type: 2}
+  - {fileID: 11400000, guid: 50ef4f81d90524115aa2c6b05675fe8d, type: 2}
+  frontParts: []
+  wheelParts: []
+  specialBots: []
+  transformBots: []
+  matchmakingInputArr2D_Normal:
+    emptyConditionList:
+    - <scoreSource>k__BackingField: 0
+      <profileSource>k__BackingField: 0
+    emptyConditionListTeammate: []
+    lostConditionList:
+    - <scoreSource>k__BackingField: 1
+      <profileSource>k__BackingField: 1
+    - <scoreSource>k__BackingField: 1
+      <profileSource>k__BackingField: 1
+    - <scoreSource>k__BackingField: 0
+      <profileSource>k__BackingField: 1
+    lostConditionListTeammate: []
+    upgradeConditionList:
+    - <scoreSource>k__BackingField: 1
+      <profileSource>k__BackingField: 1
+    - <scoreSource>k__BackingField: 1
+      <profileSource>k__BackingField: 1
+    - <scoreSource>k__BackingField: 1
+      <profileSource>k__BackingField: 0
+    upgradeConditionListTeammate: []
+    winConditionList:
+    - <scoreSource>k__BackingField: 0
+      <profileSource>k__BackingField: 2
+    winConditionListTeammate: []
+  thresholdNumOfLostMatchesInColumn_Normal: 2
+  thresholdNumOfWonMatchesInColumn_Normal: 4
+  matchmakingInputArr2D_Battle:
+    emptyConditionList:
+    - <scoreSource>k__BackingField: 0
+      <profileSource>k__BackingField: 0
+    emptyConditionListTeammate:
+    - <scoreSource>k__BackingField: 0
+      <profileSource>k__BackingField: 0
+    lostConditionList:
+    - <scoreSource>k__BackingField: 1
+      <profileSource>k__BackingField: 1
+    - <scoreSource>k__BackingField: 1
+      <profileSource>k__BackingField: 1
+    - <scoreSource>k__BackingField: 1
+      <profileSource>k__BackingField: 0
+    lostConditionListTeammate:
+    - <scoreSource>k__BackingField: 0
+      <profileSource>k__BackingField: 2
+    - <scoreSource>k__BackingField: 0
+      <profileSource>k__BackingField: 0
+    - <scoreSource>k__BackingField: 0
+      <profileSource>k__BackingField: 0
+    upgradeConditionList:
+    - <scoreSource>k__BackingField: 1
+      <profileSource>k__BackingField: 1
+    - <scoreSource>k__BackingField: 1
+      <profileSource>k__BackingField: 1
+    upgradeConditionListTeammate:
+    - <scoreSource>k__BackingField: 1
+      <profileSource>k__BackingField: 1
+    - <scoreSource>k__BackingField: 1
+      <profileSource>k__BackingField: 0
+    winConditionList:
+    - <scoreSource>k__BackingField: 0
+      <profileSource>k__BackingField: 2
+    winConditionListTeammate:
+    - <scoreSource>k__BackingField: 1
+      <profileSource>k__BackingField: 0
+  thresholdNumOfLostMatchesInColumn_Battle: 2
+  thresholdNumOfWonMatchesInColumn_Battle: 4
+  numOfHardCodedMatches: 8
+  m_HardCodedInput:
+    Tiers:
+    - AIProfile: {fileID: 11400000, guid: 7fc6573a3ad044a0aa8415d5dc956f64, type: 2}
+      ScoreDiffRange:
+        m_MinValue: 0.52
+        m_MaxValue: 0.585
+  numOfHardCodedMatchesBattle: 0
+  m_HardCodedBattleInput: []
+  scriptedBots:
+  - chassisSO: {fileID: 11400000, guid: c0b9d8b0d9ff9439c81994476040b5bd, type: 2}
+    wheel_1: {fileID: 0}
+    wheel_2: {fileID: 0}
+    upper_1: {fileID: 11400000, guid: b55094cd773b14c1cad520f83ceaad3a, type: 2}
+    upper_2: {fileID: 0}
+    front: {fileID: 11400000, guid: 0474a965459344d1da5fa337c0b3869b, type: 2}
+  battleScriptedBots: []
+  insideColor: {r: 0.2901961, g: 0.6117647, b: 0.90588236, a: 1}
+  outsideColor: {r: 0.25490198, g: 0.36078432, b: 0.76862746, a: 1}
+  patternSprite: {fileID: 21300000, guid: 94084067e194a40c7a4d66e56c253e52, type: 3}
+  patternTintColor: {r: 1, g: 1, b: 1, a: 0.050980393}
+  scriptedGachaBoxes: {fileID: 11400000, guid: d5c2d5be735954eb5b3bfa64bf794865, type: 2}
+  references:
+    version: 2
+    RefIds:
+    - rid: 1187546386286247940
+      type: {class: MonoImageItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        m_ThumbnailTintColor: {r: 0, g: 0, b: 0, a: 0.9019608}
+        m_ThumbnailImage: {fileID: 21300000, guid: ce35b2fc2f09942068c53619fb1f6c9d,
+          type: 3}
+    - rid: 3433709011554271233
+      type: {class: RandomGachaPackRewardModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 0}
+        m_GachaPackCollection: {fileID: 11400000, guid: f2079077f149d67418336914a55de903,
+          type: 2}
+    - rid: 3433709053503078455
+      type: {class: CurrencyPunishmentModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 0}
+        m_Amount: 6
+        m_CurrencyType: 2
+    - rid: 5186548133153472516
+      type: {class: CurrencyRewardModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 0}
+        CurrencyType: 2
+        amount: 22
+    - rid: 5186548133153472518
+      type: {class: CurrencyRewardModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 0}
+        CurrencyType: 0
+        amount: 65
+    - rid: 5186548133153472519
+      type: {class: UnlockableItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        m_DefaultIsUnlocked: 0
+        m_UnlockRequirementTree:
+          rid: 5186548133153472520
+    - rid: 5186548133153472520
+      type: {class: Requirement_Currency, ns: , asm: Assembly-CSharp}
+      data:
+        m_RequiredAmountOfCurrency: 200
+        m_CurrencyType: 2
+    - rid: 7416085126588399623
+      type: {class: NameItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        m_DisplayName: DUNES
+    - rid: 8989555717484052480
+      type: {class: Requirement_Currency, ns: , asm: Assembly-CSharp}
+      data:
+        m_RequiredAmountOfCurrency: 40
+        m_CurrencyType: 0

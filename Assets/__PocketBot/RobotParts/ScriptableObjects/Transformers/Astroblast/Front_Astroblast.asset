@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b049a7002971843f196b55a1169d6889, type: 3}
+  m_Name: Front_Astroblast
+  m_EditorClassIdentifier: 
+  m_guid: bdffbcd56302546259d6532282fe2929
+  m_ItemModules:
+  - rid: 205144154655686658
+  - rid: 8728150994727469056
+  - rid: 7420493493584789504
+  m_FoundInArena: 1
+  isBossPart: 0
+  trophyThreshold: 0
+  partManagerSO: {fileID: 0}
+  stats:
+    power: 0
+    resistance: 0.15
+    turning: 0
+    damagePerHitRatio: 3
+  upgradePath:
+    attackUpgradeSteps: 78000000
+    hpUpgradeSteps: 00000000
+  isTransformBot: 0
+  transformBotID: 0
+  references:
+    version: 2
+    RefIds:
+    - rid: 205144154655686658
+      type: {class: PBMonoPrefabItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        partModelPrefab: {fileID: 158287401552802562, guid: 7c2bfc324d349406cabd1b0d974e972b,
+          type: 3}
+    - rid: 7420493493584789504
+      type: {class: SkinItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        m_Skins:
+        - {fileID: 6397834454883922542, guid: 0897037c01e6d473ebcb18ae066eb3ed, type: 2}
+    - rid: 8728150994727469056
+      type: {class: AttackRangeModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        isInfinityAttackRange: 0
+        attackRange: 5
+        attackAngles: 0

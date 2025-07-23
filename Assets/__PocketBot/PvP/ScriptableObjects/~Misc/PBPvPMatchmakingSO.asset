@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 477ad161a2fd640e59beee0b053437a5, type: 3}
+  m_Name: PBPvPMatchmakingSO
+  m_EditorClassIdentifier: 
+  m_SearchingDuration: 3
+  m_PreparingMatchDuration: 3
+  m_ChooseBossForOpponentPercent: 0.1
+  m_ChooseTransformBotForOpponentPercent: 0.02
+  m_MeetTransformBotNumberOfMatch: 30
+  m_ChooseChassisIrregularlyForOpponentPercent: 0.1
+  m_ChooseBossScoreOffsetPercent: 0.3
+  m_SearchingDurationBattleMode: 5
+  decreaseSkillUsageRateThreshold: 3
+  decreaseSkillUsageRateAmount: 0
+  increaseSkillUsageRateThreshold: 5
+  increaseSkillUsageRateAmount: 1.5
+  m_MatchConditionStarterPack: {fileID: 11400000, guid: 93e79ea1c0c944954b2aa9439a3ad1b9,
+    type: 2}
+  m_WinTheFirstConditionStarterPack: {fileID: 11400000, guid: 411a3859a34b848ef9f23233330b4bae,
+    type: 2}
+  m_MeetTransformBotAtMatch: {fileID: 11400000, guid: d08c880a5732b42a6b673dee6de798dd,
+    type: 2}
+  m_TotalNumOfMatches: {fileID: 11400000, guid: 24b7ed61a7b0e4541898ec67c61b1a56,
+    type: 2}
+  m_CurrentChosenModeVariable: {fileID: 11400000, guid: ceca480396a4e4e438561f8df3dddb9c,
+    type: 2}
+  m_LocalPlayerRobotStatsSO: {fileID: 11400000, guid: 76a1e5cc02ee84ad09ba1dec34651087,
+    type: 2}
+  m_PlayerDatabaseSO: {fileID: 11400000, guid: d2264e9d1dcda42f3bfd5d94cb5cbf5d, type: 2}
+  m_MatchmakingDecodingNumber: {fileID: 11400000, guid: 583afd5eaaca6f640b79eb5216e9ef65,
+    type: 2}
+  m_MatchmakingDecodingNumber_Battle: {fileID: 11400000, guid: a6edd4401691d49a4a11f9b951c843e5,
+    type: 2}
+  chassisManagerSO: {fileID: 11400000, guid: 44c38a0814d774a7ca1a4f147a6ca574, type: 2}
+  upperManagerSO: {fileID: 11400000, guid: 9cfb228aea31a4161ac9f6b480e2fe3b, type: 2}
+  frontManagerSO: {fileID: 11400000, guid: 00b3eb36bf8084acca2ce1f6d11d11ae, type: 2}
+  wheelManagerSO: {fileID: 11400000, guid: 9f8a52a29701549dc9cba1d6d086205e, type: 2}
+  specialBotManagerSO: {fileID: 11400000, guid: bb4b86d3977e144faaea125a59756194,
+    type: 2}
+  overallScoreClamps:
+  - triggeredTrophy: 0
+    scoreRange: {x: 0, y: 2000000}
+  numOfHardCodedMatches: 15
+  requiredTrophiesToUnlockActiveSkillVar: {fileID: 11400000, guid: 72996eed83b6e4630a3d51575394fe23,
+    type: 2}
+  highestAchievedTrophyVar: {fileID: 11400000, guid: 9cfa980f122ac4eb09f4cc6bc2909efc,
+    type: 2}
+  activeSkillManagerSO: {fileID: 11400000, guid: bbb941eca63784b14ab2d7b38309c884,
+    type: 2}
+  skillUseStreakCount: {fileID: 11400000, guid: 293f66fdb25fe461e905858c8ad4b982,
+    type: 2}
+  noSkillUseStreakCount: {fileID: 11400000, guid: 9fa849ffa6b2043a099b7c80b72e7c59,
+    type: 2}
+  testArenaSO: {fileID: 11400000, guid: e958d7104f4dc4de1b2b5adfcae3135a, type: 2}

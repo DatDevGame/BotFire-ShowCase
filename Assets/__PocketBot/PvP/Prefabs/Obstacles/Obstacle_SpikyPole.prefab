@@ -1,0 +1,175 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4776702510192358639
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 227320869107749130}
+  - component: {fileID: 6153507579443002565}
+  - component: {fileID: -714792999669123971}
+  - component: {fileID: 2143971331858629973}
+  - component: {fileID: 2168345444628910383}
+  - component: {fileID: 1441071559761931637}
+  m_Layer: 0
+  m_Name: Obstacle_SpikyPole
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &227320869107749130
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4776702510192358639}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.05, z: 0}
+  m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
+  m_ConstrainProportionsScale: 1
+  m_Children:
+  - {fileID: 487092994191009186}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!54 &6153507579443002565
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4776702510192358639}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &-714792999669123971
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4776702510192358639}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b03fbea0c56548f092a6be05918c563, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obstaclePartSO: {fileID: 11400000, guid: fe69abeb28295485c9e2b2d15850e2f6, type: 2}
+  selfRigidbody: {fileID: 6153507579443002565}
+--- !u!114 &2143971331858629973
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4776702510192358639}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d10b5d6f94700484a9c849395435c0e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attackCycleTime: 1
+  pbPart: {fileID: -714792999669123971}
+  rb: {fileID: 6153507579443002565}
+  forceAxis: 
+--- !u!114 &2168345444628910383
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4776702510192358639}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f33180c7ea23b4a1ab1469159400aa24, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  partBehaviour: {fileID: 2143971331858629973}
+  collideForce: 2
+  spinnerTransform: {fileID: 487092994191009186}
+  spinnerAxis: {x: 0, y: 1, z: 0}
+  sparkVFX: {fileID: 0}
+  spinningSpeed: 1500
+  spinOnContactOnly: 0
+  vfxAtContactPoint: 0
+  vfxIgnoreGround: 1
+--- !u!136 &1441071559761931637
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4776702510192358639}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 1.073451
+  m_Height: 4.2953105
+  m_Direction: 1
+  m_Center: {x: 0, y: 1.9856642, z: 0}
+--- !u!1001 &92386473749987913
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 227320869107749130}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: faf440c356fbf43a49e3b3d07908c93a,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: faf440c356fbf43a49e3b3d07908c93a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: faf440c356fbf43a49e3b3d07908c93a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.98
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: faf440c356fbf43a49e3b3d07908c93a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: faf440c356fbf43a49e3b3d07908c93a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: faf440c356fbf43a49e3b3d07908c93a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: faf440c356fbf43a49e3b3d07908c93a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: faf440c356fbf43a49e3b3d07908c93a,
+        type: 3}
+      propertyPath: m_Name
+      value: Spiky Pole
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: faf440c356fbf43a49e3b3d07908c93a, type: 3}
+--- !u!4 &487092994191009186 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: faf440c356fbf43a49e3b3d07908c93a,
+    type: 3}
+  m_PrefabInstance: {fileID: 92386473749987913}
+  m_PrefabAsset: {fileID: 0}

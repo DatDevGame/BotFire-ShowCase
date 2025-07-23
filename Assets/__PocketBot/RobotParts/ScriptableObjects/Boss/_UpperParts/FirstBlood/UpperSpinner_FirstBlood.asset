@@ -1,0 +1,144 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b049a7002971843f196b55a1169d6889, type: 3}
+  m_Name: UpperSpinner_FirstBlood
+  m_EditorClassIdentifier: 
+  m_guid: 64c49d7863f5d49f5bfaed092baf958f
+  m_ItemModules:
+  - rid: 205144154655686656
+  - rid: 205144154655686657
+  - rid: 205144154655686658
+  - rid: 205144154655686659
+  - rid: 7395805642454728714
+  - rid: 7395805665275412496
+  - rid: 5186548220885729290
+  - rid: 3433709053503078443
+  - rid: 7395805939906379785
+  - rid: 6632838640119054336
+  m_FoundInArena: 2
+  isBossPart: 1
+  trophyThreshold: 0
+  partManagerSO: {fileID: 0}
+  stats:
+    power: 0
+    resistance: 0.2
+    turning: 0
+    damagePerHitRatio: 1.2
+  upgradePath:
+    attackUpgradeSteps: 37000000
+    hpUpgradeSteps: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+  isTransformBot: 0
+  transformBotID: 0
+  references:
+    version: 2
+    RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }
+    - rid: 205144154655686656
+      type: {class: NameItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        m_DisplayName: Spinner First Blood
+    - rid: 205144154655686657
+      type: {class: MonoImageItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        m_ThumbnailTintColor: {r: 1, g: 1, b: 1, a: 1}
+        m_ThumbnailImage: {fileID: 21300000, guid: 758051db053d446ea89fef71bce1ca00,
+          type: 3}
+    - rid: 205144154655686658
+      type: {class: PBMonoPrefabItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        partModelPrefab: {fileID: 8846116011000759529, guid: 9c255efcc28544b279a53ba639d6d288,
+          type: 3}
+    - rid: 205144154655686659
+      type: {class: RarityItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        m_RarityType: 3
+    - rid: 3433709053503078443
+      type: {class: DescriptionItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        description: A melee weapon saws continuously with good ATK
+    - rid: 5186548220885729290
+      type: {class: UnlockableItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        m_DefaultIsUnlocked: 0
+        m_UnlockRequirementTree:
+          rid: -2
+    - rid: 6632838640119054336
+      type: {class: SkinItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        m_Skins:
+        - {fileID: 2245770837526200275}
+    - rid: 7395805642454728714
+      type: {class: PBUpgradableItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        m_UpgradeRequirementData:
+          m_RequiredNumOfCardsLevels: 0000000002000000040000000a000000140000001e00000028000000320000004600000096000000
+          m_RequiredAmountOfCurrencyLevels:
+          - 0
+          - 200
+          - 700
+          - 1400
+          - 2100
+          - 3500
+          - 5250
+          - 7000
+          - 8750
+          - 10500
+    - rid: 7395805665275412496
+      type: {class: CardItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+    - rid: 7395805939906379785
+      type: {class: NewItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        m_DefaultIsNew: 0
+--- !u!114 &2245770837526200275
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9b39e4b8c5284c8ab3f9c61fdf3c995, type: 3}
+  m_Name: Skin_0
+  m_EditorClassIdentifier: 
+  m_guid: 64c49d7863f5d49f5bfaed092baf958f_a8b80930-5a23-4343-9c6a-9e80df283915
+  m_ItemModules:
+  - rid: 6632838640119054337
+  m_Probability: 0.2
+  m_PartSO: {fileID: 11400000}
+  m_SkinMaterialReferences:
+  - m_AssetGUID: b49c270fb2c444018a2b1625ed2157c2
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  references:
+    version: 2
+    RefIds:
+    - rid: 6632838640119054337
+      type: {class: MonoImageItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 2245770837526200275}
+        m_ThumbnailTintColor: {r: 1, g: 1, b: 1, a: 1}
+        m_ThumbnailImage: {fileID: 21300000, guid: d40a45a2c142b441e9b3ade3d490889e,
+          type: 3}

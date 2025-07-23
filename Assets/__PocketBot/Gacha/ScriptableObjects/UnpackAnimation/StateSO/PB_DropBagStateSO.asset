@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 432ba655eb7f64029b877fb3c6b69171, type: 3}
+  m_Name: PB_DropBagStateSO
+  m_EditorClassIdentifier: Assembly-CSharp:LatteGames.UnpackAnimation:DropbagStateSO
+  m_guid: 5d82ca90c2301ce4f9d95cd77a020545
+  transitions:
+  - {fileID: 11400000, guid: bfb243fbd7c134d46b05d5985ee7d4bc, type: 2}
+  - {fileID: 11400000, guid: 8bbb2d4085588b6449e5bdcb01edeb94, type: 2}
+  dropDuration: 0.5
+  bagDroppingCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 2
+      outSlope: 2
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  camFollowingCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 2.8341198
+      outSlope: 2.8341198
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.03744799
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4

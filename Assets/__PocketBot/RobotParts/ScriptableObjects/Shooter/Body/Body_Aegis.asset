@@ -1,0 +1,362 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7076743380815483954
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9b39e4b8c5284c8ab3f9c61fdf3c995, type: 3}
+  m_Name: Skin_4
+  m_EditorClassIdentifier: 
+  m_guid: d3ff9dedc8a4942e6b629045b469248c_2606fb38-7c53-4711-85ef-e3333ec49337
+  m_ItemModules:
+  - rid: 4829460394143383813
+  - rid: 2750244005853528783
+  m_Probability: 0.2
+  m_PartSO: {fileID: 11400000}
+  m_SkinMaterialReferences:
+  - m_AssetGUID: 884e19163b19f4d7bb91d974e81f04e8
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  - m_AssetGUID: 84bda7c2aab03cd48aab307d1ce99ffd
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  references:
+    version: 2
+    RefIds:
+    - rid: 2750244005853528783
+      type: {class: SkinUnlockableItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: -7076743380815483954}
+        m_DefaultIsUnlocked: 0
+        m_UnlockRequirementTree:
+          rid: 2750244005853528784
+    - rid: 2750244005853528784
+      type: {class: Requirement_RewardedAd, ns: , asm: Assembly-CSharp}
+      data:
+        m_RequiredRewardedAd: 2
+        m_ItemSO: {fileID: -7076743380815483954}
+    - rid: 4829460394143383813
+      type: {class: MonoImageItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: -7076743380815483954}
+        m_ThumbnailTintColor: {r: 1, g: 1, b: 1, a: 1}
+        m_ThumbnailImage: {fileID: 21300000, guid: 0f00c668f988f44aea948d6b41ab7862,
+          type: 3}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e746971daec24a02853d4a21a9a2809, type: 3}
+  m_Name: Body_Aegis
+  m_EditorClassIdentifier: 
+  m_guid: 23cb2f3508a4846f4b31d0a75fa30e81
+  m_ItemModules:
+  - rid: 205144154655686660
+  - rid: 205144154655686661
+  - rid: 205144154655686663
+  - rid: 205144154655686662
+  - rid: 7395805642454728705
+  - rid: 7395805665275412481
+  - rid: 5186548220885729281
+  - rid: 7395805734551420929
+  - rid: 3433709077210595332
+  - rid: 4829460213899984949
+  m_FoundInArena: 1
+  isBossPart: 0
+  trophyThreshold: 0
+  partManagerSO: {fileID: 11400000, guid: 44c38a0814d774a7ca1a4f147a6ca574, type: 2}
+  stats:
+    power: 10
+    resistance: 0
+    turning: 90
+    damagePerHitRatio: 0
+  upgradePath:
+    attackUpgradeSteps: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+    hpUpgradeSteps: 320000003a000000430000004d000000590000006700000077000000890000009d000000b4000000
+  isTransformBot: 0
+  transformBotID: 0
+  speed: 1
+  mass: 100
+  steeringSpeed: 90
+  slots:
+  - PartSlotType: 1
+    PartVariableSO: {fileID: 11400000, guid: 26e8d11e091d2412799e6399cedf37a7, type: 2}
+  - PartSlotType: 2
+    PartVariableSO: {fileID: 11400000, guid: a7d71779796b34c16a2bd1b0dceedc0d, type: 2}
+  attachedWheels: []
+  IsSpecial: 0
+  IsIgnoreClaimRV: 0
+  FoundInName: 
+  SpecialPreviewChassisPrefab: {fileID: 0}
+  CurrentInUse: {fileID: 0}
+  references:
+    version: 2
+    RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }
+    - rid: 205144154655686660
+      type: {class: NameItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        m_DisplayName: Aegis
+    - rid: 205144154655686661
+      type: {class: MonoImageItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        m_ThumbnailTintColor: {r: 1, g: 1, b: 1, a: 1}
+        m_ThumbnailImage: {fileID: 21300000, guid: 82d0fb05e03d14c72a6c2436ff78b434,
+          type: 3}
+    - rid: 205144154655686662
+      type: {class: RarityItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        m_RarityType: 0
+    - rid: 205144154655686663
+      type: {class: PBMonoPrefabItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        partModelPrefab: {fileID: 9166233840853857638, guid: 6c2c21bc81fd24a5fa28a373bcf17177,
+          type: 3}
+    - rid: 3433709077210595332
+      type: {class: DescriptionItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        description: A balanced but basic robot
+    - rid: 4829460213899984949
+      type: {class: SkinItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        m_Skins:
+        - {fileID: 5712930247179429371}
+        - {fileID: 647777694863884888}
+        - {fileID: 1282656709221112327}
+        - {fileID: 7253048252018081713}
+        - {fileID: -7076743380815483954}
+    - rid: 5186548220885729281
+      type: {class: UnlockableItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        m_DefaultIsUnlocked: 1
+        m_UnlockRequirementTree:
+          rid: -2
+    - rid: 7395805642454728705
+      type: {class: PBUpgradableItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        m_UpgradeRequirementData:
+          m_RequiredNumOfCardsLevels: 000000000200000004000000060000000a0000000f00000014000000190000001e00000023000000
+          m_RequiredAmountOfCurrencyLevels:
+          - 0
+          - 300
+          - 450
+          - 700
+          - 1000
+          - 1500
+          - 2200
+          - 3400
+          - 5200
+          - 7700
+    - rid: 7395805665275412481
+      type: {class: CardItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+    - rid: 7395805734551420929
+      type: {class: NewItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        m_DefaultIsNew: 0
+--- !u!114 &647777694863884888
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9b39e4b8c5284c8ab3f9c61fdf3c995, type: 3}
+  m_Name: Skin_1
+  m_EditorClassIdentifier: 
+  m_guid: d3ff9dedc8a4942e6b629045b469248c_ba272706-7769-4a7c-9261-89dbaed59069
+  m_ItemModules:
+  - rid: 4829460394143383657
+  - rid: 2750244005853528777
+  m_Probability: 0.2
+  m_PartSO: {fileID: 11400000}
+  m_SkinMaterialReferences:
+  - m_AssetGUID: 884e19163b19f4d7bb91d974e81f04e8
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  - m_AssetGUID: 84bda7c2aab03cd48aab307d1ce99ffd
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  references:
+    version: 2
+    RefIds:
+    - rid: 2750244005853528777
+      type: {class: SkinUnlockableItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 647777694863884888}
+        m_DefaultIsUnlocked: 0
+        m_UnlockRequirementTree:
+          rid: 2750244005853528778
+    - rid: 2750244005853528778
+      type: {class: Requirement_RewardedAd, ns: , asm: Assembly-CSharp}
+      data:
+        m_RequiredRewardedAd: 1
+        m_ItemSO: {fileID: 647777694863884888}
+    - rid: 4829460394143383657
+      type: {class: MonoImageItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 647777694863884888}
+        m_ThumbnailTintColor: {r: 1, g: 1, b: 1, a: 1}
+        m_ThumbnailImage: {fileID: 21300000, guid: 411276a05a5ea45829f8b387f07002f9,
+          type: 3}
+--- !u!114 &1282656709221112327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9b39e4b8c5284c8ab3f9c61fdf3c995, type: 3}
+  m_Name: Skin_2
+  m_EditorClassIdentifier: 
+  m_guid: d3ff9dedc8a4942e6b629045b469248c_d1c55b8a-e083-4a7b-9b2b-389412daf433
+  m_ItemModules:
+  - rid: 4829460394143383709
+  - rid: 2750244005853528779
+  m_Probability: 0.2
+  m_PartSO: {fileID: 11400000}
+  m_SkinMaterialReferences:
+  - m_AssetGUID: 884e19163b19f4d7bb91d974e81f04e8
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  - m_AssetGUID: 84bda7c2aab03cd48aab307d1ce99ffd
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  references:
+    version: 2
+    RefIds:
+    - rid: 2750244005853528779
+      type: {class: SkinUnlockableItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 1282656709221112327}
+        m_DefaultIsUnlocked: 0
+        m_UnlockRequirementTree:
+          rid: 2750244005853528780
+    - rid: 2750244005853528780
+      type: {class: Requirement_RewardedAd, ns: , asm: Assembly-CSharp}
+      data:
+        m_RequiredRewardedAd: 1
+        m_ItemSO: {fileID: 1282656709221112327}
+    - rid: 4829460394143383709
+      type: {class: MonoImageItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 1282656709221112327}
+        m_ThumbnailTintColor: {r: 1, g: 1, b: 1, a: 1}
+        m_ThumbnailImage: {fileID: 21300000, guid: 2e6724f01b2dc4ad298f8cc9f3b180e9,
+          type: 3}
+--- !u!114 &5712930247179429371
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9b39e4b8c5284c8ab3f9c61fdf3c995, type: 3}
+  m_Name: Skin_0
+  m_EditorClassIdentifier: 
+  m_guid: d3ff9dedc8a4942e6b629045b469248c_4aac1acd-7253-4539-9eea-c7c7d8cf05d7
+  m_ItemModules:
+  - rid: 4829460394143383605
+  m_Probability: 0.2
+  m_PartSO: {fileID: 11400000}
+  m_SkinMaterialReferences:
+  - m_AssetGUID: 884e19163b19f4d7bb91d974e81f04e8
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  - m_AssetGUID: 84bda7c2aab03cd48aab307d1ce99ffd
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  references:
+    version: 2
+    RefIds:
+    - rid: 4829460394143383605
+      type: {class: MonoImageItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 5712930247179429371}
+        m_ThumbnailTintColor: {r: 1, g: 1, b: 1, a: 1}
+        m_ThumbnailImage: {fileID: 21300000, guid: 7f654ef8833ac4632b53dee9a57487a3,
+          type: 3}
+--- !u!114 &7253048252018081713
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9b39e4b8c5284c8ab3f9c61fdf3c995, type: 3}
+  m_Name: Skin_3
+  m_EditorClassIdentifier: 
+  m_guid: d3ff9dedc8a4942e6b629045b469248c_012dfcbe-efce-4c7c-ade3-60ee108b6b53
+  m_ItemModules:
+  - rid: 4829460394143383761
+  - rid: 2750244005853528781
+  m_Probability: 0.2
+  m_PartSO: {fileID: 11400000}
+  m_SkinMaterialReferences:
+  - m_AssetGUID: 884e19163b19f4d7bb91d974e81f04e8
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  - m_AssetGUID: 84bda7c2aab03cd48aab307d1ce99ffd
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  references:
+    version: 2
+    RefIds:
+    - rid: 2750244005853528781
+      type: {class: SkinUnlockableItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 7253048252018081713}
+        m_DefaultIsUnlocked: 0
+        m_UnlockRequirementTree:
+          rid: 2750244005853528782
+    - rid: 2750244005853528782
+      type: {class: Requirement_RewardedAd, ns: , asm: Assembly-CSharp}
+      data:
+        m_RequiredRewardedAd: 1
+        m_ItemSO: {fileID: 7253048252018081713}
+    - rid: 4829460394143383761
+      type: {class: MonoImageItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 7253048252018081713}
+        m_ThumbnailTintColor: {r: 1, g: 1, b: 1, a: 1}
+        m_ThumbnailImage: {fileID: 21300000, guid: 5a95d98e7969647a6a91982b646d2a72,
+          type: 3}

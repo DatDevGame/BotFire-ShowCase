@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b049a7002971843f196b55a1169d6889, type: 3}
+  m_Name: Front_DrumSpinner3
+  m_EditorClassIdentifier: 
+  m_guid: 4be1ab9b98f064c54b3155d67e91866a
+  m_ItemModules:
+  - rid: 205144154655686656
+  - rid: 205144154655686657
+  - rid: 205144154655686658
+  - rid: 205144154655686659
+  - rid: 7395805642454728712
+  - rid: 7395805665275412491
+  - rid: 5186548220885729304
+  - rid: 3433709053503078438
+  - rid: 7395805939906379780
+  m_FoundInArena: 3
+  isBossPart: 0
+  trophyThreshold: 0
+  partManagerSO: {fileID: 0}
+  stats:
+    power: 4
+    resistance: 0.1
+    turning: 8
+    damagePerHitRatio: 0.2
+  upgradePath:
+    attackUpgradeSteps: 2e00000032000000360000003b00000040000000460000004c000000520000005900000060000000
+    hpUpgradeSteps: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+  references:
+    version: 2
+    RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }
+    - rid: 205144154655686656
+      type: {class: NameItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        m_DisplayName: Gaur Horn III
+    - rid: 205144154655686657
+      type: {class: MonoImageItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        m_ThumbnailTintColor: {r: 1, g: 1, b: 1, a: 1}
+        m_ThumbnailImage: {fileID: 21300000, guid: d43ca04e6f2044b86bac610867c345d9,
+          type: 3}
+    - rid: 205144154655686658
+      type: {class: PBMonoPrefabItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        partModelPrefab: {fileID: 2284888442676794312, guid: 8c819453b9e554ee0bcdc1552251fb51,
+          type: 3}
+    - rid: 205144154655686659
+      type: {class: RarityItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        m_RarityType: 4
+    - rid: 3433709053503078438
+      type: {class: DescriptionItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        description: A melee weapon that deals damage continuously
+    - rid: 5186548220885729304
+      type: {class: UnlockableItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        m_DefaultIsUnlocked: 0
+        m_UnlockRequirementTree:
+          rid: -2
+    - rid: 7395805642454728712
+      type: {class: PBUpgradableItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        m_UpgradeRequirementData:
+          m_RequiredNumOfCardsLevels: 00000000020000000400000006000000080000000a0000000c0000000e0000001000000012000000
+          m_RequiredAmountOfCurrencyLevels:
+          - 0
+          - 400
+          - 700
+          - 1400
+          - 2100
+          - 3500
+          - 5250
+          - 7000
+          - 8750
+          - 10500
+    - rid: 7395805665275412491
+      type: {class: CardItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+    - rid: 7395805939906379780
+      type: {class: NewItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        m_DefaultIsNew: 0

@@ -1,0 +1,167 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e746971daec24a02853d4a21a9a2809, type: 3}
+  m_Name: Special_DeathSting
+  m_EditorClassIdentifier: 
+  m_guid: 9b0987a748b9c4d7496e4a01271e4e37
+  m_ItemModules:
+  - rid: 205144154655686660
+  - rid: 205144154655686661
+  - rid: 205144154655686663
+  - rid: 205144154655686662
+  - rid: 7395805642454728704
+  - rid: 7395805665275412480
+  - rid: 5186548220885729280
+  - rid: 7395805734551420928
+  - rid: 3433709053503078427
+  - rid: 4829460282523254790
+  m_FoundInArena: 2
+  isBossPart: 0
+  trophyThreshold: 0
+  partManagerSO: {fileID: 11400000, guid: bb4b86d3977e144faaea125a59756194, type: 2}
+  stats:
+    power: 0
+    resistance: 0
+    turning: 80
+    damagePerHitRatio: 0
+  upgradePath:
+    attackUpgradeSteps: 00000000
+    hpUpgradeSteps: 48000000
+  isTransformBot: 0
+  transformBotID: 0
+  speed: 1.05
+  mass: 100
+  steeringSpeed: 80
+  activeSkillSO: {fileID: 11400000, guid: 1005ea8fc29774d06956b1eab9104259, type: 2}
+  slots:
+  - PartSlotType: 4
+    PartVariableSO: {fileID: 11400000, guid: fca14a4e8a5ca45d099f355685a2628e, type: 2}
+  - PartSlotType: 5
+    PartVariableSO: {fileID: 11400000, guid: fca14a4e8a5ca45d099f355685a2628e, type: 2}
+  - PartSlotType: 1
+    PartVariableSO: {fileID: 11400000, guid: 019332cf8a6e44de1bef72e69af94ed0, type: 2}
+  attachedWheels:
+  - {fileID: 11400000, guid: 70ac0bcc76e4e424aa94d4d342242842, type: 2}
+  IsSpecial: 1
+  IsIgnoreClaimRV: 0
+  FoundInName: NEW YORK
+  SpecialPreviewChassisPrefab: {fileID: 0}
+  CurrentInUse: {fileID: 11400000, guid: d1775257ec1a844399addb02547be404, type: 2}
+  references:
+    version: 2
+    RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }
+    - rid: 205144154655686660
+      type: {class: NameItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        m_DisplayName: Death Sting
+    - rid: 205144154655686661
+      type: {class: MonoImageItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        m_ThumbnailTintColor: {r: 1, g: 1, b: 1, a: 1}
+        m_ThumbnailImage: {fileID: 21300000, guid: fd4c5f803d52e44f9a82cb833d958f47,
+          type: 3}
+    - rid: 205144154655686662
+      type: {class: RarityItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        m_RarityType: 4
+    - rid: 205144154655686663
+      type: {class: PBMonoPrefabItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        partModelPrefab: {fileID: 6524984942323513574, guid: 8d714530f46e84758b0f312598fa4e45,
+          type: 3}
+    - rid: 3433709053503078427
+      type: {class: DescriptionItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        description: A dark hive overlord wielding a stinger-shaped crusher, piercing
+          with venomous precision and BLITZ DASH skill.
+    - rid: 4829460282523254790
+      type: {class: SkinItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        m_Skins:
+        - {fileID: 301259482200294502}
+    - rid: 5186548220885729280
+      type: {class: UnlockableItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        m_DefaultIsUnlocked: 0
+        m_UnlockRequirementTree:
+          rid: -2
+    - rid: 7395805642454728704
+      type: {class: PBUpgradableItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        m_UpgradeRequirementData:
+          m_RequiredNumOfCardsLevels: 0000000002000000040000000a000000140000001e00000028000000320000004600000096000000
+          m_RequiredAmountOfCurrencyLevels:
+          - 0
+          - 100
+          - 200
+          - 400
+          - 700
+          - 1400
+          - 2100
+          - 3500
+          - 5250
+          - 7000
+    - rid: 7395805665275412480
+      type: {class: CardItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+    - rid: 7395805734551420928
+      type: {class: NewItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        m_DefaultIsNew: 0
+--- !u!114 &301259482200294502
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9b39e4b8c5284c8ab3f9c61fdf3c995, type: 3}
+  m_Name: Skin_0
+  m_EditorClassIdentifier: 
+  m_guid: 9b0987a748b9c4d7496e4a01271e4e37_b02558e1-b41c-459f-a0eb-cc5929b7ac0c
+  m_ItemModules:
+  - rid: 4829460394143383826
+  m_Probability: 0.2
+  m_PartSO: {fileID: 11400000}
+  m_SkinMaterialReferences:
+  - m_AssetGUID: d0d8efb5001ff4612951dbdea5fe0719
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  - m_AssetGUID: 84bda7c2aab03cd48aab307d1ce99ffd
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  references:
+    version: 2
+    RefIds:
+    - rid: 4829460394143383826
+      type: {class: MonoImageItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 301259482200294502}
+        m_ThumbnailTintColor: {r: 1, g: 1, b: 1, a: 1}
+        m_ThumbnailImage: {fileID: 21300000, guid: fd4c5f803d52e44f9a82cb833d958f47,
+          type: 3}

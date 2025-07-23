@@ -1,0 +1,119 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &9015366005817411485
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9015366005817411484}
+  - component: {fileID: 9015366005817411459}
+  - component: {fileID: 9015366005817411458}
+  - component: {fileID: 6167569799672348427}
+  m_Layer: 30
+  m_Name: PreviewPlayerSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9015366005817411484
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9015366005817411485}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0.9659258, z: 0, w: 0.2588191}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 210, z: 0}
+--- !u!114 &9015366005817411459
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9015366005817411485}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97fbbddb8004243fa980705cf3998e43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Verbose: 1
+  m_KeepAlive: 0
+  m_DuplicateAllow: 0
+  tempChassisSO: {fileID: 11400000, guid: 3b0b73502fd164ce4bda9e5e02082461, type: 2}
+  skinManagerSO: {fileID: 11400000, guid: bb4b86d3977e144faaea125a59756194, type: 2}
+  chassisManagerSO: {fileID: 11400000, guid: 44c38a0814d774a7ca1a4f147a6ca574, type: 2}
+  wheelManagerSO: {fileID: 11400000, guid: 9f8a52a29701549dc9cba1d6d086205e, type: 2}
+  robot: {fileID: 9015366005817411458}
+  tempChassis: {fileID: 0}
+  gearSlotNumberPrefab: {fileID: 1249023503357183141, guid: a806975978a944915b0c7a8db4f71fe2,
+    type: 3}
+  gearSlotNumbers: []
+--- !u!114 &9015366005817411458
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9015366005817411485}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 142bcf20231c6419bbe99320982045ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerInfoVariable: {fileID: 11400000, guid: 323b2aae72a744edfb98be7e4eef5181, type: 2}
+  buildOnStart: 0
+  isPreview: 1
+  explodeForce: 100
+  carConfigSO: {fileID: 11400000, guid: 0fc513724096fd8498675b3623494a2d, type: 2}
+  currentChassisInUse: {fileID: 11400000, guid: 3b0b73502fd164ce4bda9e5e02082461,
+    type: 2}
+  robotStats: {fileID: 0}
+  forceAdjustmentAnimCurve: {fileID: 0}
+--- !u!114 &6167569799672348427
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9015366005817411485}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6674e60022c6042fe815694fdff50a98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotateDuration: 4
+  rotateAngle: 35
+  curve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 4.9532886
+      tangentMode: 0
+      weightedMode: 3
+      inWeight: 0
+      outWeight: 0.225963
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0.024149083
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 3
+      inWeight: 0.518901
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4

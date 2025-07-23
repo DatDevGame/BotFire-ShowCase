@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4797653441905355612
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6913816821817406870}
+  - component: {fileID: 6772099947378257389}
+  - component: {fileID: 4161585937678342013}
+  - component: {fileID: 2287983915739579029}
+  m_Layer: 31
+  m_Name: Player
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6913816821817406870
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4797653441905355612}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6772099947378257389
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4797653441905355612}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 142bcf20231c6419bbe99320982045ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerInfoVariable: {fileID: 11400000, guid: 323b2aae72a744edfb98be7e4eef5181, type: 2}
+  buildOnStart: 0
+  isPreview: 0
+  explodeForce: 30
+  carConfigSO: {fileID: 11400000, guid: 37c4231fb959a4880b2afbc7d3e20297, type: 2}
+  currentChassisInUse: {fileID: 11400000, guid: 6584425201b4c4140a60cce8f687263f,
+    type: 2}
+  robotStats: {fileID: 11400000, guid: 76a1e5cc02ee84ad09ba1dec34651087, type: 2}
+  forceAdjustmentAnimCurve: {fileID: 11400000, guid: 5363efeb188ac49f7932bbdf17b0fc3f,
+    type: 2}
+--- !u!114 &4161585937678342013
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4797653441905355612}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d218af2da89534d7c83a98671d6cbe39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_CombatEffectConfigSOs:
+  - {fileID: 11400000, guid: 39761e32b9181494b8f378d473cb0e6f, type: 2}
+  - {fileID: 11400000, guid: b08bced53bd79411587abd8f8b831d5f, type: 2}
+--- !u!114 &2287983915739579029
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4797653441905355612}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1a6cfd3119344f99bc760cf211a9b60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  botConfigSO: {fileID: 0}
+  robot: {fileID: 6772099947378257389}

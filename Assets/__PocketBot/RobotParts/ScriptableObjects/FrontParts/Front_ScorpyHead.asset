@@ -1,0 +1,337 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-5754434228183992335
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9b39e4b8c5284c8ab3f9c61fdf3c995, type: 3}
+  m_Name: Skin_3
+  m_EditorClassIdentifier: 
+  m_guid: 24b4f6075c2334c3b800868429de880b_f24a3682-7060-4467-ad8b-3916ca75cf48
+  m_ItemModules:
+  - rid: 4829460394143383727
+  - rid: 2750244005853528829
+  m_Probability: 0.2
+  m_PartSO: {fileID: 11400000}
+  m_SkinMaterialReferences:
+  - m_AssetGUID: d7494e72935c54678ba7a85fce0424c7
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  references:
+    version: 2
+    RefIds:
+    - rid: 2750244005853528829
+      type: {class: SkinUnlockableItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: -5754434228183992335}
+        m_DefaultIsUnlocked: 0
+        m_UnlockRequirementTree:
+          rid: 2750244005853528830
+    - rid: 2750244005853528830
+      type: {class: Requirement_RewardedAd, ns: , asm: Assembly-CSharp}
+      data:
+        m_RequiredRewardedAd: 2
+        m_ItemSO: {fileID: -5754434228183992335}
+    - rid: 4829460394143383727
+      type: {class: MonoImageItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: -5754434228183992335}
+        m_ThumbnailTintColor: {r: 1, g: 1, b: 1, a: 1}
+        m_ThumbnailImage: {fileID: 21300000, guid: ffb955a89c282444d83261f3c5af7872,
+          type: 3}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b049a7002971843f196b55a1169d6889, type: 3}
+  m_Name: Front_ScorpyHead
+  m_EditorClassIdentifier: 
+  m_guid: 24b4f6075c2334c3b800868429de880b
+  m_ItemModules:
+  - rid: 205144154655686656
+  - rid: 205144154655686657
+  - rid: 205144154655686658
+  - rid: 205144154655686659
+  - rid: 7395805642454728712
+  - rid: 7395805665275412492
+  - rid: 5186548220885729305
+  - rid: 3433709053503078439
+  - rid: 7395805939906379781
+  - rid: 8728151016645853197
+  - rid: 5834122176134381569
+  m_FoundInArena: 4
+  isBossPart: 0
+  trophyThreshold: 2190
+  partManagerSO: {fileID: 11400000, guid: 00b3eb36bf8084acca2ce1f6d11d11ae, type: 2}
+  stats:
+    power: 10
+    resistance: 0.2
+    turning: 0
+    damagePerHitRatio: 0.2
+  upgradePath:
+    attackUpgradeSteps: 5a0000006b0000007f00000096000000b1000000d1000000f7000000230100005701000094010000
+    hpUpgradeSteps: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+  isTransformBot: 0
+  transformBotID: 0
+  references:
+    version: 2
+    RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }
+    - rid: 205144154655686656
+      type: {class: NameItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        m_DisplayName: Scorpy Head
+    - rid: 205144154655686657
+      type: {class: MonoImageItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        m_ThumbnailTintColor: {r: 1, g: 1, b: 1, a: 1}
+        m_ThumbnailImage: {fileID: 21300000, guid: 327ecca0026bd432986b0585cfaabca4,
+          type: 3}
+    - rid: 205144154655686658
+      type: {class: PBMonoPrefabItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        partModelPrefab: {fileID: 4293709185185873013, guid: 7978f371300494524b45d9d8e49f2bb5,
+          type: 3}
+    - rid: 205144154655686659
+      type: {class: RarityItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        m_RarityType: 4
+    - rid: 3433709053503078439
+      type: {class: DescriptionItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        description: A melee weapon that drills into the opponent and deals continuous
+          damage.
+    - rid: 5186548220885729305
+      type: {class: UnlockableItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        m_DefaultIsUnlocked: 0
+        m_UnlockRequirementTree:
+          rid: -2
+    - rid: 5834122176134381569
+      type: {class: SkinItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        m_Skins:
+        - {fileID: 1714524924232421123}
+        - {fileID: 7615914245987137322}
+        - {fileID: 5341476525332111513}
+        - {fileID: -5754434228183992335}
+        - {fileID: 4994004722794574662}
+    - rid: 7395805642454728712
+      type: {class: PBUpgradableItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        m_UpgradeRequirementData:
+          m_RequiredNumOfCardsLevels: 00000000020000000400000006000000080000000a0000000c0000000e0000001000000012000000
+          m_RequiredAmountOfCurrencyLevels:
+          - 0
+          - 700
+          - 2800
+          - 11200
+          - 44800
+          - 179200
+          - 716800
+          - 2867200
+          - 11468800
+          - 45875200
+    - rid: 7395805665275412492
+      type: {class: CardItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+    - rid: 7395805939906379781
+      type: {class: NewItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        m_DefaultIsNew: 0
+    - rid: 8728151016645853197
+      type: {class: AttackRangeModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        isInfinityAttackRange: 0
+        attackRange: 1.25
+        attackAngles: 0
+--- !u!114 &1714524924232421123
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9b39e4b8c5284c8ab3f9c61fdf3c995, type: 3}
+  m_Name: Skin_0
+  m_EditorClassIdentifier: 
+  m_guid: 24b4f6075c2334c3b800868429de880b_5edb7452-0777-4f23-85dc-a33b9440099b
+  m_ItemModules:
+  - rid: 4829460394143383568
+  m_Probability: 0.2
+  m_PartSO: {fileID: 11400000}
+  m_SkinMaterialReferences:
+  - m_AssetGUID: 74a8aea41245f40cfa9ee3f2b6d53e3d
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  references:
+    version: 2
+    RefIds:
+    - rid: 4829460394143383568
+      type: {class: MonoImageItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 1714524924232421123}
+        m_ThumbnailTintColor: {r: 1, g: 1, b: 1, a: 1}
+        m_ThumbnailImage: {fileID: 21300000, guid: 327ecca0026bd432986b0585cfaabca4,
+          type: 3}
+--- !u!114 &4994004722794574662
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9b39e4b8c5284c8ab3f9c61fdf3c995, type: 3}
+  m_Name: Skin_4
+  m_EditorClassIdentifier: 
+  m_guid: 24b4f6075c2334c3b800868429de880b_46006441-dfe4-4312-8179-efb7e055c115
+  m_ItemModules:
+  - rid: 4829460394143383779
+  - rid: 2750244005853528831
+  m_Probability: 0.2
+  m_PartSO: {fileID: 11400000}
+  m_SkinMaterialReferences:
+  - m_AssetGUID: e8990b57a8a3143c39b14c2f86da1f2d
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  references:
+    version: 2
+    RefIds:
+    - rid: 2750244005853528831
+      type: {class: SkinUnlockableItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 4994004722794574662}
+        m_DefaultIsUnlocked: 0
+        m_UnlockRequirementTree:
+          rid: 2750244005853528832
+    - rid: 2750244005853528832
+      type: {class: Requirement_RewardedAd, ns: , asm: Assembly-CSharp}
+      data:
+        m_RequiredRewardedAd: 2
+        m_ItemSO: {fileID: 4994004722794574662}
+    - rid: 4829460394143383779
+      type: {class: MonoImageItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 4994004722794574662}
+        m_ThumbnailTintColor: {r: 1, g: 1, b: 1, a: 1}
+        m_ThumbnailImage: {fileID: 21300000, guid: 8d9c4630cc3b6486d824801d1a305767,
+          type: 3}
+--- !u!114 &5341476525332111513
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9b39e4b8c5284c8ab3f9c61fdf3c995, type: 3}
+  m_Name: Skin_2
+  m_EditorClassIdentifier: 
+  m_guid: 24b4f6075c2334c3b800868429de880b_6aa39fbb-2253-4025-a4b3-ba08adec276a
+  m_ItemModules:
+  - rid: 4829460394143383675
+  - rid: 2750244005853528827
+  m_Probability: 0.2
+  m_PartSO: {fileID: 11400000}
+  m_SkinMaterialReferences:
+  - m_AssetGUID: 7993c7d924c334b95b78db036c866a49
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  references:
+    version: 2
+    RefIds:
+    - rid: 2750244005853528827
+      type: {class: SkinUnlockableItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 5341476525332111513}
+        m_DefaultIsUnlocked: 0
+        m_UnlockRequirementTree:
+          rid: 2750244005853528828
+    - rid: 2750244005853528828
+      type: {class: Requirement_RewardedAd, ns: , asm: Assembly-CSharp}
+      data:
+        m_RequiredRewardedAd: 1
+        m_ItemSO: {fileID: 5341476525332111513}
+    - rid: 4829460394143383675
+      type: {class: MonoImageItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 5341476525332111513}
+        m_ThumbnailTintColor: {r: 1, g: 1, b: 1, a: 1}
+        m_ThumbnailImage: {fileID: 21300000, guid: 51242974f48cf4b788d1d55d3074f3f6,
+          type: 3}
+--- !u!114 &7615914245987137322
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9b39e4b8c5284c8ab3f9c61fdf3c995, type: 3}
+  m_Name: Skin_1
+  m_EditorClassIdentifier: 
+  m_guid: 24b4f6075c2334c3b800868429de880b_e46475c2-e5c2-42da-836e-afd588f59cf1
+  m_ItemModules:
+  - rid: 4829460394143383623
+  - rid: 2750244005853528825
+  m_Probability: 0.2
+  m_PartSO: {fileID: 11400000}
+  m_SkinMaterialReferences:
+  - m_AssetGUID: 4afaed3322a6f4715a65b94025fe9c65
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  references:
+    version: 2
+    RefIds:
+    - rid: 2750244005853528825
+      type: {class: SkinUnlockableItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 7615914245987137322}
+        m_DefaultIsUnlocked: 0
+        m_UnlockRequirementTree:
+          rid: 2750244005853528826
+    - rid: 2750244005853528826
+      type: {class: Requirement_RewardedAd, ns: , asm: Assembly-CSharp}
+      data:
+        m_RequiredRewardedAd: 1
+        m_ItemSO: {fileID: 7615914245987137322}
+    - rid: 4829460394143383623
+      type: {class: MonoImageItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 7615914245987137322}
+        m_ThumbnailTintColor: {r: 1, g: 1, b: 1, a: 1}
+        m_ThumbnailImage: {fileID: 21300000, guid: 5acdfc27aa50e4169ad66bdfc07bada6,
+          type: 3}

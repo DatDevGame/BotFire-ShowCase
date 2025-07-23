@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b049a7002971843f196b55a1169d6889, type: 3}
+  m_Name: FTUE_Upper
+  m_EditorClassIdentifier: 
+  m_guid: ffec988b653964d0293f63fdd7acfa97
+  m_ItemModules:
+  - rid: 205144154655686658
+  - rid: 4829460399152955400
+  - rid: 4829460399152955401
+  m_FoundInArena: 1
+  isBossPart: 0
+  trophyThreshold: 0
+  partManagerSO: {fileID: 0}
+  stats:
+    power: 3
+    resistance: 0.2
+    turning: 0
+    damagePerHitRatio: 1
+  upgradePath:
+    attackUpgradeSteps: 20000000
+    hpUpgradeSteps: 00000000
+  references:
+    version: 2
+    RefIds:
+    - rid: 205144154655686658
+      type: {class: PBMonoPrefabItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        partModelPrefab: {fileID: 7963884659571582811, guid: 67e4db8b6cdda4fc29e8256ca8fa85bb,
+          type: 3}
+    - rid: 4829460399152955400
+      type: {class: MonoImageItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        m_ThumbnailTintColor: {r: 1, g: 1, b: 1, a: 1}
+        m_ThumbnailImage: {fileID: 21300000, guid: 85f5fe56e5687453db4e5156f0ea97a5,
+          type: 3}
+    - rid: 4829460399152955401
+      type: {class: SkinItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        m_Skins:
+        - {fileID: 3061371485689410569, guid: 691acc7ac336a481dbc88f92ddc86799, type: 2}

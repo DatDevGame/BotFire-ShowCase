@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f2a1fa8494104ca3a5ca3af8e1d0233, type: 3}
+  m_Name: ActiveSkillSO_HexShield
+  m_EditorClassIdentifier: 
+  m_guid: 29bdfccb8849444ed8a797ef6636701e
+  m_ItemModules:
+  - rid: 7175535547394818049
+  - rid: 7175535547394818048
+  - rid: 7175535547394818050
+  - rid: 6503596113557979140
+  m_FoundInArena: 1
+  m_Cooldown: 15
+  m_SkillBlockingEffectStatuses: 0
+  m_DrawGizmos: 0
+  m_InvincibleDuration: 3
+  m_AirborneEffectDuration: 2
+  m_DamageExplosionForce: 55
+  m_DamageExplosionRadius: 6
+  m_ExplosionForceUpwardsModifier: 2
+  m_DamagePercentage: 0.05
+  m_OverrideShieldConfigDictionary:
+    m_Keys:
+    - {fileID: 11400000, guid: f8f760eaaf90142c987a4b498b070bd3, type: 2}
+    - {fileID: 11400000, guid: d81891766356d4f339c6091206967187, type: 2}
+    - {fileID: 11400000, guid: c343669af7a3f4cdb8b58fc483243c00, type: 2}
+    - {fileID: 11400000, guid: 662d152247afb4c38a073c36900e1b81, type: 2}
+    - {fileID: 11400000, guid: 71ae7e860029c4618910c6205c807161, type: 2}
+    - {fileID: 11400000, guid: 9b0987a748b9c4d7496e4a01271e4e37, type: 2}
+    - {fileID: 11400000, guid: 9bcd1cd630f7a4e6c97f403196640e24, type: 2}
+    m_Values:
+    - m_Radius: 3.684857
+      m_Offset: {x: 0, y: -0.7, z: -0.15}
+    - m_Radius: 3.75
+      m_Offset: {x: 0, y: -0.6, z: -0.05}
+    - m_Radius: 3.625
+      m_Offset: {x: 0, y: -0.3, z: 0.085}
+    - m_Radius: 3.9
+      m_Offset: {x: 0, y: -1.25, z: 0}
+    - m_Radius: 4.05
+      m_Offset: {x: 0, y: -0.3, z: 0}
+    - m_Radius: 4.05
+      m_Offset: {x: 0, y: -0.2, z: 0}
+    - m_Radius: 4.5
+      m_Offset: {x: 0, y: -0.65, z: 0}
+    m_KeyTemp: {fileID: 0}
+    m_ValueTemp:
+      m_Radius: 0
+      m_Offset: {x: 0, y: 0, z: 0}
+  m_EnergyShieldPrefab: {fileID: 7734542906491863669, guid: 822d3d9bbba1d6949a5560115b3db23a,
+    type: 3}
+  references:
+    version: 2
+    RefIds:
+    - rid: 6503596113557979140
+      type: {class: CardItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+    - rid: 7175535547394818048
+      type: {class: MonoImageItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        m_ThumbnailTintColor: {r: 1, g: 1, b: 1, a: 1}
+        m_ThumbnailImage: {fileID: 21300000, guid: e37a0c258759143648689a616aed2bd4,
+          type: 3}
+    - rid: 7175535547394818049
+      type: {class: NameItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        m_DisplayName: HEX SHIELD
+    - rid: 7175535547394818050
+      type: {class: DescriptionItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        description: '<font="LilitaOne-Regular SDF"><color=#FFFFFF>Activates</font></color>
+          a shield <font="LilitaOne-Regular SDF"><color=#FFFFFF>that makes the robot</font></color>
+          invincible for 3 seconds.<font="LilitaOne-Regular SDF"><color=#FFFFFF>
+          When it ends, the shield</font></color> explodes<font="LilitaOne-Regular
+          SDF"><color=#FFFFFF>, dealing damage equal to</font></color> 5% <font="LilitaOne-Regular
+          SDF"><color=#FFFFFF>of your robot''s Max HP, and knocks them back.<br>Cooldown:
+          15s</font></color>'

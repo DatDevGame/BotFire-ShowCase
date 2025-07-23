@@ -1,0 +1,127 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac2cfaa096cd0453ea26431e2187aec0, type: 3}
+  m_Name: PB_GachaPack_Arena4_Grand
+  m_EditorClassIdentifier: 
+  m_guid: b1a263e6720bd473dbb146f3f56876d1
+  m_ItemModules:
+  - rid: 3433708914259787776
+  - rid: 5804264792849645640
+  cardTemplates: {fileID: 11400000, guid: ed34b935866cd4faab29982d577e95bb, type: 2}
+  packPrefab: {fileID: 7278000149184524270, guid: cfbd69ad087c14f5fb873281bccb9f9e,
+    type: 3}
+  totalCardsCount: 21
+  unlockedDuration: 14400
+  guaranteedCardsCountList:
+  - rarity: 3
+    count: 4
+  - rarity: 4
+    count: 2
+  foundInArena: 4
+  DownRatio: 0.2
+  noBoosterProb: 1
+  minBoosterCardsCount: 1
+  maxBoosterCardsCount: 1
+  boosterCardRngInfos:
+  - boosterType: 0
+    probability: 0.5
+  - boosterType: 1
+    probability: 0.5
+  moneyCardRngInfos:
+  - min: 1100
+    max: 1900
+    probability: 1
+  gemCardRngInfos:
+  - min: 9
+    max: 16
+    probability: 1
+  gearCardProbability: 1
+  gearCardRngInfos:
+  - rarity: 0
+    probability: 0.57
+  - rarity: 3
+    probability: 0.3
+  - rarity: 4
+    probability: 0.13
+  gearTypeDropRateTables:
+  - dropRates:
+    - GearTypeManagerSO: {fileID: 11400000, guid: 44c38a0814d774a7ca1a4f147a6ca574,
+        type: 2}
+      gearDropRates:
+      - ItemSO: {fileID: 11400000, guid: 23cb2f3508a4846f4b31d0a75fa30e81, type: 2}
+        probability: 0.15
+      - ItemSO: {fileID: 11400000, guid: 336f70b5b03b14c7eafdea135b68b3bb, type: 2}
+        probability: 0.15
+      - ItemSO: {fileID: 11400000, guid: a5c5866f084bf4eeaa12d19a97a7cf06, type: 2}
+        probability: 0.15
+      - ItemSO: {fileID: 11400000, guid: e165cb1d2bc574108b49ea60c815112d, type: 2}
+        probability: 0.15
+    - GearTypeManagerSO: {fileID: 11400000, guid: 9cfb228aea31a4161ac9f6b480e2fe3b,
+        type: 2}
+      gearDropRates:
+      - ItemSO: {fileID: 11400000, guid: 9a4329937452d4205bc288bdb0a7d4c4, type: 2}
+        probability: 0.175
+      - ItemSO: {fileID: 11400000, guid: 9c870211a2de1404683b52cb25f9f30b, type: 2}
+        probability: 0.175
+      - ItemSO: {fileID: 11400000, guid: f90f5f4391f234f7789f91ee5aec09e6, type: 2}
+        probability: 0.175
+      - ItemSO: {fileID: 11400000, guid: 8e4a9b0633dfc48908fde214fad3d0e9, type: 2}
+        probability: 0.175
+      - ItemSO: {fileID: 11400000, guid: 50ef4f81d90524115aa2c6b05675fe8d, type: 2}
+        probability: 0.235
+      - ItemSO: {fileID: 11400000, guid: f7838f9c213db442f8cc04ecde75a0d0, type: 2}
+        probability: 0.235
+      - ItemSO: {fileID: 11400000, guid: 15746e410fc094fc69615523b9303973, type: 2}
+        probability: 0.23
+  characterCardProbability: 0
+  characterCardRngInfos:
+  - rarity: 0
+    probability: 0
+  - rarity: 3
+    probability: 0
+  - rarity: 4
+    probability: 0
+  characterDropRateTables: []
+  maxCardToSplitGroup: 4
+  splitGroupRandomRange:
+    m_MinValue: 2
+    m_MaxValue: 3
+  miniThumbnailImage: {fileID: 21300000, guid: ce7185f56b6f844e3bc25e57bc678228, type: 3}
+  activeSkillCardProbability: 0
+  activeSkillManagerSO: {fileID: 11400000, guid: bbb941eca63784b14ab2d7b38309c884,
+    type: 2}
+  activeSkillCardQuantityDropRates:
+  - cardQuantity: 1
+    probability: 0.85
+  - cardQuantity: 2
+    probability: 0.1
+  - cardQuantity: 3
+    probability: 0.05
+  requiredTrophiesToUnlockActiveSkillVar: {fileID: 11400000, guid: 72996eed83b6e4630a3d51575394fe23,
+    type: 2}
+  highestAchievedTrophiesVar: {fileID: 11400000, guid: 9cfa980f122ac4eb09f4cc6bc2909efc,
+    type: 2}
+  references:
+    version: 2
+    RefIds:
+    - rid: 3433708914259787776
+      type: {class: MonoImageItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        m_ThumbnailTintColor: {r: 1, g: 1, b: 1, a: 1}
+        m_ThumbnailImage: {fileID: 21300000, guid: 2fe7b12356b1843b7b75d9d16cd2070d,
+          type: 3}
+    - rid: 5804264792849645640
+      type: {class: NameItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        m_DisplayName: Grand Box - Arena 4

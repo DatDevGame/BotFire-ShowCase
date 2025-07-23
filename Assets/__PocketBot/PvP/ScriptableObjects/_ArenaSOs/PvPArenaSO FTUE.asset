@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2cd99957673d04c59921a9be114f051f, type: 3}
+  m_Name: PvPArenaSO FTUE
+  m_EditorClassIdentifier: 
+  m_guid: e00fc5c7ea9124dfebc58db40682a127
+  m_ItemModules: []
+  m_NumOfRounds: 1
+  m_Tournament: {fileID: 11400000, guid: 9a0426fac9fdf44b2b57ae93c80bcb38, type: 2}
+  m_EntryRequirementTree:
+    rid: -2
+  m_RewardItems:
+  - rid: 5186548133153472516
+  - rid: 3433709077210595329
+  m_Punishments: []
+  m_NormalModeConfig:
+    m_MatchTime: 30
+    m_NumOfContestant: 2
+  m_BattleModeConfig:
+    m_MatchTime: 0
+    m_NumOfContestant: 0
+  m_ChosenModeVariable: {fileID: 11400000, guid: ceca480396a4e4e438561f8df3dddb9c,
+    type: 2}
+  m_ProfileTable_Normal:
+    m_StatsScoreDiffRngInfos:
+    - m_Probability: 1
+      m_RandomRange:
+        m_MinValue: 0.5
+        m_MaxValue: 0.55
+    m_AIProfileRngInfos:
+    - m_Probability: 1
+      m_AIProfile: {fileID: 11400000, guid: 8072be413d31b4132a94ed82e10d12fc, type: 2}
+  m_ProfileTable_PlayerBias:
+    m_StatsScoreDiffRngInfos:
+    - m_Probability: 1
+      m_RandomRange:
+        m_MinValue: 0.5
+        m_MaxValue: 0.55
+    m_AIProfileRngInfos:
+    - m_Probability: 1
+      m_AIProfile: {fileID: 11400000, guid: 8072be413d31b4132a94ed82e10d12fc, type: 2}
+  m_ProfileTable_OpponentBias:
+    m_StatsScoreDiffRngInfos:
+    - m_Probability: 1
+      m_RandomRange:
+        m_MinValue: 0.5
+        m_MaxValue: 0.55
+    m_AIProfileRngInfos:
+    - m_Probability: 1
+      m_AIProfile: {fileID: 11400000, guid: 8072be413d31b4132a94ed82e10d12fc, type: 2}
+  CurrentTierIndex: {fileID: 0}
+  NumOfHardCodedMatches: 6
+  references:
+    version: 2
+    RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }
+    - rid: 3433709077210595329
+      type: {class: CurrencyRewardModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 0}
+        CurrencyType: 0
+        amount: 100
+    - rid: 5186548133153472516
+      type: {class: CurrencyRewardModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 0}
+        CurrencyType: 2
+        amount: 10

@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 141f515286fc04ff8845b62ff5d3dc70, type: 3}
+  m_Name: BoosterConfigSO
+  m_EditorClassIdentifier: 
+  showBoosterTextDuration: 1
+  boosterModelMovingSpeed: 0.5
+  boosterModelRotationSpeed: 50
+  boosterModelMovingRange: {x: 0, y: 0.3, z: 0}
+  boosters:
+  - boosterType: 1
+    boostPercent: 0.5
+    boosterDesc: +{value}% HP
+    boosterDescDecrease: 
+    duration: 1000
+  - boosterType: 0
+    boostPercent: 0.2
+    boosterDesc: +{value}% ATK
+    boosterDescDecrease: 
+    duration: 1000
+  - boosterType: 2
+    boostPercent: 0.25
+    boosterDesc: +{value}% SPEED
+    boosterDescDecrease: 
+    duration: 10
+  - boosterType: 50
+    boostPercent: 0.5
+    boosterDesc: +{value}% SIZE
+    boosterDescDecrease: 
+    duration: 1000
+  - boosterType: 3
+    boostPercent: 0.2
+    boosterDesc: +{value}% ATTACK SPEED
+    boosterDescDecrease: 
+    duration: 1000

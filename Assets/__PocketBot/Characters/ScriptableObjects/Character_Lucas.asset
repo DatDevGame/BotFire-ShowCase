@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 882d176355b87dd498749e852c591383, type: 3}
+  m_Name: Character_Lucas
+  m_EditorClassIdentifier: 
+  m_guid: c69288aa28987784c80d5f4be0ac1712
+  m_ItemModules:
+  - rid: 3348843493126569987
+  - rid: 3348843493126569990
+  - rid: 3348843493126569993
+  - rid: 3348843560963932171
+  - rid: 3348843744703807489
+  - rid: 1724944765591224322
+  - rid: 1724945319604781061
+  m_Key: 4_CharacterSO_c69288aa28987784c80d5f4be0ac1712
+  IsFakeLock: 0
+  EmojiSpites:
+    m_Keys: 01000000020000000300000004000000
+    m_Values:
+    - {fileID: 21300000, guid: a42548a13d06049ec8f45d55f1220868, type: 3}
+    - {fileID: 21300000, guid: 8e4f5d82188db4efba93bb01559802de, type: 3}
+    - {fileID: 21300000, guid: 2cd457468219c4891a950e8f5668cb95, type: 3}
+    - {fileID: 21300000, guid: 8d623f9cd7d45427297d61308175f081, type: 3}
+    m_KeyTemp: 0
+    m_ValueTemp: {fileID: 0}
+  references:
+    version: 2
+    RefIds:
+    - rid: 1724944765591224322
+      type: {class: DescriptionItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        description: Lucas brings a lighthearted energy to every battle, always finding
+          joy in the competition.
+    - rid: 1724945243166474241
+      type: {class: Requirement_RewardedAd, ns: , asm: Assembly-CSharp}
+      data:
+        m_RequiredRewardedAd: 1
+        m_ItemSO: {fileID: 11400000}
+    - rid: 1724945319604781061
+      type: {class: NewItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        m_DefaultIsNew: 0
+    - rid: 3348843493126569987
+      type: {class: NameItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        m_DisplayName: Lucas
+    - rid: 3348843493126569990
+      type: {class: MonoImageItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        m_ThumbnailTintColor: {r: 1, g: 1, b: 1, a: 1}
+        m_ThumbnailImage: {fileID: 21300000, guid: 1db78b0c2211e467bafe7efacd2ba739,
+          type: 3}
+    - rid: 3348843493126569993
+      type: {class: UnlockableItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        m_DefaultIsUnlocked: 0
+        m_UnlockRequirementTree:
+          rid: 1724945243166474241
+    - rid: 3348843560963932171
+      type: {class: GameObjectModelPrefabItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        m_ModelPrefab: {fileID: 6193078332918769582, guid: 85bf7e18410485549b6acae83b72470c,
+          type: 3}
+    - rid: 3348843744703807489
+      type: {class: CharacterModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        gender: Male
+        age: 28
+        height: 1.7

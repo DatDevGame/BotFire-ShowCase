@@ -1,0 +1,370 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8539525867167300834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9b39e4b8c5284c8ab3f9c61fdf3c995, type: 3}
+  m_Name: Skin_2
+  m_EditorClassIdentifier: 
+  m_guid: d81891766356d4f339c6091206967187_f7ab16d6-20ea-4a07-9841-0415f01da827
+  m_ItemModules:
+  - rid: 7885546118249971717
+  - rid: 2750244005853528651
+  m_Probability: 0.2
+  m_PartSO: {fileID: 11400000}
+  m_SkinMaterialReferences:
+  - m_AssetGUID: c364f17667319410c934c4b01280bc6a
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  - m_AssetGUID: 84bda7c2aab03cd48aab307d1ce99ffd
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  references:
+    version: 2
+    RefIds:
+    - rid: 2750244005853528651
+      type: {class: SkinUnlockableItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: -8539525867167300834}
+        m_DefaultIsUnlocked: 0
+        m_UnlockRequirementTree:
+          rid: 2750244005853528652
+    - rid: 2750244005853528652
+      type: {class: Requirement_RewardedAd, ns: , asm: Assembly-CSharp}
+      data:
+        m_RequiredRewardedAd: 1
+        m_ItemSO: {fileID: -8539525867167300834}
+    - rid: 7885546118249971717
+      type: {class: MonoImageItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: -8539525867167300834}
+        m_ThumbnailTintColor: {r: 1, g: 1, b: 1, a: 1}
+        m_ThumbnailImage: {fileID: 21300000, guid: 31af875e466e54c11b716d264c615686,
+          type: 3}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e746971daec24a02853d4a21a9a2809, type: 3}
+  m_Name: Body_CH112_A3
+  m_EditorClassIdentifier: 
+  m_guid: d81891766356d4f339c6091206967187
+  m_ItemModules:
+  - rid: 205144154655686660
+  - rid: 205144154655686661
+  - rid: 205144154655686663
+  - rid: 205144154655686662
+  - rid: 7395805642454728707
+  - rid: 7395805665275412483
+  - rid: 5186548220885729283
+  - rid: 7395805734551420931
+  - rid: 3433709077210595333
+  - rid: 4829460213899984953
+  m_FoundInArena: 4
+  isBossPart: 0
+  trophyThreshold: 1530
+  partManagerSO: {fileID: 11400000, guid: 44c38a0814d774a7ca1a4f147a6ca574, type: 2}
+  stats:
+    power: 25
+    resistance: 0
+    turning: 45
+    damagePerHitRatio: 0
+  upgradePath:
+    attackUpgradeSteps: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+    hpUpgradeSteps: f90000002b01000067010000af010000060200006e020000ea0200007f0300003204000009050000
+  isTransformBot: 0
+  transformBotID: 0
+  speed: 1.4
+  mass: 198
+  steeringSpeed: 45
+  slots:
+  - PartSlotType: 1
+    PartVariableSO: {fileID: 11400000, guid: 26e8d11e091d2412799e6399cedf37a7, type: 2}
+  - PartSlotType: 3
+    PartVariableSO: {fileID: 11400000, guid: 0d38ba17baa5c4ef581de90ad13a0bf4, type: 2}
+  - PartSlotType: 4
+    PartVariableSO: {fileID: 11400000, guid: db5fbd951a7204719b6af50822e84841, type: 2}
+  - PartSlotType: 5
+    PartVariableSO: {fileID: 11400000, guid: fa1c43e9c2a5a4fe885f276e1d734d22, type: 2}
+  attachedWheels:
+  - {fileID: 11400000, guid: b38da9cd808aa4590abe78247e0fb9ad, type: 2}
+  IsSpecial: 0
+  IsIgnoreClaimRV: 0
+  FoundInName: 
+  SpecialPreviewChassisPrefab: {fileID: 0}
+  CurrentInUse: {fileID: 0}
+  references:
+    version: 2
+    RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }
+    - rid: 205144154655686660
+      type: {class: NameItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        m_DisplayName: Tanking III
+    - rid: 205144154655686661
+      type: {class: MonoImageItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        m_ThumbnailTintColor: {r: 1, g: 1, b: 1, a: 1}
+        m_ThumbnailImage: {fileID: 21300000, guid: 862812b7c22414616828b8e07421bfae,
+          type: 3}
+    - rid: 205144154655686662
+      type: {class: RarityItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        m_RarityType: 4
+    - rid: 205144154655686663
+      type: {class: PBMonoPrefabItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        partModelPrefab: {fileID: 3956547627159142469, guid: 6dc869385d7cb4f7f98c4530b4e7776c,
+          type: 3}
+    - rid: 3433709077210595333
+      type: {class: DescriptionItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        description: 'A tough and unbreakable body.
+
+          Slots: 1 upper, 1
+          front'
+    - rid: 4829460213899984953
+      type: {class: SkinItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        m_Skins:
+        - {fileID: 4667070425424717361}
+        - {fileID: 7835602221379824176}
+        - {fileID: -8539525867167300834}
+        - {fileID: 1242738652397219025}
+        - {fileID: 7866027503049375977}
+    - rid: 5186548220885729283
+      type: {class: UnlockableItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        m_DefaultIsUnlocked: 0
+        m_UnlockRequirementTree:
+          rid: -2
+    - rid: 7395805642454728707
+      type: {class: PBUpgradableItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        m_UpgradeRequirementData:
+          m_RequiredNumOfCardsLevels: 00000000020000000400000006000000080000000a0000000c0000000e0000001000000012000000
+          m_RequiredAmountOfCurrencyLevels:
+          - 0
+          - 700
+          - 2800
+          - 11200
+          - 44800
+          - 179200
+          - 716800
+          - 2867200
+          - 11468800
+          - 45875200
+    - rid: 7395805665275412483
+      type: {class: CardItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+    - rid: 7395805734551420931
+      type: {class: NewItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        m_DefaultIsNew: 0
+--- !u!114 &1242738652397219025
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9b39e4b8c5284c8ab3f9c61fdf3c995, type: 3}
+  m_Name: Skin_3
+  m_EditorClassIdentifier: 
+  m_guid: d81891766356d4f339c6091206967187_e58fa106-a10e-49f6-9632-5f8315f21617
+  m_ItemModules:
+  - rid: 7885546118249971718
+  - rid: 2750244005853528653
+  m_Probability: 0.2
+  m_PartSO: {fileID: 11400000}
+  m_SkinMaterialReferences:
+  - m_AssetGUID: eb5d4bd53660949fdb7eeb53c8f20c95
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  - m_AssetGUID: 84bda7c2aab03cd48aab307d1ce99ffd
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  references:
+    version: 2
+    RefIds:
+    - rid: 2750244005853528653
+      type: {class: SkinUnlockableItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 1242738652397219025}
+        m_DefaultIsUnlocked: 0
+        m_UnlockRequirementTree:
+          rid: 2750244005853528654
+    - rid: 2750244005853528654
+      type: {class: Requirement_RewardedAd, ns: , asm: Assembly-CSharp}
+      data:
+        m_RequiredRewardedAd: 2
+        m_ItemSO: {fileID: 1242738652397219025}
+    - rid: 7885546118249971718
+      type: {class: MonoImageItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 1242738652397219025}
+        m_ThumbnailTintColor: {r: 1, g: 1, b: 1, a: 1}
+        m_ThumbnailImage: {fileID: 21300000, guid: 9b4507dcd28f84edca717ad36f0106ef,
+          type: 3}
+--- !u!114 &4667070425424717361
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9b39e4b8c5284c8ab3f9c61fdf3c995, type: 3}
+  m_Name: Skin_0
+  m_EditorClassIdentifier: 
+  m_guid: d81891766356d4f339c6091206967187_5025f325-b780-46b6-8b36-d06310469c65
+  m_ItemModules:
+  - rid: 7885546118249971719
+  m_Probability: 0.2
+  m_PartSO: {fileID: 11400000}
+  m_SkinMaterialReferences:
+  - m_AssetGUID: c89a278f80a9b43e69c5c3125091e5b9
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  - m_AssetGUID: 84bda7c2aab03cd48aab307d1ce99ffd
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  references:
+    version: 2
+    RefIds:
+    - rid: 7885546118249971719
+      type: {class: MonoImageItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 4667070425424717361}
+        m_ThumbnailTintColor: {r: 1, g: 1, b: 1, a: 1}
+        m_ThumbnailImage: {fileID: 21300000, guid: 862812b7c22414616828b8e07421bfae,
+          type: 3}
+--- !u!114 &7835602221379824176
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9b39e4b8c5284c8ab3f9c61fdf3c995, type: 3}
+  m_Name: Skin_1
+  m_EditorClassIdentifier: 
+  m_guid: d81891766356d4f339c6091206967187_dc490337-7e73-4e0a-9822-6a3dc2ff1717
+  m_ItemModules:
+  - rid: 7885546118249971720
+  - rid: 2750244005853528649
+  m_Probability: 0.2
+  m_PartSO: {fileID: 11400000}
+  m_SkinMaterialReferences:
+  - m_AssetGUID: 2f8d2f7d47f6644209d57af5e7d8a629
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  - m_AssetGUID: 84bda7c2aab03cd48aab307d1ce99ffd
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  references:
+    version: 2
+    RefIds:
+    - rid: 2750244005853528649
+      type: {class: SkinUnlockableItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 7835602221379824176}
+        m_DefaultIsUnlocked: 0
+        m_UnlockRequirementTree:
+          rid: 2750244005853528650
+    - rid: 2750244005853528650
+      type: {class: Requirement_RewardedAd, ns: , asm: Assembly-CSharp}
+      data:
+        m_RequiredRewardedAd: 2
+        m_ItemSO: {fileID: 7835602221379824176}
+    - rid: 7885546118249971720
+      type: {class: MonoImageItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 7835602221379824176}
+        m_ThumbnailTintColor: {r: 1, g: 1, b: 1, a: 1}
+        m_ThumbnailImage: {fileID: 21300000, guid: 9ae938dd95a0d4e65bed2ffd198be098,
+          type: 3}
+--- !u!114 &7866027503049375977
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9b39e4b8c5284c8ab3f9c61fdf3c995, type: 3}
+  m_Name: Skin_4
+  m_EditorClassIdentifier: 
+  m_guid: d81891766356d4f339c6091206967187_d2cd7aa2-01f2-422b-bf26-5c7fb1316487
+  m_ItemModules:
+  - rid: 7885546118249971721
+  - rid: 2750244005853528655
+  m_Probability: 0.2
+  m_PartSO: {fileID: 11400000}
+  m_SkinMaterialReferences:
+  - m_AssetGUID: 6ae4a5e331aef484484a693c5d44f238
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  - m_AssetGUID: 84bda7c2aab03cd48aab307d1ce99ffd
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  references:
+    version: 2
+    RefIds:
+    - rid: 2750244005853528655
+      type: {class: SkinUnlockableItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 7866027503049375977}
+        m_DefaultIsUnlocked: 0
+        m_UnlockRequirementTree:
+          rid: 2750244005853528656
+    - rid: 2750244005853528656
+      type: {class: Requirement_RewardedAd, ns: , asm: Assembly-CSharp}
+      data:
+        m_RequiredRewardedAd: 1
+        m_ItemSO: {fileID: 7866027503049375977}
+    - rid: 7885546118249971721
+      type: {class: MonoImageItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 7866027503049375977}
+        m_ThumbnailTintColor: {r: 1, g: 1, b: 1, a: 1}
+        m_ThumbnailImage: {fileID: 21300000, guid: 6e9f78c0459ed4444822685255827670,
+          type: 3}

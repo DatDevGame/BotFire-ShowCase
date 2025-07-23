@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e746971daec24a02853d4a21a9a2809, type: 3}
+  m_Name: EnemyBodyTestPhysics
+  m_EditorClassIdentifier: 
+  m_guid: 16a598779677a4f358ac59ea01238c74
+  m_ItemModules:
+  - rid: 205144154655686660
+  - rid: 205144154655686661
+  - rid: 205144154655686663
+  - rid: 205144154655686662
+  - rid: 7395805642454728706
+  - rid: 7395805665275412482
+  - rid: 5186548220885729282
+  - rid: 7395805734551420930
+  m_FoundInArena: 2
+  isBossPart: 0
+  trophyThreshold: 0
+  partManagerSO: {fileID: 0}
+  stats:
+    power: 8
+    resistance: 0
+    turning: 120
+    damagePerHitRatio: 0
+  upgradePath:
+    attackUpgradeSteps: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+    hpUpgradeSteps: 88130000881300008813000088130000881300008813000088130000881300008813000088130000
+  speed: 0
+  mass: 100
+  slots:
+  - PartSlotType: 4
+    PartVariableSO: {fileID: 11400000, guid: 64d5003b358c040979d6b6afdbda954d, type: 2}
+  - PartSlotType: 3
+    PartVariableSO: {fileID: 11400000, guid: 9e028a79cbf7e40cc802843efc9066b9, type: 2}
+  - PartSlotType: 1
+    PartVariableSO: {fileID: 11400000, guid: be4a3a4081685400faf95a818f16970f, type: 2}
+  attachedWheels:
+  - {fileID: 11400000, guid: d30d0ee838a744a848b73d4eb00f5338, type: 2}
+  IsSpecial: 0
+  IsIgnoreClaimRV: 0
+  FoundInName: 
+  SpecialPreviewChassisPrefab: {fileID: 0}
+  CurrentInUse: {fileID: 0}
+  references:
+    version: 2
+    RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }
+    - rid: 205144154655686660
+      type: {class: NameItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        m_DisplayName: Triver
+    - rid: 205144154655686661
+      type: {class: MonoImageItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        m_ThumbnailTintColor: {r: 1, g: 1, b: 1, a: 1}
+        m_ThumbnailImage: {fileID: 21300000, guid: b1d08fe1c0af3441fa3370aca5ff326c,
+          type: 3}
+    - rid: 205144154655686662
+      type: {class: RarityItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        m_RarityType: 3
+    - rid: 205144154655686663
+      type: {class: PBMonoPrefabItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        partModelPrefab: {fileID: 5821689321899556043, guid: 75e30927b0b1e4086b60122e00f529e9,
+          type: 3}
+    - rid: 5186548220885729282
+      type: {class: UnlockableItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        m_DefaultIsUnlocked: 0
+        m_UnlockRequirementTree:
+          rid: -2
+    - rid: 7395805642454728706
+      type: {class: PBUpgradableItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        m_UpgradeRequirementData:
+          m_RequiredNumOfCardsLevels: 0000000002000000020000000a000000140000001e00000032000000460000008c0000008c000000
+          m_RequiredAmountOfCurrencyLevels:
+          - 0
+          - 500
+          - 500
+          - 1500
+          - 2250
+          - 3000
+          - 6000
+          - 9000
+          - 15000
+          - 15000
+    - rid: 7395805665275412482
+      type: {class: CardItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+    - rid: 7395805734551420930
+      type: {class: NewItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        m_DefaultIsNew: 0

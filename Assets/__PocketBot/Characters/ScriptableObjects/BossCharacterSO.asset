@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 882d176355b87dd498749e852c591383, type: 3}
+  m_Name: BossCharacterSO
+  m_EditorClassIdentifier: 
+  m_guid: 35ae6dc3963039d40a696eea74d7b7a7
+  m_ItemModules:
+  - rid: 3348843589799247872
+  - rid: 3348843589799247876
+  - rid: 3348843589799247874
+  - rid: 3348843589799247878
+  - rid: 3348843744703807490
+  - rid: 1724944765591224323
+  - rid: 1724945319604781062
+  m_Key: 6_CharacterSO_35ae6dc3963039d40a696eea74d7b7a7
+  IsFakeLock: 0
+  EmojiSpites:
+    m_Keys: 
+    m_Values: []
+    m_KeyTemp: 0
+    m_ValueTemp: {fileID: 0}
+  references:
+    version: 2
+    RefIds:
+    - rid: 1724944765591224323
+      type: {class: DescriptionItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        description: 6
+    - rid: 1724945319604781062
+      type: {class: NewItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        m_DefaultIsNew: 0
+    - rid: 3348843589799247872
+      type: {class: NameItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        m_DisplayName: Adam6
+    - rid: 3348843589799247874
+      type: {class: UnlockableItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        m_DefaultIsUnlocked: 0
+        m_UnlockRequirementTree:
+          rid: 3348843589799247881
+    - rid: 3348843589799247876
+      type: {class: MonoImageItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        m_ThumbnailTintColor: {r: 1, g: 1, b: 1, a: 1}
+        m_ThumbnailImage: {fileID: 21300000, guid: 90b994467b0a84fdc813f19f4d476f0b,
+          type: 3}
+    - rid: 3348843589799247878
+      type: {class: GameObjectModelPrefabItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        m_ModelPrefab: {fileID: 103913881407194634, guid: d606798a95177fc44b39232286c105a1,
+          type: 3}
+    - rid: 3348843589799247881
+      type: {class: Requirement_Currency, ns: , asm: Assembly-CSharp}
+      data:
+        m_RequiredAmountOfCurrency: 20
+        m_CurrencyType: 1
+    - rid: 3348843744703807490
+      type: {class: CharacterModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        gender: hello6
+        age: 32
+        height: 1.75

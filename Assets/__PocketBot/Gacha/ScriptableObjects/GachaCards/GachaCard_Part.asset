@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e05ada14347514c7b9c31af5d801c4a6, type: 3}
+  m_Name: GachaCard_Part
+  m_EditorClassIdentifier: 
+  m_guid: 20f39f0e1df1f498491c64615e9af7b6
+  m_ItemModules:
+  - rid: 3433708914259787779
+  - rid: 3433708914259787780
+  - rid: 3433708914259787781
+  references:
+    version: 2
+    RefIds:
+    - rid: 3433708914259787779
+      type: {class: MonoImageItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        m_ThumbnailTintColor: {r: 1, g: 1, b: 1, a: 1}
+        m_ThumbnailImage: {fileID: 0}
+    - rid: 3433708914259787780
+      type: {class: GachaItemCardRewardModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        gachaItemSO: {fileID: 0}
+    - rid: 3433708914259787781
+      type: {class: RarityItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        m_RarityType: 0

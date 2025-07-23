@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9986a2d0a2e72447dab89a4557c22f97, type: 3}
+  m_Name: RangeRPSCalc
+  m_EditorClassIdentifier: 
+  m_InitialValue: 0
+  m_Key: RangeRPSCalc_3cb7b87bb557643e29a9af50839421b1
+  Representation: (-0.15,0.15) = 0| [0.15,0.333) = 1| [0.333,0.53) = 2| [0.53, 0.75)
+    = 3| [0.75,1) = 4| [1, 1.285) = 5| [1.285,100) = 6| (-0.333,-0.15] = -1| (-0.53,-0.33]
+    = -2| (-0.75,-0.53] = -3| (-1, -0.75] = -4| (-1.285, -1] = -5| (-100,-1.285]
+    = -6|
+  rangeRPSValues:
+  - MinValue: -0.14
+    MaxValue: 0.14
+    Result: 0
+  - MinValue: 0.15
+    MaxValue: 0.323
+    Result: 1
+  - MinValue: 0.333
+    MaxValue: 0.52
+    Result: 2
+  - MinValue: 0.53
+    MaxValue: 0.74
+    Result: 3
+  - MinValue: 0.75
+    MaxValue: 0.99
+    Result: 4
+  - MinValue: 1
+    MaxValue: 1.275
+    Result: 5
+  - MinValue: 1.285
+    MaxValue: 99.99
+    Result: 6
+  - MinValue: -0.323
+    MaxValue: -0.15
+    Result: -1
+  - MinValue: -0.52
+    MaxValue: -0.33
+    Result: -2
+  - MinValue: -0.74
+    MaxValue: -0.53
+    Result: -3
+  - MinValue: -0.99
+    MaxValue: -0.75
+    Result: -4
+  - MinValue: -1.275
+    MaxValue: -1
+    Result: -5
+  - MinValue: -99.99
+    MaxValue: -1.285
+    Result: -6

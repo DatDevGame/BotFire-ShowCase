@@ -1,0 +1,903 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e9da85e36961431a936008f85e91be3, type: 3}
+  m_Name: PB_Sound_Library_SO
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 8300000, guid: 8ddb95d34f214496cab5ae05d4ae965f, type: 3}
+    - {fileID: 8300000, guid: aa0d07fe5e7bd4836ba574013ecae1fc, type: 3}
+    - {fileID: 8300000, guid: afdc723e0368a49988770a65962f5bc7, type: 3}
+    - {fileID: 8300000, guid: 0fdfd6beff84a473cbeffbc0565922bf, type: 3}
+    - {fileID: 8300000, guid: d539a10ea79da4aac96b70341d7c6aa5, type: 3}
+    - {fileID: 8300000, guid: cda830aedb15949e4a4c696fb9da605e, type: 3}
+    - {fileID: 8300000, guid: 5a32f6865cb5b49f88793595893e3dbd, type: 3}
+    - {fileID: 8300000, guid: 58a5834b6010f4d718ff61c84f81a70b, type: 3}
+    - {fileID: 8300000, guid: 9df7e057474ae4f158f265d763d51826, type: 3}
+    - {fileID: 8300000, guid: fc3193bc5eece4fa9a7f9be4e407e6cf, type: 3}
+    - {fileID: 8300000, guid: d1ce79126337b4c3f891fff737e34335, type: 3}
+    - {fileID: 8300000, guid: 0ab6dcee32a96405693612f7759e103f, type: 3}
+    - {fileID: 8300000, guid: 6d669fb7d4d7d453290d44337fa85be6, type: 3}
+    - {fileID: 8300000, guid: 293b34f3441f643f7a98a74c799ff4bc, type: 3}
+    - {fileID: 8300000, guid: 7438ec37d717e44309be45b7e1c0b4f3, type: 3}
+    - {fileID: 8300000, guid: b08d81cfc098848829fb6fa995c6bd33, type: 3}
+    - {fileID: 8300000, guid: a2f541d3d81e74ba297c066d83acc57a, type: 3}
+    - {fileID: 8300000, guid: 5128df2b7bf8945a6bc616b494e62a87, type: 3}
+    - {fileID: 8300000, guid: 80abd992773b14e8dba994a9d9fd686d, type: 3}
+    - {fileID: 8300000, guid: cc96c0437c98b4cb79bf314a07c7cad7, type: 3}
+    - {fileID: 8300000, guid: 31a309282bd224e1f8ea476ec09387b7, type: 3}
+    - {fileID: 8300000, guid: 3e06c45e3372dd345b50a642fe86616d, type: 3}
+    - {fileID: 8300000, guid: 92d3259b6a9732e4ba3fb95331b2c95d, type: 3}
+    - {fileID: 8300000, guid: f7863d14a72694b27b15e6fd2d477e69, type: 3}
+    - {fileID: 8300000, guid: 00d99171be7e447459aa21f2d3825499, type: 3}
+    - {fileID: 8300000, guid: 7461ec299d4244bd5b054b2ccf29ead4, type: 3}
+    - {fileID: 8300000, guid: 8fbd9f1f5e7cf4e2a94d8a350caf3dc6, type: 3}
+    - {fileID: 8300000, guid: 7b41fe322c120486eb44190172598240, type: 3}
+    - {fileID: 8300000, guid: 650bd35d721e84d1ba120094db5b4a81, type: 3}
+    - {fileID: 8300000, guid: 9746be142689943558ff4b6eaf77cff2, type: 3}
+    - {fileID: 8300000, guid: cadc982635784470f8065a461b7ec994, type: 3}
+    - {fileID: 8300000, guid: ec362527ad4504e6b8f0e811f9b6e829, type: 3}
+    - {fileID: 8300000, guid: 7155e0af0bc9b4f378771b48213af2c4, type: 3}
+    - {fileID: 8300000, guid: b990d66d637134abb8161375842f211a, type: 3}
+    - {fileID: 8300000, guid: d718162554a5d4d3ea7f9acc8c5689e8, type: 3}
+    - {fileID: 8300000, guid: cb3c6354bdc094812856de4f78592f76, type: 3}
+    - {fileID: 8300000, guid: d9ef8385c656f4962ae1c1700c34330b, type: 3}
+    - {fileID: 8300000, guid: c55b95a43f8184ecf985475202c8e828, type: 3}
+    - {fileID: 8300000, guid: f4b3da58528ad40e7947bd3e322d6433, type: 3}
+    - {fileID: 8300000, guid: b5ff0c6fda9c14bb9a5c4ad3ad876395, type: 3}
+    - {fileID: 8300000, guid: 66375aed20e174e13ba9f84b09ea675c, type: 3}
+    - {fileID: 8300000, guid: 4e6b766ccf4e445ae941d8a9b52079b7, type: 3}
+    - {fileID: 8300000, guid: 2485554ccb4ca4f528f74a5b59063259, type: 3}
+    - {fileID: 8300000, guid: ef6c3b7d67a46470d8cf161f3a245e2a, type: 3}
+    - {fileID: 8300000, guid: f027b08b5a03e45359b857f37a840e6f, type: 3}
+    - {fileID: 8300000, guid: d69276c79aebc4066874c1c9cae340da, type: 3}
+    - {fileID: 8300000, guid: 5aa0b3a9f412c9a409cc9f302c1ef77c, type: 3}
+    - {fileID: 8300000, guid: d815d308793a58240b7ab96c71d4c7b6, type: 3}
+    - {fileID: 8300000, guid: 2512bec4bbb44f64680f0bc4fbcf1dc5, type: 3}
+    - {fileID: 8300000, guid: 8787639a262bf284888b9ac4ac372312, type: 3}
+    - {fileID: 8300000, guid: b50825ce02ef7ca45b26e304490b0bb7, type: 3}
+    - {fileID: 8300000, guid: 0baf19af10b6cd041b3adf294f6e62d0, type: 3}
+    - {fileID: 8300000, guid: 2cf5a88b5b17514469782993999ebecd, type: 3}
+    - {fileID: 8300000, guid: 67fe36ae9b0904c2ea171ff6d893d57d, type: 3}
+    - {fileID: 8300000, guid: 36c0e85e295ce48eea226cdda6de42c5, type: 3}
+    - {fileID: 8300000, guid: a61b67373143f450a9fc749519e9f489, type: 3}
+    - {fileID: 8300000, guid: b9f6049184fea4f3783f433d34434575, type: 3}
+    - {fileID: 8300000, guid: b5079fbb4e0064247a3db2c649dcef12, type: 3}
+    - {fileID: 8300000, guid: e140fe45e95864937b194c512df5884f, type: 3}
+    - {fileID: 8300000, guid: 9ad37ac1909dd4737862947b68e532b4, type: 3}
+    - {fileID: 8300000, guid: 147ee8a29225e45b7ac34edff7c77ede, type: 3}
+    - {fileID: 8300000, guid: 2ef2250fa94c74a71b8504f5da94fded, type: 3}
+    - {fileID: 8300000, guid: 2afaf1f50356c4e93a6275b15c17ac57, type: 3}
+    - {fileID: 8300000, guid: 59b3acc0b0cbc4e10a4be8dffeb7076c, type: 3}
+    - {fileID: 8300000, guid: 2e6265670a7b746e3b2532942c8de392, type: 3}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Library
+      Entry: 7
+      Data: 0|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[UnityEngine.AudioClip,
+        UnityEngine.AudioModule]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 1|System.Collections.Generic.GenericEqualityComparer`1[[System.String,
+        mscorlib]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 66
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: SFX.AxeHit
+    - Name: $v
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: SFX.BladeHit
+    - Name: $v
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: SFX.CrowdCheer
+    - Name: $v
+      Entry: 10
+      Data: 2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: SFX.Explosion
+    - Name: $v
+      Entry: 10
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: SFX.SawHit
+    - Name: $v
+      Entry: 10
+      Data: 4
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: SFX.Flamethrower
+    - Name: $v
+      Entry: 10
+      Data: 5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: SFX.MissileShoot
+    - Name: $v
+      Entry: 10
+      Data: 6
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: SFX.MissileExplode
+    - Name: $v
+      Entry: 10
+      Data: 7
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: SFX.Audience_Level1
+    - Name: $v
+      Entry: 10
+      Data: 8
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: SFX.Audience_Level2
+    - Name: $v
+      Entry: 10
+      Data: 9
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: SFX.Audience_Level3
+    - Name: $v
+      Entry: 10
+      Data: 10
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: SFX.KillStreaks_FirstBlood
+    - Name: $v
+      Entry: 10
+      Data: 11
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: SFX.KillStreaks_Kill
+    - Name: $v
+      Entry: 10
+      Data: 12
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: SFX.KillStreaks_DoubleKill
+    - Name: $v
+      Entry: 10
+      Data: 13
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: SFX.KillStreaks_TripleKill
+    - Name: $v
+      Entry: 10
+      Data: 14
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: SFX.KillStreaks_UltraKill
+    - Name: $v
+      Entry: 10
+      Data: 15
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: SFX.KillStreaks_MegaKill
+    - Name: $v
+      Entry: 10
+      Data: 16
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: SFX.KillStreaks_CollectMoney
+    - Name: $v
+      Entry: 10
+      Data: 17
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: SFX.LazerChangeActive
+    - Name: $v
+      Entry: 10
+      Data: 18
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: SFX.LazerFire
+    - Name: $v
+      Entry: 10
+      Data: 19
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: SFX.ElectricFloor
+    - Name: $v
+      Entry: 10
+      Data: 20
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: SFX.NukeProjectileFire
+    - Name: $v
+      Entry: 10
+      Data: 21
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: SFX.NukeExplosion
+    - Name: $v
+      Entry: 10
+      Data: 22
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: SFX.Swoosh
+    - Name: $v
+      Entry: 10
+      Data: 23
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: SFX.UI_ClaimBoss
+    - Name: $v
+      Entry: 10
+      Data: 24
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: SFX.ClaimBoss
+    - Name: $v
+      Entry: 10
+      Data: 24
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: SFX.Multiplier
+    - Name: $v
+      Entry: 10
+      Data: 25
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: SFX.TFM_LaserGunCharge
+    - Name: $v
+      Entry: 10
+      Data: 26
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: SFX.TFM_LaserGunShot
+    - Name: $v
+      Entry: 10
+      Data: 27
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: SFX.TFM_MissleExplosion
+    - Name: $v
+      Entry: 10
+      Data: 28
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: SFX.TFM_MissleShot
+    - Name: $v
+      Entry: 10
+      Data: 29
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: SFX.TFM_TransformCar
+    - Name: $v
+      Entry: 10
+      Data: 30
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: SFX.TFM_TransformRobot
+    - Name: $v
+      Entry: 10
+      Data: 31
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: SFX.TFM_LaserGunExplosion
+    - Name: $v
+      Entry: 10
+      Data: 32
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: SFX.TFM_TransformStartUp
+    - Name: $v
+      Entry: 10
+      Data: 33
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: SFX.BlitzDash
+    - Name: $v
+      Entry: 10
+      Data: 34
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: SFX.BlitzDashImpact
+    - Name: $v
+      Entry: 10
+      Data: 35
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: SFX.DroneAppear
+    - Name: $v
+      Entry: 10
+      Data: 36
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: SFX.DroneFlying
+    - Name: $v
+      Entry: 10
+      Data: 37
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: SFX.DroneMissleExplosive
+    - Name: $v
+      Entry: 10
+      Data: 38
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: SFX.DroneMissleShooting
+    - Name: $v
+      Entry: 10
+      Data: 39
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: SFX.VoltBurst
+    - Name: $v
+      Entry: 10
+      Data: 40
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: SFX.RocketExplosive
+    - Name: $v
+      Entry: 10
+      Data: 41
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: SFX.RocketShooting
+    - Name: $v
+      Entry: 10
+      Data: 42
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: SFX.HarpoonShooting
+    - Name: $v
+      Entry: 10
+      Data: 43
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: SFX.Landmine
+    - Name: $v
+      Entry: 10
+      Data: 44
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: SFX.WoodenboxBreak
+    - Name: $v
+      Entry: 10
+      Data: 45
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: SFX.BombBotAppear
+    - Name: $v
+      Entry: 10
+      Data: 46
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: SFX.BombBotTicking
+    - Name: $v
+      Entry: 10
+      Data: 47
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: SFX.ShieldBlast
+    - Name: $v
+      Entry: 10
+      Data: 48
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: SFX.ShieldActive
+    - Name: $v
+      Entry: 10
+      Data: 49
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: SFX.BlackKnight2_DroneLaserHit
+    - Name: $v
+      Entry: 10
+      Data: 50
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: SFX.BlackKnight2_DroneExplode
+    - Name: $v
+      Entry: 10
+      Data: 51
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: SFX.BlackKnight2_DroneLaserShot
+    - Name: $v
+      Entry: 10
+      Data: 52
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: SFX.AssaultRifle
+    - Name: $v
+      Entry: 10
+      Data: 53
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: SFX.Blastcore_Explosion
+    - Name: $v
+      Entry: 10
+      Data: 54
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: SFX.Blastcore_Launcher
+    - Name: $v
+      Entry: 10
+      Data: 55
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: SFX.Countdown
+    - Name: $v
+      Entry: 10
+      Data: 56
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: SFX.Deadmark
+    - Name: $v
+      Entry: 10
+      Data: 57
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: SFX.Env_WoodCrash
+    - Name: $v
+      Entry: 10
+      Data: 58
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: SFX.Fluxbeam
+    - Name: $v
+      Entry: 10
+      Data: 59
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: SFX.Respawn
+    - Name: $v
+      Entry: 10
+      Data: 60
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: SFX.Triburst
+    - Name: $v
+      Entry: 10
+      Data: 61
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: SFX.Flames
+    - Name: $v
+      Entry: 10
+      Data: 62
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: SFX.BGM_BattleScene
+    - Name: $v
+      Entry: 10
+      Data: 63
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: SFX.BGM_MainScene
+    - Name: $v
+      Entry: 10
+      Data: 64
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  m_EnumScriptsPath: Assets/__PocketBot/_General/Sounds
+  m_SheetID: 969036259
+  m_SheetName: FightingSFX

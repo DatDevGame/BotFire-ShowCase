@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3058f6e2fc96345c6b2542d282e32eff, type: 3}
+  m_Name: ActiveSkillSO_MissileDrone
+  m_EditorClassIdentifier: 
+  m_guid: a5f57f9014bf4472c896478c7faf20f6
+  m_ItemModules:
+  - rid: 3166007543499325447
+  - rid: 3166007543499325448
+  - rid: 7175535338152525825
+  - rid: 6503596113557979137
+  m_FoundInArena: 1
+  m_Cooldown: 9
+  m_SkillBlockingEffectStatuses: 3
+  _droneDuration: 6
+  _droneSpeed: 8.5
+  _droneFlyHeight: 3.65
+  _droneAmount: 1
+  _operatingRangeMin: 12
+  _operatingRangeMax: 14
+  _appearRange: 2.8
+  _attackRange: 8.5
+  _droneHpPercentDmg: 0.0125
+  _droneDmgPerHitRatio: 1
+  _droneTemplate: {fileID: 1407360117341824622, guid: bb5607777df154529bc5b27246f1247a,
+    type: 3}
+  _playerMat: {fileID: 2100000, guid: f754a3dd3e8f141d3865a126bb47b5e8, type: 2}
+  _enemyMat: {fileID: 2100000, guid: 09d308c4521eb48d1be3b729b9ae4aef, type: 2}
+  references:
+    version: 2
+    RefIds:
+    - rid: 3166007543499325447
+      type: {class: DescriptionItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        description: '<font="LilitaOne-Regular SDF"><color=#FFFFFF>Summons</font></color>
+          a drone equipped with missiles <font="LilitaOne-Regular SDF"><color=#FFFFFF>for
+          6 seconds. It attacks the nearest opponent, dealing damage equal to</font></color>
+          30% <font="LilitaOne-Regular SDF"><color=#FFFFFF>of your robot''s Max HP
+          in total.<br>Cooldown: 9s</font></color>'
+    - rid: 3166007543499325448
+      type: {class: MonoImageItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        m_ThumbnailTintColor: {r: 1, g: 1, b: 1, a: 1}
+        m_ThumbnailImage: {fileID: 21300000, guid: d4b9be9e1566d4094bd9a0cd4e58e719,
+          type: 3}
+    - rid: 6503596113557979137
+      type: {class: CardItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+    - rid: 7175535338152525825
+      type: {class: NameItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        m_DisplayName: MISSILE DRONE

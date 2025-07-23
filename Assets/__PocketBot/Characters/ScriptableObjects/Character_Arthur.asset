@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 882d176355b87dd498749e852c591383, type: 3}
+  m_Name: Character_Arthur
+  m_EditorClassIdentifier: 
+  m_guid: 40976b952816f214395736e753be6a5f
+  m_ItemModules:
+  - rid: 3348843493126569988
+  - rid: 3348843493126569991
+  - rid: 3348843493126569994
+  - rid: 3348843560963932162
+  - rid: 3348843744703807492
+  - rid: 1724944765591224325
+  - rid: 1724945319604781064
+  m_Key: 3_CharacterSO_40976b952816f214395736e753be6a5f
+  IsFakeLock: 0
+  EmojiSpites:
+    m_Keys: 01000000020000000300000004000000
+    m_Values:
+    - {fileID: 21300000, guid: a42548a13d06049ec8f45d55f1220868, type: 3}
+    - {fileID: 21300000, guid: 8e4f5d82188db4efba93bb01559802de, type: 3}
+    - {fileID: 21300000, guid: 2cd457468219c4891a950e8f5668cb95, type: 3}
+    - {fileID: 21300000, guid: 2cd457468219c4891a950e8f5668cb95, type: 3}
+    m_KeyTemp: 0
+    m_ValueTemp: {fileID: 0}
+  references:
+    version: 2
+    RefIds:
+    - rid: 1724944675051667456
+      type: {class: Requirement_RewardedAd, ns: , asm: Assembly-CSharp}
+      data:
+        m_RequiredRewardedAd: 1
+        m_ItemSO: {fileID: 11400000}
+    - rid: 1724944765591224325
+      type: {class: DescriptionItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        description: Arthur is a prodigy with a natural talent for robots, no match
+          is a challenge for him.
+    - rid: 1724945319604781064
+      type: {class: NewItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        m_DefaultIsNew: 0
+    - rid: 3348843493126569988
+      type: {class: NameItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        m_DisplayName: Arthur
+    - rid: 3348843493126569991
+      type: {class: MonoImageItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        m_ThumbnailTintColor: {r: 1, g: 1, b: 1, a: 1}
+        m_ThumbnailImage: {fileID: 21300000, guid: f063889d52d26f54a8e0b0b7091684b7,
+          type: 3}
+    - rid: 3348843493126569994
+      type: {class: UnlockableItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        m_DefaultIsUnlocked: 0
+        m_UnlockRequirementTree:
+          rid: 1724944675051667456
+    - rid: 3348843560963932162
+      type: {class: GameObjectModelPrefabItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        m_ModelPrefab: {fileID: 6638185199943608142, guid: 96f9328f473250b4680f117af00b62f5,
+          type: 3}
+    - rid: 3348843744703807492
+      type: {class: CharacterModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        gender: Male
+        age: 24
+        height: 1.75

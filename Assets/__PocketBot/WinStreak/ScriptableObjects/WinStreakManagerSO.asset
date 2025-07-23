@@ -1,0 +1,659 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 494b0429eeec046faac55693f30b1299, type: 3}
+  m_Name: WinStreakManagerSO
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 21300000, guid: e9be664701e394f4fbf5cb734c962083, type: 3}
+    - {fileID: 21300000, guid: 935879ebbe59741c6a3ca11c28a77f3b, type: 3}
+    - {fileID: 21300000, guid: b748463a02d05474a9e23a6db9e18db7, type: 3}
+    - {fileID: 21300000, guid: 1f6405ab5bb3b2545ab21533b7e3c830, type: 3}
+    - {fileID: 21300000, guid: 9f65016246fb18348a5ff535b59b8483, type: 3}
+    - {fileID: 21300000, guid: 9d4375a474fdd4e948d3000b59df5d87, type: 3}
+    - {fileID: 21300000, guid: b8c34647ae6984884b75e62430f3a014, type: 3}
+    - {fileID: 21300000, guid: 8a459398e217247289e788405c2f04bb, type: 3}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: m_ScriptStreaks
+      Entry: 7
+      Data: 0|System.Collections.Generic.Dictionary`2[[System.Int32, mscorlib],[ScriptStreak,
+        Assembly-CSharp]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 1|System.Collections.Generic.GenericEqualityComparer`1[[System.Int32,
+        mscorlib]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 1
+    - Name: $v
+      Entry: 7
+      Data: 2|ScriptStreak, Assembly-CSharp
+    - Name: ScriptStreakStandSet
+      Entry: 7
+      Data: 3|Unity.Plastic.Antlr3.Runtime.Misc.ListStack`1[[ScriptWinStreak, Assembly-CSharp]],
+        Unity.Plastic.Antlr3.Runtime
+    - Name: 
+      Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 3
+      Data: 2
+    - Name: 
+      Entry: 3
+      Data: 3
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: ScriptStreakPremiumSet
+      Entry: 7
+      Data: 4|Unity.Plastic.Antlr3.Runtime.Misc.ListStack`1[[ScriptWinStreak, Assembly-CSharp]],
+        Unity.Plastic.Antlr3.Runtime
+    - Name: 
+      Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 3
+      Data: 2
+    - Name: 
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 3
+      Data: 3
+    - Name: 
+      Entry: 3
+      Data: 4
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 2
+    - Name: $v
+      Entry: 7
+      Data: 5|ScriptStreak, Assembly-CSharp
+    - Name: ScriptStreakStandSet
+      Entry: 7
+      Data: 6|System.Collections.Generic.List`1[[ScriptWinStreak, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 3
+      Data: 2
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 3
+      Data: 3
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: ScriptStreakPremiumSet
+      Entry: 7
+      Data: 7|System.Collections.Generic.List`1[[ScriptWinStreak, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 3
+      Data: 3
+    - Name: 
+      Entry: 3
+      Data: 4
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 3
+    - Name: $v
+      Entry: 7
+      Data: 8|ScriptStreak, Assembly-CSharp
+    - Name: ScriptStreakStandSet
+      Entry: 7
+      Data: 9|System.Collections.Generic.List`1[[ScriptWinStreak, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 3
+      Data: 2
+    - Name: 
+      Entry: 3
+      Data: 3
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: ScriptStreakPremiumSet
+      Entry: 7
+      Data: 10|System.Collections.Generic.List`1[[ScriptWinStreak, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 3
+      Data: 3
+    - Name: 
+      Entry: 3
+      Data: 4
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 4
+    - Name: $v
+      Entry: 7
+      Data: 11|ScriptStreak, Assembly-CSharp
+    - Name: ScriptStreakStandSet
+      Entry: 7
+      Data: 12|System.Collections.Generic.List`1[[ScriptWinStreak, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 3
+      Data: 2
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 3
+      Data: 3
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: ScriptStreakPremiumSet
+      Entry: 7
+      Data: 13|System.Collections.Generic.List`1[[ScriptWinStreak, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 3
+      Data: 3
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 3
+      Data: 4
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 5
+    - Name: $v
+      Entry: 7
+      Data: 14|ScriptStreak, Assembly-CSharp
+    - Name: ScriptStreakStandSet
+      Entry: 7
+      Data: 15|System.Collections.Generic.List`1[[ScriptWinStreak, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 3
+      Data: 2
+    - Name: 
+      Entry: 3
+      Data: 8
+    - Name: 
+      Entry: 3
+      Data: 3
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: ScriptStreakPremiumSet
+      Entry: 7
+      Data: 16|System.Collections.Generic.List`1[[ScriptWinStreak, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 3
+      Data: 8
+    - Name: 
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 3
+      Data: 3
+    - Name: 
+      Entry: 3
+      Data: 8
+    - Name: 
+      Entry: 3
+      Data: 4
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_Avatars
+      Entry: 7
+      Data: 17|System.Collections.Generic.Dictionary`2[[ScriptWinStreak, Assembly-CSharp],[UnityEngine.Sprite,
+        UnityEngine.CoreModule]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 18|System.Collections.Generic.EnumEqualityComparer`1[[ScriptWinStreak,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 8
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 0
+    - Name: $v
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 1
+    - Name: $v
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 2
+    - Name: $v
+      Entry: 10
+      Data: 2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 3
+    - Name: $v
+      Entry: 10
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 4
+    - Name: $v
+      Entry: 10
+      Data: 4
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 5
+    - Name: $v
+      Entry: 10
+      Data: 5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 6
+    - Name: $v
+      Entry: 10
+      Data: 6
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 7
+    - Name: $v
+      Entry: 10
+      Data: 7
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  m_Key: WinStreakManagerSO_561e9fe22c85f4989b11066c0c6659b1
+  m_TimeResetReward: 86400
+  m_TrophyDisplayed: 10
+  m_WinStreakStandArena:
+  - StandSetConfig:
+      MinValue: 2
+      MaxValue: 2
+      Multiplier: 1
+    PremiumSetConfig:
+      MinValue: 3
+      MaxValue: 5
+      Multiplier: 1
+  - StandSetConfig:
+      MinValue: 2
+      MaxValue: 4
+      Multiplier: 1
+    PremiumSetConfig:
+      MinValue: 5
+      MaxValue: 7
+      Multiplier: 1
+  - StandSetConfig:
+      MinValue: 3
+      MaxValue: 4
+      Multiplier: 1
+    PremiumSetConfig:
+      MinValue: 6
+      MaxValue: 8
+      Multiplier: 1
+  - StandSetConfig:
+      MinValue: 3
+      MaxValue: 4
+      Multiplier: 1
+    PremiumSetConfig:
+      MinValue: 6
+      MaxValue: 8
+      Multiplier: 1
+  m_WinStreakPremiumArena:
+  - StandSetConfig:
+      MinValue: 1
+      MaxValue: 2
+      Multiplier: 4
+    PremiumSetConfig:
+      MinValue: 1
+      MaxValue: 2
+      Multiplier: 8
+  - StandSetConfig:
+      MinValue: 2
+      MaxValue: 4
+      Multiplier: 3
+    PremiumSetConfig:
+      MinValue: 2
+      MaxValue: 4
+      Multiplier: 6
+  - StandSetConfig:
+      MinValue: 3
+      MaxValue: 4
+      Multiplier: 3
+    PremiumSetConfig:
+      MinValue: 3
+      MaxValue: 4
+      Multiplier: 6
+  - StandSetConfig:
+      MinValue: 4
+      MaxValue: 5
+      Multiplier: 3
+    PremiumSetConfig:
+      MinValue: 4
+      MaxValue: 5
+      Multiplier: 6
+  m_SkillCardArena:
+  - StandSetConfig:
+      MinValue: 1
+      MaxValue: 1
+      Multiplier: 0.25
+    PremiumSetConfig:
+      MinValue: 1
+      MaxValue: 1
+      Multiplier: 0.5
+  - StandSetConfig:
+      MinValue: 1
+      MaxValue: 1
+      Multiplier: 0.25
+    PremiumSetConfig:
+      MinValue: 1
+      MaxValue: 1
+      Multiplier: 0.5
+  - StandSetConfig:
+      MinValue: 1
+      MaxValue: 1
+      Multiplier: 0.25
+    PremiumSetConfig:
+      MinValue: 1
+      MaxValue: 1
+      Multiplier: 0.5
+  - StandSetConfig:
+      MinValue: 1
+      MaxValue: 1
+      Multiplier: 0.25
+    PremiumSetConfig:
+      MinValue: 1
+      MaxValue: 1
+      Multiplier: 0.5
+  m_PBGachaPackManagerSO: {fileID: 11400000, guid: f7b7a6e10064f4cbfbd24964d7739749,
+    type: 2}
+  m_HighestAchivedWinStreakPPref: {fileID: 11400000, guid: f3a5fb93a206d46b19b851c90c99b0d4,
+    type: 2}
+  m_WinStreakPPref: {fileID: 11400000, guid: 00d38b65d72814f9b95e60ad3431a55f, type: 2}
+  m_CurrentHighestArenaVariable: {fileID: 11400000, guid: 9bd0ca3c9a539415b9ea95b51f07033d,
+    type: 2}
+  m_PBTrophyRoadSO: {fileID: 11400000, guid: 160f7e3b802034104b14d73d6db80838, type: 2}
+  m_HighestTrophy: {fileID: 11400000, guid: 9cfa980f122ac4eb09f4cc6bc2909efc, type: 2}
+  m_PprefTheFirstTime: {fileID: 11400000, guid: 94862b699a6b9d841954e5655fc0d0e0,
+    type: 2}
+  m_ActiveSkillManagerSO: {fileID: 11400000, guid: bbb941eca63784b14ab2d7b38309c884,
+    type: 2}
+  m_GachaCardRandomActiveSkill: {fileID: 11400000, guid: 0d3373a1a57c24b269b13e5fbbd6217f,
+    type: 2}
+  m_RequiredTrophiesToUnlockActiveSkill: {fileID: 11400000, guid: 72996eed83b6e4630a3d51575394fe23,
+    type: 2}
+  m_WinStreakCellSOs:
+  - {fileID: 11400000, guid: 920bb821f429f4773bdc7c777cea80f7, type: 2}
+  - {fileID: 11400000, guid: c3dcd2d6853f34ca19d8deeda9fa40a8, type: 2}
+  - {fileID: 11400000, guid: f4cc5c66a67f24c9696d38d027c16249, type: 2}
+  - {fileID: 11400000, guid: 80a065c6eff1543d4b1a2cc51c4e448f, type: 2}
+  - {fileID: 11400000, guid: c1396699977f44336b21fec2162846e7, type: 2}
+  m_WinStreakCellSOPremiums:
+  - {fileID: 11400000, guid: fcb8e467cb63e0145aaf315e30474709, type: 2}
+  - {fileID: 11400000, guid: 56d136a3d1fff134a814f6269fe1268f, type: 2}
+  - {fileID: 11400000, guid: 1f64dbde594943e469c0a270e30b0349, type: 2}
+  - {fileID: 11400000, guid: c3edd0ef30a458746b61b45aba7489a2, type: 2}
+  - {fileID: 11400000, guid: f045d5897e6a1934e93e56be41121e56, type: 2}

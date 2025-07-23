@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f7b55e6a83d5244e8454a6e035a1557, type: 3}
+  m_Name: ActiveSkillSO_BatDrone
+  m_EditorClassIdentifier: 
+  m_guid: 9f9afb1cf60a5de4e861b2c57ecfae10
+  m_ItemModules:
+  - rid: 3741904764682895362
+  - rid: 3741904764682895364
+  - rid: 3741904764682895365
+  - rid: 6503596113557979136
+  m_FoundInArena: 1
+  m_Cooldown: 12
+  m_SkillBlockingEffectStatuses: 3
+  m_DroneAmount: 3
+  m_FollowHeightOffset: 3.5
+  m_SeparationRadiusDrone: 5
+  m_AvoidanceStrength: 1
+  m_AttackZone: 10
+  m_ZoneExplode: 1
+  m_ExpiresDuration: 4
+  m_DroneRemainDuration: 0
+  m_FireRate: 0.3
+  m_DamagePerHitRatio: 1
+  m_DamageLazerMaxHealthPercent: 1
+  m_DamageExplosionMaxHealthPercent: 5
+  m_DetectRobotRadiusZoneAI: 10
+  m_RobotLayermask:
+    serializedVersion: 2
+    m_Bits: 4227858432
+  m_BatDroneBase: {fileID: 3354892983519825230, guid: c7a1b740ba6be7541b563019f5602cd6,
+    type: 3}
+  references:
+    version: 2
+    RefIds:
+    - rid: 3741904764682895362
+      type: {class: DescriptionItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        description: '<font="LilitaOne-Regular SDF"><color=#FFFFFF>Summons</font></color>
+          3 bot drones<font="LilitaOne-Regular SDF"><color=#FFFFFF> for 4s that follow
+          you and</font></color> fire lasers<font="LilitaOne-Regular SDF"><color=#FFFFFF>
+          at nearby enemies. When time''s up, they rush toward enemies and</font></color>
+          explode<font="LilitaOne-Regular SDF"><color=#FFFFFF>, dealing a total of</font></color>
+          27% <font="LilitaOne-Regular SDF"><color=#FFFFFF>of your robot''s Max HP.<br>Cooldown:
+          12s</font></color>'
+    - rid: 3741904764682895364
+      type: {class: MonoImageItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        m_ThumbnailTintColor: {r: 1, g: 1, b: 1, a: 1}
+        m_ThumbnailImage: {fileID: 21300000, guid: 86416408f94f9430a8d3f06aa9932703,
+          type: 3}
+    - rid: 3741904764682895365
+      type: {class: NameItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        m_DisplayName: BAT DRONE
+    - rid: 6503596113557979136
+      type: {class: CardItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}

@@ -1,0 +1,159 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e746971daec24a02853d4a21a9a2809, type: 3}
+  m_Name: Body_Astroblast
+  m_EditorClassIdentifier: 
+  m_guid: 0897037c01e6d473ebcb18ae066eb3ed
+  m_ItemModules:
+  - rid: 205144154655686660
+  - rid: 205144154655686661
+  - rid: 205144154655686663
+  - rid: 205144154655686662
+  - rid: 3841035118948122624
+  - rid: 7395805665275412480
+  - rid: 5186548220885729280
+  - rid: 7395805734551420928
+  - rid: 3433709053503078427
+  - rid: 7420493433728401408
+  m_FoundInArena: 2
+  isBossPart: 1
+  trophyThreshold: 0
+  partManagerSO: {fileID: 11400000, guid: bb4b86d3977e144faaea125a59756194, type: 2}
+  stats:
+    power: 0
+    resistance: 0
+    turning: 70
+    damagePerHitRatio: 0
+  upgradePath:
+    attackUpgradeSteps: 00000000
+    hpUpgradeSteps: 40010000
+  isTransformBot: 1
+  transformBotID: 1
+  speed: 1.8
+  mass: 210
+  steeringSpeed: 70
+  slots:
+  - PartSlotType: 4
+    PartVariableSO: {fileID: 11400000, guid: 72148dc6c887949418233f10ab10b9e1, type: 2}
+  - PartSlotType: 5
+    PartVariableSO: {fileID: 11400000, guid: 72148dc6c887949418233f10ab10b9e1, type: 2}
+  - PartSlotType: 1
+    PartVariableSO: {fileID: 11400000, guid: c05e8f138991347c0b760f352795e39c, type: 2}
+  - PartSlotType: 2
+    PartVariableSO: {fileID: 11400000, guid: c05e8f138991347c0b760f352795e39c, type: 2}
+  - PartSlotType: 3
+    PartVariableSO: {fileID: 11400000, guid: d173cad102c66437ab64b555f0dc54e8, type: 2}
+  attachedWheels:
+  - {fileID: 11400000, guid: bcdfa7f47c2734bf49b6d4bab73050ca, type: 2}
+  IsSpecial: 1
+  IsIgnoreClaimRV: 1
+  FoundInName: NEW YORK
+  SpecialPreviewChassisPrefab: {fileID: 7644405375446220183, guid: 9535dce1d27c949168f37d1989f25388,
+    type: 3}
+  CurrentInUse: {fileID: 11400000, guid: d1775257ec1a844399addb02547be404, type: 2}
+  references:
+    version: 2
+    RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }
+    - rid: 205144154655686660
+      type: {class: NameItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        m_DisplayName: Astroblast
+    - rid: 205144154655686661
+      type: {class: MonoImageItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        m_ThumbnailTintColor: {r: 1, g: 1, b: 1, a: 1}
+        m_ThumbnailImage: {fileID: 21300000, guid: 7ef6f2dc73f13484e92016a771c8c689,
+          type: 3}
+    - rid: 205144154655686662
+      type: {class: RarityItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        m_RarityType: 4
+    - rid: 205144154655686663
+      type: {class: PBMonoPrefabItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        partModelPrefab: {fileID: 7644405375446220183, guid: 9535dce1d27c949168f37d1989f25388,
+          type: 3}
+    - rid: 3433709053503078427
+      type: {class: DescriptionItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        description: A Transformbot that transforms from a truck into a four-legged
+          robot, equipped with an explosive cannon and two missile turrets, and VOLT
+          BURST skill
+    - rid: 3841035118948122624
+      type: {class: PBUpgradableItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        m_UpgradeRequirementData:
+          m_RequiredNumOfCardsLevels: 00000000
+          m_RequiredAmountOfCurrencyLevels:
+          - 0
+    - rid: 5186548220885729280
+      type: {class: UnlockableItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        m_DefaultIsUnlocked: 0
+        m_UnlockRequirementTree:
+          rid: -2
+    - rid: 7395805665275412480
+      type: {class: CardItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+    - rid: 7395805734551420928
+      type: {class: NewItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        m_DefaultIsNew: 0
+    - rid: 7420493433728401408
+      type: {class: SkinItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        m_Skins:
+        - {fileID: 6397834454883922542}
+--- !u!114 &6397834454883922542
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9b39e4b8c5284c8ab3f9c61fdf3c995, type: 3}
+  m_Name: Skin_0
+  m_EditorClassIdentifier: 
+  m_guid: 0897037c01e6d473ebcb18ae066eb3ed_d3fe7f93-0182-4726-ae65-be07c8e1d958
+  m_ItemModules:
+  - rid: 4792431531074781184
+  m_Probability: 1
+  m_PartSO: {fileID: 11400000}
+  m_SkinMaterialReferences:
+  - m_AssetGUID: 38e47dc0953ab487e8f3b490f115b188
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  references:
+    version: 2
+    RefIds:
+    - rid: 4792431531074781184
+      type: {class: MonoImageItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 6397834454883922542}
+        m_ThumbnailTintColor: {r: 1, g: 1, b: 1, a: 1}
+        m_ThumbnailImage: {fileID: 21300000, guid: 7ef6f2dc73f13484e92016a771c8c689,
+          type: 3}

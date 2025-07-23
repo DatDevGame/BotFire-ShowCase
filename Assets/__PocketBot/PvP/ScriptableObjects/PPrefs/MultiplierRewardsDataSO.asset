@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 739ccf3a6edf8451a9a3c6b4a9f58515, type: 3}
+  m_Name: MultiplierRewardsDataSO
+  m_EditorClassIdentifier: 
+  m_Config:
+    m_ShowingTrophyThreshold: 55
+    m_NormalSetFrequency: 1
+    m_PromotedSetFrequency: 3
+    m_SingleModeSegment:
+      NomalSegments:
+      - weight: 0.4
+        multiplier: 3
+      - weight: 0.42
+        multiplier: 5
+      - weight: 0.55
+        multiplier: 7
+      - weight: 0.42
+        multiplier: 5
+      - weight: 0.4
+        multiplier: 3
+      PromotedSegments:
+      - weight: 0.4
+        multiplier: 6
+      - weight: 0.42
+        multiplier: 9
+      - weight: 0.55
+        multiplier: 12
+      - weight: 0.42
+        multiplier: 9
+      - weight: 0.4
+        multiplier: 6
+    m_BattleModeSegment:
+      NomalSegments:
+      - weight: 0.4
+        multiplier: 2
+      - weight: 0.42
+        multiplier: 3
+      - weight: 0.55
+        multiplier: 4
+      - weight: 0.42
+        multiplier: 3
+      - weight: 0.4
+        multiplier: 2
+      PromotedSegments:
+      - weight: 0.4
+        multiplier: 3
+      - weight: 0.42
+        multiplier: 5
+      - weight: 0.55
+        multiplier: 7
+      - weight: 0.42
+        multiplier: 5
+      - weight: 0.4
+        multiplier: 3
+  m_NormalSetCountVar: {fileID: 11400000, guid: 92b76b040def2445ba80dde0115ed660,
+    type: 2}
+  m_PromotedSetCountVar: {fileID: 11400000, guid: 2ed4f687ec5b24926be4e28bc5a5445f,
+    type: 2}
+  m_HighestTrophiesVar: {fileID: 11400000, guid: 9cfa980f122ac4eb09f4cc6bc2909efc,
+    type: 2}

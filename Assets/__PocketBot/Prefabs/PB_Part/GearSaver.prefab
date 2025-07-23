@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1431802623227130210
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1431802623227130208}
+  - component: {fileID: 1431802623227130209}
+  m_Layer: 5
+  m_Name: GearSaver
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1431802623227130208
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1431802623227130210}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 467.02704, y: 960.00006, z: 0}
+  m_LocalScale: {x: 1.5416666, y: 1.5416666, z: 1.5416666}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1431802623227130209
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1431802623227130210}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb56496b499ea4a0693971550e134506, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Verbose: 1
+  m_KeepAlive: 1
+  m_DuplicateAllow: 0
+  specialSO: {fileID: 11400000, guid: d1775257ec1a844399addb02547be404, type: 2}
+  chassisSO: {fileID: 11400000, guid: 6584425201b4c4140a60cce8f687263f, type: 2}
+  wheels_1SO: {fileID: 11400000, guid: db5fbd951a7204719b6af50822e84841, type: 2}
+  wheels_2SO: {fileID: 11400000, guid: fa1c43e9c2a5a4fe885f276e1d734d22, type: 2}
+  wheels_3SO: {fileID: 11400000, guid: eef18e7b29c7246f6aba9da1397633fb, type: 2}
+  frontSO: {fileID: 11400000, guid: 0d38ba17baa5c4ef581de90ad13a0bf4, type: 2}
+  upper_1: {fileID: 11400000, guid: 26e8d11e091d2412799e6399cedf37a7, type: 2}
+  upper_2: {fileID: 11400000, guid: a7d71779796b34c16a2bd1b0dceedc0d, type: 2}
+  m_BodyManager: {fileID: 11400000, guid: 44c38a0814d774a7ca1a4f147a6ca574, type: 2}
+  m_FrontManager: {fileID: 11400000, guid: 00b3eb36bf8084acca2ce1f6d11d11ae, type: 2}
+  m_UpperManager: {fileID: 11400000, guid: 9cfb228aea31a4161ac9f6b480e2fe3b, type: 2}
+  _specialManager: {fileID: 11400000, guid: bb4b86d3977e144faaea125a59756194, type: 2}
+  partManager:
+  - {fileID: 11400000, guid: 44c38a0814d774a7ca1a4f147a6ca574, type: 2}
+  - {fileID: 11400000, guid: 00b3eb36bf8084acca2ce1f6d11d11ae, type: 2}
+  - {fileID: 11400000, guid: 9cfb228aea31a4161ac9f6b480e2fe3b, type: 2}

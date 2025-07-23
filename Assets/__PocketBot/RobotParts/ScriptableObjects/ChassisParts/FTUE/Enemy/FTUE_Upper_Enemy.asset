@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b049a7002971843f196b55a1169d6889, type: 3}
+  m_Name: FTUE_Upper_Enemy
+  m_EditorClassIdentifier: 
+  m_guid: 3268ea9768ded46199e4b90e060619ae
+  m_ItemModules:
+  - rid: 205144154655686657
+  - rid: 205144154655686658
+  - rid: 8728150994727469056
+  - rid: 5834122204583297025
+  m_FoundInArena: 1
+  isBossPart: 0
+  trophyThreshold: 0
+  partManagerSO: {fileID: 11400000, guid: 9cfb228aea31a4161ac9f6b480e2fe3b, type: 2}
+  stats:
+    power: 4
+    resistance: 0.15
+    turning: 0
+    damagePerHitRatio: 1.5
+  upgradePath:
+    attackUpgradeSteps: 05000000
+    hpUpgradeSteps: 00000000
+  references:
+    version: 2
+    RefIds:
+    - rid: 205144154655686657
+      type: {class: MonoImageItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        m_ThumbnailTintColor: {r: 1, g: 1, b: 1, a: 1}
+        m_ThumbnailImage: {fileID: 21300000, guid: 26671b6101c654dea80c389518bd7fda,
+          type: 3}
+    - rid: 205144154655686658
+      type: {class: PBMonoPrefabItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        partModelPrefab: {fileID: 6836166979623715315, guid: 71a46c7a8eb2f41a2b9f7c131dc60d0e,
+          type: 3}
+    - rid: 5834122204583297025
+      type: {class: SkinItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        m_Skins:
+        - {fileID: -4023749852030836416, guid: b55094cd773b14c1cad520f83ceaad3a, type: 2}
+    - rid: 8728150994727469056
+      type: {class: AttackRangeModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        isInfinityAttackRange: 0
+        attackRange: 1.5
+        attackAngles: 0

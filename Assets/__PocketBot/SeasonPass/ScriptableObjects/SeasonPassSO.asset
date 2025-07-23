@@ -1,0 +1,1308 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32bd85bc5165b4306b4148e0abab15ae, type: 3}
+  m_Name: SeasonPassSO
+  m_EditorClassIdentifier: 
+  m_guid: 2280efe2484134ccb8b3aec54ccf5dae
+  m_SaveFileName: SeasonPassSO_2280efe2484134ccb8b3aec54ccf5dae
+  m_Key: default
+  m_EncryptionType: 0
+  _seasonCurrency: {fileID: 11400000, guid: d1a72db7c828c4086825c8240956d38b, type: 2}
+  resourceLocation: 8
+  resourceItemId: Reward
+  chassisManagerSO: {fileID: 11400000, guid: 44c38a0814d774a7ca1a4f147a6ca574, type: 2}
+  upperManagerSO: {fileID: 11400000, guid: 9cfb228aea31a4161ac9f6b480e2fe3b, type: 2}
+  frontManagerSO: {fileID: 11400000, guid: 00b3eb36bf8084acca2ce1f6d11d11ae, type: 2}
+  specialBotManagerSO: {fileID: 11400000, guid: bb4b86d3977e144faaea125a59756194,
+    type: 2}
+  gachaPackManagerSO: {fileID: 11400000, guid: f7b7a6e10064f4cbfbd24964d7739749, type: 2}
+  rewardSpecialBots: {fileID: 11400000, guid: 622e8594db31b43fab53a1a140517575, type: 2}
+  skinRngInfos_Free:
+  - rarity: 0
+    probability: 0.25
+  - rarity: 3
+    probability: 0.45
+  - rarity: 4
+    probability: 0.3
+  skinRngInfos_Premium:
+  - rarity: 0
+    probability: 0
+  - rarity: 3
+    probability: 0.5
+  - rarity: 4
+    probability: 0.5
+  freeSkinReplacePartCardAmount: 5
+  premiumSkinReplacePartCardAmount: 10
+  freePreBuildBotReplaceUltraBoxAmount: 1
+  premiumPreBuildBotReplaceUltraBoxAmount: 2
+  rewardTreeInputDataList:
+  - milestoneInputDataList:
+    - requiredToken: 5
+      rewardFree:
+        type: 0
+        amount: 300
+      rewardPremium:
+        type: 1
+        amount: 30
+    - requiredToken: 10
+      rewardFree:
+        type: 1
+        amount: 10
+      rewardPremium:
+        type: 0
+        amount: 900
+    - requiredToken: 15
+      rewardFree:
+        type: 3
+        amount: 4
+      rewardPremium:
+        type: 3
+        amount: 12
+    - requiredToken: 20
+      rewardFree:
+        type: 7
+        amount: 1
+      rewardPremium:
+        type: 4
+        amount: 1
+    - requiredToken: 25
+      rewardFree:
+        type: 0
+        amount: 600
+      rewardPremium:
+        type: 2
+        amount: 1
+    - requiredToken: 35
+      rewardFree:
+        type: 1
+        amount: 10
+      rewardPremium:
+        type: 0
+        amount: 1800
+    - requiredToken: 45
+      rewardFree:
+        type: 0
+        amount: 300
+      rewardPremium:
+        type: 1
+        amount: 30
+    - requiredToken: 55
+      rewardFree:
+        type: 1
+        amount: 20
+      rewardPremium:
+        type: 5
+        amount: 1
+    - requiredToken: 65
+      rewardFree:
+        type: 4
+        amount: 1
+      rewardPremium:
+        type: 0
+        amount: 900
+    - requiredToken: 75
+      rewardFree:
+        type: 0
+        amount: 600
+      rewardPremium:
+        type: 3
+        amount: 12
+    - requiredToken: 85
+      rewardFree:
+        type: 3
+        amount: 8
+      rewardPremium:
+        type: 1
+        amount: 60
+    - requiredToken: 95
+      rewardFree:
+        type: 1
+        amount: 10
+      rewardPremium:
+        type: 0
+        amount: 1800
+    - requiredToken: 110
+      rewardFree:
+        type: 7
+        amount: 1
+      rewardPremium:
+        type: 4
+        amount: 1
+    - requiredToken: 125
+      rewardFree:
+        type: 0
+        amount: 900
+      rewardPremium:
+        type: 0
+        amount: 900
+    - requiredToken: 140
+      rewardFree:
+        type: 0
+        amount: 300
+      rewardPremium:
+        type: 7
+        amount: 1
+    - requiredToken: 155
+      rewardFree:
+        type: 2
+        amount: 1
+      rewardPremium:
+        type: 2
+        amount: 1
+    - requiredToken: 170
+      rewardFree:
+        type: 3
+        amount: 4
+      rewardPremium:
+        type: 3
+        amount: 24
+    - requiredToken: 185
+      rewardFree:
+        type: 1
+        amount: 20
+      rewardPremium:
+        type: 0
+        amount: 2700
+    - requiredToken: 200
+      rewardFree:
+        type: 4
+        amount: 1
+      rewardPremium:
+        type: 1
+        amount: 60
+    - requiredToken: 215
+      rewardFree:
+        type: 0
+        amount: 900
+      rewardPremium:
+        type: 5
+        amount: 1
+    - requiredToken: 230
+      rewardFree:
+        type: 1
+        amount: 10
+      rewardPremium:
+        type: 1
+        amount: 30
+    - requiredToken: 245
+      rewardFree:
+        type: 0
+        amount: 300
+      rewardPremium:
+        type: 7
+        amount: 1
+    - requiredToken: 265
+      rewardFree:
+        type: 3
+        amount: 8
+      rewardPremium:
+        type: 1
+        amount: 30
+    - requiredToken: 285
+      rewardFree:
+        type: 0
+        amount: 600
+      rewardPremium:
+        type: 3
+        amount: 12
+    - requiredToken: 305
+      rewardFree:
+        type: 3
+        amount: 4
+      rewardPremium:
+        type: 0
+        amount: 2700
+    - requiredToken: 325
+      rewardFree:
+        type: 1
+        amount: 20
+      rewardPremium:
+        type: 3
+        amount: 12
+    - requiredToken: 345
+      rewardFree:
+        type: 7
+        amount: 1
+      rewardPremium:
+        type: 2
+        amount: 1
+    - requiredToken: 365
+      rewardFree:
+        type: 4
+        amount: 1
+      rewardPremium:
+        type: 0
+        amount: 3600
+    - requiredToken: 385
+      rewardFree:
+        type: 0
+        amount: 1200
+      rewardPremium:
+        type: 4
+        amount: 1
+    - requiredToken: 405
+      rewardFree:
+        type: 1
+        amount: 10
+      rewardPremium:
+        type: 1
+        amount: 60
+    - requiredToken: 425
+      rewardFree:
+        type: 0
+        amount: 600
+      rewardPremium:
+        type: 0
+        amount: 2700
+    - requiredToken: 445
+      rewardFree:
+        type: 3
+        amount: 8
+      rewardPremium:
+        type: 3
+        amount: 24
+    - requiredToken: 465
+      rewardFree:
+        type: 0
+        amount: 600
+      rewardPremium:
+        type: 5
+        amount: 1
+    - requiredToken: 485
+      rewardFree:
+        type: 1
+        amount: 20
+      rewardPremium:
+        type: 1
+        amount: 30
+    - requiredToken: 505
+      rewardFree:
+        type: 0
+        amount: 1200
+      rewardPremium:
+        type: 0
+        amount: 4500
+    - requiredToken: 530
+      rewardFree:
+        type: 3
+        amount: 4
+      rewardPremium:
+        type: 2
+        amount: 1
+    - requiredToken: 555
+      rewardFree:
+        type: 5
+        amount: 1
+      rewardPremium:
+        type: 6
+        amount: 1
+    - requiredToken: 580
+      rewardFree:
+        type: 0
+        amount: 1500
+      rewardPremium:
+        type: 0
+        amount: 5400
+    - requiredToken: 605
+      rewardFree:
+        type: 1
+        amount: 30
+      rewardPremium:
+        type: 1
+        amount: 90
+    - requiredToken: 630
+      rewardFree:
+        type: 7
+        amount: 1
+      rewardPremium:
+        type: 5
+        amount: 1
+    - requiredToken: 655
+      rewardFree:
+        type: 3
+        amount: 8
+      rewardPremium:
+        type: 7
+        amount: 1
+    - requiredToken: 680
+      rewardFree:
+        type: 1
+        amount: 10
+      rewardPremium:
+        type: 3
+        amount: 24
+    - requiredToken: 705
+      rewardFree:
+        type: 0
+        amount: 1800
+      rewardPremium:
+        type: 1
+        amount: 60
+    - requiredToken: 730
+      rewardFree:
+        type: 3
+        amount: 8
+      rewardPremium:
+        type: 0
+        amount: 6300
+    - requiredToken: 755
+      rewardFree:
+        type: 5
+        amount: 1
+      rewardPremium:
+        type: 3
+        amount: 12
+    - requiredToken: 785
+      rewardFree:
+        type: 0
+        amount: 2100
+      rewardPremium:
+        type: 5
+        amount: 1
+    - requiredToken: 815
+      rewardFree:
+        type: 1
+        amount: 40
+      rewardPremium:
+        type: 1
+        amount: 120
+    - requiredToken: 845
+      rewardFree:
+        type: 3
+        amount: 12
+      rewardPremium:
+        type: 3
+        amount: 24
+    - requiredToken: 875
+      rewardFree:
+        type: 2
+        amount: 1
+      rewardPremium:
+        type: 2
+        amount: 2
+    - requiredToken: 905
+      rewardFree:
+        type: 6
+        amount: 1
+      rewardPremium:
+        type: 6
+        amount: 2
+  - milestoneInputDataList:
+    - requiredToken: 5
+      rewardFree:
+        type: 1
+        amount: 10
+      rewardPremium:
+        type: 0
+        amount: 900
+    - requiredToken: 10
+      rewardFree:
+        type: 0
+        amount: 300
+      rewardPremium:
+        type: 1
+        amount: 30
+    - requiredToken: 15
+      rewardFree:
+        type: 7
+        amount: 1
+      rewardPremium:
+        type: 4
+        amount: 1
+    - requiredToken: 20
+      rewardFree:
+        type: 3
+        amount: 4
+      rewardPremium:
+        type: 3
+        amount: 12
+    - requiredToken: 25
+      rewardFree:
+        type: 1
+        amount: 10
+      rewardPremium:
+        type: 0
+        amount: 1800
+    - requiredToken: 35
+      rewardFree:
+        type: 0
+        amount: 600
+      rewardPremium:
+        type: 2
+        amount: 1
+    - requiredToken: 45
+      rewardFree:
+        type: 3
+        amount: 4
+      rewardPremium:
+        type: 5
+        amount: 1
+    - requiredToken: 55
+      rewardFree:
+        type: 1
+        amount: 20
+      rewardPremium:
+        type: 1
+        amount: 30
+    - requiredToken: 65
+      rewardFree:
+        type: 0
+        amount: 600
+      rewardPremium:
+        type: 3
+        amount: 12
+    - requiredToken: 75
+      rewardFree:
+        type: 4
+        amount: 1
+      rewardPremium:
+        type: 2
+        amount: 1
+    - requiredToken: 85
+      rewardFree:
+        type: 1
+        amount: 10
+      rewardPremium:
+        type: 0
+        amount: 900
+    - requiredToken: 95
+      rewardFree:
+        type: 3
+        amount: 8
+      rewardPremium:
+        type: 1
+        amount: 60
+    - requiredToken: 110
+      rewardFree:
+        type: 0
+        amount: 300
+      rewardPremium:
+        type: 3
+        amount: 12
+    - requiredToken: 125
+      rewardFree:
+        type: 7
+        amount: 1
+      rewardPremium:
+        type: 4
+        amount: 1
+    - requiredToken: 140
+      rewardFree:
+        type: 2
+        amount: 1
+      rewardPremium:
+        type: 2
+        amount: 1
+    - requiredToken: 155
+      rewardFree:
+        type: 0
+        amount: 600
+      rewardPremium:
+        type: 7
+        amount: 1
+    - requiredToken: 170
+      rewardFree:
+        type: 1
+        amount: 20
+      rewardPremium:
+        type: 0
+        amount: 1800
+    - requiredToken: 185
+      rewardFree:
+        type: 3
+        amount: 4
+      rewardPremium:
+        type: 3
+        amount: 12
+    - requiredToken: 200
+      rewardFree:
+        type: 0
+        amount: 900
+      rewardPremium:
+        type: 5
+        amount: 1
+    - requiredToken: 215
+      rewardFree:
+        type: 4
+        amount: 1
+      rewardPremium:
+        type: 1
+        amount: 60
+    - requiredToken: 230
+      rewardFree:
+        type: 0
+        amount: 300
+      rewardPremium:
+        type: 2
+        amount: 1
+    - requiredToken: 245
+      rewardFree:
+        type: 1
+        amount: 10
+      rewardPremium:
+        type: 0
+        amount: 3600
+    - requiredToken: 265
+      rewardFree:
+        type: 3
+        amount: 8
+      rewardPremium:
+        type: 3
+        amount: 12
+    - requiredToken: 285
+      rewardFree:
+        type: 0
+        amount: 600
+      rewardPremium:
+        type: 1
+        amount: 90
+    - requiredToken: 305
+      rewardFree:
+        type: 1
+        amount: 20
+      rewardPremium:
+        type: 4
+        amount: 1
+    - requiredToken: 325
+      rewardFree:
+        type: 3
+        amount: 4
+      rewardPremium:
+        type: 0
+        amount: 2700
+    - requiredToken: 345
+      rewardFree:
+        type: 4
+        amount: 1
+      rewardPremium:
+        type: 7
+        amount: 1
+    - requiredToken: 365
+      rewardFree:
+        type: 7
+        amount: 1
+      rewardPremium:
+        type: 2
+        amount: 1
+    - requiredToken: 385
+      rewardFree:
+        type: 1
+        amount: 10
+      rewardPremium:
+        type: 3
+        amount: 24
+    - requiredToken: 405
+      rewardFree:
+        type: 0
+        amount: 1200
+      rewardPremium:
+        type: 1
+        amount: 60
+    - requiredToken: 425
+      rewardFree:
+        type: 3
+        amount: 8
+      rewardPremium:
+        type: 5
+        amount: 1
+    - requiredToken: 445
+      rewardFree:
+        type: 0
+        amount: 600
+      rewardPremium:
+        type: 0
+        amount: 4500
+    - requiredToken: 465
+      rewardFree:
+        type: 1
+        amount: 20
+      rewardPremium:
+        type: 4
+        amount: 1
+    - requiredToken: 485
+      rewardFree:
+        type: 0
+        amount: 600
+      rewardPremium:
+        type: 1
+        amount: 30
+    - requiredToken: 505
+      rewardFree:
+        type: 3
+        amount: 4
+      rewardPremium:
+        type: 0
+        amount: 1800
+    - requiredToken: 530
+      rewardFree:
+        type: 0
+        amount: 600
+      rewardPremium:
+        type: 2
+        amount: 1
+    - requiredToken: 555
+      rewardFree:
+        type: 0
+        amount: 1500
+      rewardPremium:
+        type: 6
+        amount: 1
+    - requiredToken: 580
+      rewardFree:
+        type: 5
+        amount: 1
+      rewardPremium:
+        type: 0
+        amount: 5400
+    - requiredToken: 605
+      rewardFree:
+        type: 7
+        amount: 1
+      rewardPremium:
+        type: 1
+        amount: 90
+    - requiredToken: 630
+      rewardFree:
+        type: 1
+        amount: 30
+      rewardPremium:
+        type: 5
+        amount: 1
+    - requiredToken: 655
+      rewardFree:
+        type: 3
+        amount: 8
+      rewardPremium:
+        type: 7
+        amount: 1
+    - requiredToken: 680
+      rewardFree:
+        type: 1
+        amount: 10
+      rewardPremium:
+        type: 0
+        amount: 2700
+    - requiredToken: 705
+      rewardFree:
+        type: 3
+        amount: 8
+      rewardPremium:
+        type: 1
+        amount: 60
+    - requiredToken: 730
+      rewardFree:
+        type: 0
+        amount: 1800
+      rewardPremium:
+        type: 3
+        amount: 36
+    - requiredToken: 755
+      rewardFree:
+        type: 5
+        amount: 1
+      rewardPremium:
+        type: 2
+        amount: 1
+    - requiredToken: 785
+      rewardFree:
+        type: 1
+        amount: 40
+      rewardPremium:
+        type: 5
+        amount: 1
+    - requiredToken: 815
+      rewardFree:
+        type: 0
+        amount: 2100
+      rewardPremium:
+        type: 0
+        amount: 7200
+    - requiredToken: 845
+      rewardFree:
+        type: 2
+        amount: 1
+      rewardPremium:
+        type: 3
+        amount: 24
+    - requiredToken: 875
+      rewardFree:
+        type: 3
+        amount: 12
+      rewardPremium:
+        type: 1
+        amount: 120
+    - requiredToken: 905
+      rewardFree:
+        type: 6
+        amount: 1
+      rewardPremium:
+        type: 6
+        amount: 2
+  testData:
+    MilestoneStates:
+    - requiredToken: 5
+      itemGUID_Free: 
+      itemGUID_Premium: 
+      rewardFree:
+        type: 0
+        amount: 100
+      rewardPremium:
+        type: 1
+        amount: 10
+      ClaimedFree: 0
+      ClaimedPremium: 0
+    - requiredToken: 10
+      itemGUID_Free: 
+      itemGUID_Premium: 
+      rewardFree:
+        type: 1
+        amount: 5
+      rewardPremium:
+        type: 0
+        amount: 200
+      ClaimedFree: 0
+      ClaimedPremium: 0
+    - requiredToken: 15
+      itemGUID_Free: 
+      itemGUID_Premium: 
+      rewardFree:
+        type: 3
+        amount: 3
+      rewardPremium:
+        type: 3
+        amount: 6
+      ClaimedFree: 0
+      ClaimedPremium: 0
+    - requiredToken: 20
+      itemGUID_Free: 5efc1e1b938544e248b89b28d84d1ef9_0b0591c1-4241-41ee-b178-05b68088fae2
+      itemGUID_Premium: 
+      rewardFree:
+        type: 7
+        amount: 1
+      rewardPremium:
+        type: 4
+        amount: 2
+      ClaimedFree: 0
+      ClaimedPremium: 0
+    - requiredToken: 25
+      itemGUID_Free: 
+      itemGUID_Premium: 
+      rewardFree:
+        type: 0
+        amount: 100
+      rewardPremium:
+        type: 2
+        amount: 4
+      ClaimedFree: 0
+      ClaimedPremium: 0
+    - requiredToken: 35
+      itemGUID_Free: 
+      itemGUID_Premium: 
+      rewardFree:
+        type: 1
+        amount: 5
+      rewardPremium:
+        type: 0
+        amount: 200
+      ClaimedFree: 0
+      ClaimedPremium: 0
+    - requiredToken: 45
+      itemGUID_Free: 
+      itemGUID_Premium: 
+      rewardFree:
+        type: 0
+        amount: 200
+      rewardPremium:
+        type: 1
+        amount: 10
+      ClaimedFree: 0
+      ClaimedPremium: 0
+    - requiredToken: 55
+      itemGUID_Free: 
+      itemGUID_Premium: 
+      rewardFree:
+        type: 3
+        amount: 3
+      rewardPremium:
+        type: 5
+        amount: 2
+      ClaimedFree: 0
+      ClaimedPremium: 0
+    - requiredToken: 65
+      itemGUID_Free: 
+      itemGUID_Premium: 
+      rewardFree:
+        type: 4
+        amount: 1
+      rewardPremium:
+        type: 2
+        amount: 4
+      ClaimedFree: 0
+      ClaimedPremium: 0
+    - requiredToken: 75
+      itemGUID_Free: 
+      itemGUID_Premium: 
+      rewardFree:
+        type: 0
+        amount: 100
+      rewardPremium:
+        type: 3
+        amount: 6
+      ClaimedFree: 0
+      ClaimedPremium: 0
+    - requiredToken: 85
+      itemGUID_Free: 
+      itemGUID_Premium: 
+      rewardFree:
+        type: 3
+        amount: 3
+      rewardPremium:
+        type: 1
+        amount: 10
+      ClaimedFree: 0
+      ClaimedPremium: 0
+    - requiredToken: 95
+      itemGUID_Free: 
+      itemGUID_Premium: 
+      rewardFree:
+        type: 1
+        amount: 5
+      rewardPremium:
+        type: 0
+        amount: 200
+      ClaimedFree: 0
+      ClaimedPremium: 0
+    - requiredToken: 105
+      itemGUID_Free: 13bd3f69283af4c579af8c9e2df0ee26_63b1d74c-bfd1-46ad-99e4-4119ca689dae
+      itemGUID_Premium: 
+      rewardFree:
+        type: 7
+        amount: 1
+      rewardPremium:
+        type: 4
+        amount: 2
+      ClaimedFree: 0
+      ClaimedPremium: 0
+    - requiredToken: 115
+      itemGUID_Free: 
+      itemGUID_Premium: 
+      rewardFree:
+        type: 0
+        amount: 100
+      rewardPremium:
+        type: 0
+        amount: 200
+      ClaimedFree: 0
+      ClaimedPremium: 0
+    - requiredToken: 125
+      itemGUID_Free: 
+      itemGUID_Premium: 71ae7e860029c4618910c6205c807161_b41d209a-538e-408d-8486-ef8e1532ca88
+      rewardFree:
+        type: 0
+        amount: 100
+      rewardPremium:
+        type: 7
+        amount: 1
+      ClaimedFree: 0
+      ClaimedPremium: 0
+    - requiredToken: 135
+      itemGUID_Free: 
+      itemGUID_Premium: 
+      rewardFree:
+        type: 2
+        amount: 2
+      rewardPremium:
+        type: 2
+        amount: 4
+      ClaimedFree: 0
+      ClaimedPremium: 0
+    - requiredToken: 145
+      itemGUID_Free: 
+      itemGUID_Premium: 
+      rewardFree:
+        type: 3
+        amount: 3
+      rewardPremium:
+        type: 3
+        amount: 6
+      ClaimedFree: 0
+      ClaimedPremium: 0
+    - requiredToken: 155
+      itemGUID_Free: 
+      itemGUID_Premium: 
+      rewardFree:
+        type: 1
+        amount: 5
+      rewardPremium:
+        type: 0
+        amount: 200
+      ClaimedFree: 0
+      ClaimedPremium: 0
+    - requiredToken: 165
+      itemGUID_Free: 
+      itemGUID_Premium: 
+      rewardFree:
+        type: 4
+        amount: 1
+      rewardPremium:
+        type: 1
+        amount: 10
+      ClaimedFree: 0
+      ClaimedPremium: 0
+    - requiredToken: 175
+      itemGUID_Free: 
+      itemGUID_Premium: 
+      rewardFree:
+        type: 0
+        amount: 100
+      rewardPremium:
+        type: 5
+        amount: 2
+      ClaimedFree: 0
+      ClaimedPremium: 0
+    - requiredToken: 190
+      itemGUID_Free: 
+      itemGUID_Premium: 
+      rewardFree:
+        type: 1
+        amount: 5
+      rewardPremium:
+        type: 1
+        amount: 10
+      ClaimedFree: 0
+      ClaimedPremium: 0
+    - requiredToken: 205
+      itemGUID_Free: 
+      itemGUID_Premium: 
+      rewardFree:
+        type: 0
+        amount: 100
+      rewardPremium:
+        type: 2
+        amount: 4
+      ClaimedFree: 0
+      ClaimedPremium: 0
+    - requiredToken: 220
+      itemGUID_Free: 
+      itemGUID_Premium: 
+      rewardFree:
+        type: 3
+        amount: 3
+      rewardPremium:
+        type: 1
+        amount: 10
+      ClaimedFree: 0
+      ClaimedPremium: 0
+    - requiredToken: 235
+      itemGUID_Free: 
+      itemGUID_Premium: 
+      rewardFree:
+        type: 0
+        amount: 100
+      rewardPremium:
+        type: 3
+        amount: 6
+      ClaimedFree: 0
+      ClaimedPremium: 0
+    - requiredToken: 250
+      itemGUID_Free: 
+      itemGUID_Premium: 
+      rewardFree:
+        type: 3
+        amount: 3
+      rewardPremium:
+        type: 0
+        amount: 200
+      ClaimedFree: 0
+      ClaimedPremium: 0
+    - requiredToken: 265
+      itemGUID_Free: 
+      itemGUID_Premium: 
+      rewardFree:
+        type: 1
+        amount: 5
+      rewardPremium:
+        type: 3
+        amount: 6
+      ClaimedFree: 0
+      ClaimedPremium: 0
+    - requiredToken: 280
+      itemGUID_Free: b55094cd773b14c1cad520f83ceaad3a_fc75eda3-c3c3-4aba-b38c-487a46b6a0a9
+      itemGUID_Premium: 
+      rewardFree:
+        type: 7
+        amount: 1
+      rewardPremium:
+        type: 2
+        amount: 4
+      ClaimedFree: 0
+      ClaimedPremium: 0
+    - requiredToken: 295
+      itemGUID_Free: 
+      itemGUID_Premium: 
+      rewardFree:
+        type: 4
+        amount: 1
+      rewardPremium:
+        type: 0
+        amount: 200
+      ClaimedFree: 0
+      ClaimedPremium: 0
+    - requiredToken: 310
+      itemGUID_Free: 
+      itemGUID_Premium: 
+      rewardFree:
+        type: 0
+        amount: 100
+      rewardPremium:
+        type: 4
+        amount: 2
+      ClaimedFree: 0
+      ClaimedPremium: 0
+    - requiredToken: 325
+      itemGUID_Free: 
+      itemGUID_Premium: 
+      rewardFree:
+        type: 1
+        amount: 5
+      rewardPremium:
+        type: 1
+        amount: 10
+      ClaimedFree: 0
+      ClaimedPremium: 0
+    - requiredToken: 340
+      itemGUID_Free: 
+      itemGUID_Premium: 
+      rewardFree:
+        type: 0
+        amount: 100
+      rewardPremium:
+        type: 0
+        amount: 200
+      ClaimedFree: 0
+      ClaimedPremium: 0
+    - requiredToken: 355
+      itemGUID_Free: 
+      itemGUID_Premium: 
+      rewardFree:
+        type: 3
+        amount: 3
+      rewardPremium:
+        type: 3
+        amount: 6
+      ClaimedFree: 0
+      ClaimedPremium: 0
+    - requiredToken: 370
+      itemGUID_Free: 
+      itemGUID_Premium: 
+      rewardFree:
+        type: 0
+        amount: 100
+      rewardPremium:
+        type: 5
+        amount: 2
+      ClaimedFree: 0
+      ClaimedPremium: 0
+    - requiredToken: 385
+      itemGUID_Free: 
+      itemGUID_Premium: 
+      rewardFree:
+        type: 1
+        amount: 5
+      rewardPremium:
+        type: 1
+        amount: 10
+      ClaimedFree: 0
+      ClaimedPremium: 0
+    - requiredToken: 400
+      itemGUID_Free: 
+      itemGUID_Premium: 
+      rewardFree:
+        type: 0
+        amount: 100
+      rewardPremium:
+        type: 0
+        amount: 200
+      ClaimedFree: 0
+      ClaimedPremium: 0
+    - requiredToken: 415
+      itemGUID_Free: 
+      itemGUID_Premium: 
+      rewardFree:
+        type: 3
+        amount: 3
+      rewardPremium:
+        type: 2
+        amount: 4
+      ClaimedFree: 0
+      ClaimedPremium: 0
+    - requiredToken: 430
+      itemGUID_Free: 
+      itemGUID_Premium: 
+      rewardFree:
+        type: 5
+        amount: 1
+      rewardPremium:
+        type: 6
+        amount: 2
+      ClaimedFree: 0
+      ClaimedPremium: 0
+    - requiredToken: 445
+      itemGUID_Free: 
+      itemGUID_Premium: 
+      rewardFree:
+        type: 0
+        amount: 100
+      rewardPremium:
+        type: 0
+        amount: 200
+      ClaimedFree: 0
+      ClaimedPremium: 0
+    - requiredToken: 460
+      itemGUID_Free: 
+      itemGUID_Premium: 
+      rewardFree:
+        type: 1
+        amount: 5
+      rewardPremium:
+        type: 1
+        amount: 10
+      ClaimedFree: 0
+      ClaimedPremium: 0
+    - requiredToken: 475
+      itemGUID_Free: 719977d22f160402a8c748419841858f_b8995a46-8186-4b71-bff6-9eae9a859c75
+      itemGUID_Premium: 
+      rewardFree:
+        type: 7
+        amount: 1
+      rewardPremium:
+        type: 5
+        amount: 2
+      ClaimedFree: 0
+      ClaimedPremium: 0
+    - requiredToken: 495
+      itemGUID_Free: 
+      itemGUID_Premium: 01516f21af92844848cc62fcc548f1ad_44004dfd-baf9-4701-88b3-827c174e7526
+      rewardFree:
+        type: 3
+        amount: 3
+      rewardPremium:
+        type: 7
+        amount: 1
+      ClaimedFree: 0
+      ClaimedPremium: 0
+    - requiredToken: 515
+      itemGUID_Free: 
+      itemGUID_Premium: 
+      rewardFree:
+        type: 1
+        amount: 5
+      rewardPremium:
+        type: 3
+        amount: 6
+      ClaimedFree: 0
+      ClaimedPremium: 0
+    - requiredToken: 535
+      itemGUID_Free: 
+      itemGUID_Premium: 
+      rewardFree:
+        type: 0
+        amount: 100
+      rewardPremium:
+        type: 1
+        amount: 10
+      ClaimedFree: 0
+      ClaimedPremium: 0
+    - requiredToken: 555
+      itemGUID_Free: 
+      itemGUID_Premium: 
+      rewardFree:
+        type: 3
+        amount: 3
+      rewardPremium:
+        type: 0
+        amount: 200
+      ClaimedFree: 0
+      ClaimedPremium: 0
+    - requiredToken: 575
+      itemGUID_Free: 
+      itemGUID_Premium: 
+      rewardFree:
+        type: 5
+        amount: 1
+      rewardPremium:
+        type: 2
+        amount: 4
+      ClaimedFree: 0
+      ClaimedPremium: 0
+    - requiredToken: 595
+      itemGUID_Free: 
+      itemGUID_Premium: 
+      rewardFree:
+        type: 0
+        amount: 100
+      rewardPremium:
+        type: 6
+        amount: 2
+      ClaimedFree: 0
+      ClaimedPremium: 0
+    - requiredToken: 615
+      itemGUID_Free: 
+      itemGUID_Premium: 
+      rewardFree:
+        type: 1
+        amount: 5
+      rewardPremium:
+        type: 1
+        amount: 10
+      ClaimedFree: 0
+      ClaimedPremium: 0
+    - requiredToken: 635
+      itemGUID_Free: 
+      itemGUID_Premium: 
+      rewardFree:
+        type: 3
+        amount: 3
+      rewardPremium:
+        type: 3
+        amount: 6
+      ClaimedFree: 0
+      ClaimedPremium: 0
+    - requiredToken: 655
+      itemGUID_Free: 
+      itemGUID_Premium: 
+      rewardFree:
+        type: 2
+        amount: 2
+      rewardPremium:
+        type: 2
+        amount: 4
+      ClaimedFree: 0
+      ClaimedPremium: 0
+    - requiredToken: 675
+      itemGUID_Free: 
+      itemGUID_Premium: 
+      rewardFree:
+        type: 6
+        amount: 1
+      rewardPremium:
+        type: 6
+        amount: 2
+      ClaimedFree: 0
+      ClaimedPremium: 0
+    state: 2
+    isPurchasedPass: 0
+    todayRefreshRound: 1
+    seasonTokenUI: 650
+    seasonTreeIndex: 0
+    firstTimeEarnReward: 1
+    isNewUser: 0

@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf61e0b035d9f4a76a3f2df017593b11, type: 3}
+  m_Name: ActiveSkillSO_BlitzDash
+  m_EditorClassIdentifier: 
+  m_guid: 1005ea8fc29774d06956b1eab9104259
+  m_ItemModules:
+  - rid: 7175535004620685313
+  - rid: 7175535004620685314
+  - rid: 7175535338152525826
+  - rid: 6503596113557979138
+  m_FoundInArena: 1
+  m_Cooldown: 15
+  m_SkillBlockingEffectStatuses: 3
+  m_DrawGizmos: 0
+  m_CanDashWithoutNearbyEnemy: 0
+  m_DashForce: 45
+  m_RangeToPerformSkill: 10
+  m_DamagePercentage: 0.14
+  m_UpwardModifier: 10
+  m_ImpactForce: 40
+  m_ImpactTorque: 60
+  m_ImpactParticleScale: 1.25
+  m_ImpactParticlePrefab: {fileID: 6714854853676119977, guid: 50946e7c42c4c493c8d8d09d87f5096f,
+    type: 3}
+  m_FrontDashParticlePrefab: {fileID: 198505395039527838, guid: 487b5282d429d4afb93b2b9e64bc6a9b,
+    type: 3}
+  m_RearDashParticlePrefab: {fileID: 19850588, guid: 7be58126383374bdba7522de34bd9a74,
+    type: 3}
+  references:
+    version: 2
+    RefIds:
+    - rid: 6503596113557979138
+      type: {class: CardItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+    - rid: 7175535004620685313
+      type: {class: DescriptionItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        description: 'Dashes <font="LilitaOne-Regular SDF"><color=#FFFFFF>to the
+          nearest opponent, dealing damage equal to</font></color> 14% <font="LilitaOne-Regular
+          SDF"><color=#FFFFFF>of your robot''s Max HP and launching them into the
+          air.<br>Cooldown: 15s</font></color>'
+    - rid: 7175535004620685314
+      type: {class: MonoImageItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        m_ThumbnailTintColor: {r: 1, g: 1, b: 1, a: 1}
+        m_ThumbnailImage: {fileID: 21300000, guid: 80e4a0c4fa06f4b2c8036ea3b4ef5b3d,
+          type: 3}
+    - rid: 7175535338152525826
+      type: {class: NameItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        m_DisplayName: BLITZ DASH

@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 882d176355b87dd498749e852c591383, type: 3}
+  m_Name: Character_Victoria
+  m_EditorClassIdentifier: 
+  m_guid: e7e3773e6ab30b74b874fee8c49c8c08
+  m_ItemModules:
+  - rid: 3348843493126569989
+  - rid: 3348843493126569992
+  - rid: 3348843493126569995
+  - rid: 3348843560963932161
+  - rid: 3348843744703807491
+  - rid: 1724944765591224324
+  - rid: 1724945319604781063
+  m_Key: 2_CharacterSO_e7e3773e6ab30b74b874fee8c49c8c08
+  IsFakeLock: 0
+  EmojiSpites:
+    m_Keys: 01000000020000000300000004000000
+    m_Values:
+    - {fileID: 21300000, guid: a462bc9289d4a4bd9ae135269c1ff177, type: 3}
+    - {fileID: 21300000, guid: 19b0d8c0675c64e2e993b396973c7428, type: 3}
+    - {fileID: 21300000, guid: b502d3da41a9e400f807be0aba1f7b70, type: 3}
+    - {fileID: 21300000, guid: c1b427e8f5e544331bcdde22cdc4225e, type: 3}
+    m_KeyTemp: 0
+    m_ValueTemp: {fileID: 0}
+  references:
+    version: 2
+    RefIds:
+    - rid: 1724944765591224324
+      type: {class: DescriptionItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        description: Victoria is everyone's favorite competitor, captivating audiences
+          with her charisma and talent for building robots.
+    - rid: 1724945319604781063
+      type: {class: NewItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        m_DefaultIsNew: 0
+    - rid: 3348843493126569989
+      type: {class: NameItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        m_DisplayName: Victoria
+    - rid: 3348843493126569992
+      type: {class: MonoImageItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        m_ThumbnailTintColor: {r: 1, g: 1, b: 1, a: 1}
+        m_ThumbnailImage: {fileID: 21300000, guid: b254fab320662054783c56a811161161,
+          type: 3}
+    - rid: 3348843493126569995
+      type: {class: UnlockableItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        m_DefaultIsUnlocked: 0
+        m_UnlockRequirementTree:
+          rid: 3348843560963932168
+    - rid: 3348843560963932161
+      type: {class: GameObjectModelPrefabItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        m_ModelPrefab: {fileID: 1191709258010464332, guid: 8b5b280625bafa144931863113af65db,
+          type: 3}
+    - rid: 3348843560963932168
+      type: {class: Requirement_RewardedAd, ns: , asm: Assembly-CSharp}
+      data:
+        m_RequiredRewardedAd: 2
+        m_ItemSO: {fileID: 11400000}
+    - rid: 3348843744703807491
+      type: {class: CharacterModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        gender: Female
+        age: 25
+        height: 1.72

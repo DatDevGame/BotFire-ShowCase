@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 587e44a7768bc26479fa28c22810944e, type: 3}
+  m_Name: ActiveSkillSO_BombBots
+  m_EditorClassIdentifier: 
+  m_guid: 4db46a93b90be7d4484a211bfaf97dc3
+  m_ItemModules:
+  - rid: 3741904721529536513
+  - rid: 3741904721529536514
+  - rid: 3741904721529536515
+  - rid: 6503596113557979141
+  m_FoundInArena: 1
+  m_Cooldown: 15
+  m_SkillBlockingEffectStatuses: 3
+  m_ScorpionAmout: 5
+  m_DamagePercent: 6
+  m_LifeTime: 5
+  m_MoveSpeed: 10
+  m_RayDistanceWall: 0.5
+  m_FromDampingTime: 0.1
+  m_ToDampingTime: 0.5
+  m_DetectionRadius: 5
+  m_MinDictanceAttack: 2.5
+  m_TimeWarning: 2
+  m_JumpHeight: 4
+  m_JumpDuration: 0.5
+  m_ZoneExplode: 3
+  m_DetectRobotRadiusZoneAI: 10
+  m_WallLayer:
+    serializedVersion: 2
+    m_Bits: 4288
+  m_RobotLayer:
+    serializedVersion: 2
+    m_Bits: 4227858432
+  m_ScorpionBehaviorPrefab: {fileID: 1758203450660110748, guid: ae712ce336ab139479980421cc639a5b,
+    type: 3}
+  references:
+    version: 2
+    RefIds:
+    - rid: 3741904721529536513
+      type: {class: MonoImageItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        m_ThumbnailTintColor: {r: 1, g: 1, b: 1, a: 1}
+        m_ThumbnailImage: {fileID: 21300000, guid: 2c3381942303f4646869282240145564,
+          type: 3}
+    - rid: 3741904721529536514
+      type: {class: DescriptionItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        description: '<font="LilitaOne-Regular SDF"><color=#FFFFFF>Summons</font></color>
+          5 bomb bots <font="LilitaOne-Regular SDF"><color=#FFFFFF>that move forward
+          and bounce off walls. Bots track nearby enemies, latch on, and</font></color>
+          explode for 6% <font="LilitaOne-Regular SDF"><color=#FFFFFF>of your Max
+          HP.<br>Cooldown: 15s</font></color>'
+    - rid: 3741904721529536515
+      type: {class: NameItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        m_DisplayName: BOMB BOTS
+    - rid: 6503596113557979141
+      type: {class: CardItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}

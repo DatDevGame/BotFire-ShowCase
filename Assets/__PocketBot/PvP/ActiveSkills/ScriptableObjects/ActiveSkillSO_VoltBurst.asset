@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c146fcc512204c7e8302e99b55d378c, type: 3}
+  m_Name: ActiveSkillSO_VoltBurst
+  m_EditorClassIdentifier: 
+  m_guid: 92a4389002b284ac1a29e9e2b25670ee
+  m_ItemModules:
+  - rid: 7175535024010690561
+  - rid: 7175535024010690562
+  - rid: 7175535338152525827
+  - rid: 6503596113557979139
+  m_FoundInArena: 1
+  m_Cooldown: 12
+  m_SkillBlockingEffectStatuses: 3
+  m_DrawGizmos: 0
+  m_DamagePercentage: 0.08
+  m_MovementSlowPercentage: 0.6
+  m_RotationSlowPercentage: 0.95
+  m_SlowDuration: 3
+  m_ShockwaveRadius: 6
+  m_ElectricShockwaveParticlePrefab: {fileID: 198612182425701558, guid: 71963993864d441798e3243c0956bcc9,
+    type: 3}
+  references:
+    version: 2
+    RefIds:
+    - rid: 6503596113557979139
+      type: {class: CardItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+    - rid: 7175535024010690561
+      type: {class: MonoImageItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        m_ThumbnailTintColor: {r: 1, g: 1, b: 1, a: 1}
+        m_ThumbnailImage: {fileID: 21300000, guid: a16d420525bca4a958e27611e21d620d,
+          type: 3}
+    - rid: 7175535024010690562
+      type: {class: DescriptionItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        description: '<font="LilitaOne-Regular SDF"><color=#FFFFFF>Releases</font></color>
+          an electric shockwave<font="LilitaOne-Regular SDF"><color=#FFFFFF>, dealing
+          damage equal to</font></color> 8% <font="LilitaOne-Regular SDF"><color=#FFFFFF>of
+          your robot''s Max HP and</font></color> stunning <font="LilitaOne-Regular
+          SDF"><color=#FFFFFF>opponents for </font></color>3s.<br><font="LilitaOne-Regular
+          SDF"><color=#FFFFFF>Cooldown: 12s</font></color>'
+    - rid: 7175535338152525827
+      type: {class: NameItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        m_DisplayName: VOLT BURST

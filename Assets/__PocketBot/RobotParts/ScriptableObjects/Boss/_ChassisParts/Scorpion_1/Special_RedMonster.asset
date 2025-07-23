@@ -1,0 +1,175 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e746971daec24a02853d4a21a9a2809, type: 3}
+  m_Name: Special_RedMonster
+  m_EditorClassIdentifier: 
+  m_guid: 1b31f4ff9039345c5ac58433ce86327d
+  m_ItemModules:
+  - rid: 205144154655686660
+  - rid: 205144154655686661
+  - rid: 205144154655686663
+  - rid: 205144154655686662
+  - rid: 7395805642454728704
+  - rid: 7395805665275412480
+  - rid: 5186548220885729280
+  - rid: 7395805734551420928
+  - rid: 3433709053503078427
+  - rid: 4829460282523254797
+  m_FoundInArena: 1
+  isBossPart: 1
+  trophyThreshold: 0
+  partManagerSO: {fileID: 11400000, guid: bb4b86d3977e144faaea125a59756194, type: 2}
+  stats:
+    power: 0
+    resistance: 0
+    turning: 60
+    damagePerHitRatio: 0
+  upgradePath:
+    attackUpgradeSteps: 00000000
+    hpUpgradeSteps: 64000000
+  isTransformBot: 0
+  transformBotID: 0
+  speed: 1.55
+  mass: 180
+  steeringSpeed: 60
+  activeSkillSO: {fileID: 11400000, guid: a5f57f9014bf4472c896478c7faf20f6, type: 2}
+  slots:
+  - PartSlotType: 4
+    PartVariableSO: {fileID: 11400000, guid: b6933ae972df64b03bed9f5954e9baaa, type: 2}
+  - PartSlotType: 5
+    PartVariableSO: {fileID: 11400000, guid: b6933ae972df64b03bed9f5954e9baaa, type: 2}
+  - PartSlotType: 1
+    PartVariableSO: {fileID: 11400000, guid: c34e113aee9704ee48734b2aba4dd835, type: 2}
+  - PartSlotType: 3
+    PartVariableSO: {fileID: 11400000, guid: ec290a81f01154df191557fea3dd2c29, type: 2}
+  attachedWheels:
+  - {fileID: 11400000, guid: 9ce3c1b6fa3b64170b59ddfd15d2dabe, type: 2}
+  IsSpecial: 1
+  IsIgnoreClaimRV: 0
+  FoundInName: NEW YORK
+  SpecialPreviewChassisPrefab: {fileID: 224397984151147913, guid: e509fb777d4644d4f9026b7060cf9aed,
+    type: 3}
+  CurrentInUse: {fileID: 11400000, guid: d1775257ec1a844399addb02547be404, type: 2}
+  references:
+    version: 2
+    RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }
+    - rid: 205144154655686660
+      type: {class: NameItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        m_DisplayName: Red Monster
+    - rid: 205144154655686661
+      type: {class: MonoImageItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        m_ThumbnailTintColor: {r: 1, g: 1, b: 1, a: 1}
+        m_ThumbnailImage: {fileID: 21300000, guid: 80092d40499bd4e6b9d24358f4c03e31,
+          type: 3}
+    - rid: 205144154655686662
+      type: {class: RarityItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        m_RarityType: 4
+    - rid: 205144154655686663
+      type: {class: PBMonoPrefabItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        partModelPrefab: {fileID: 201002843083686956, guid: 14cad670d30db4c88a97aef2c3e781fc,
+          type: 3}
+    - rid: 3433709053503078427
+      type: {class: DescriptionItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        description: A terrifying monster with a gripper and a saw blade, shredding
+          enemies with monstrous strength and brutal ferocity, and MISSILE DRONE
+          skill.
+    - rid: 4829460282523254797
+      type: {class: SkinItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        m_Skins:
+        - {fileID: 2460719814134244412}
+    - rid: 5186548220885729280
+      type: {class: UnlockableItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        m_DefaultIsUnlocked: 0
+        m_UnlockRequirementTree:
+          rid: -2
+    - rid: 7395805642454728704
+      type: {class: PBUpgradableItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        m_UpgradeRequirementData:
+          m_RequiredNumOfCardsLevels: 0000000002000000040000000a000000140000001e00000028000000320000004600000096000000
+          m_RequiredAmountOfCurrencyLevels:
+          - 0
+          - 100
+          - 200
+          - 400
+          - 700
+          - 1400
+          - 2100
+          - 3500
+          - 5250
+          - 7000
+    - rid: 7395805665275412480
+      type: {class: CardItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+    - rid: 7395805734551420928
+      type: {class: NewItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        m_DefaultIsNew: 0
+--- !u!114 &2460719814134244412
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9b39e4b8c5284c8ab3f9c61fdf3c995, type: 3}
+  m_Name: Skin_0
+  m_EditorClassIdentifier: 
+  m_guid: 1b31f4ff9039345c5ac58433ce86327d_6a076221-f64c-47a2-b0fb-e0ac9623b22c
+  m_ItemModules:
+  - rid: 4829460394143383824
+  m_Probability: 0.2
+  m_PartSO: {fileID: 11400000}
+  m_SkinMaterialReferences:
+  - m_AssetGUID: 7f902f88baeaf4ff8bafaab878885772
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  - m_AssetGUID: 69d6b54758f76433899a0dfe6f27e261
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  - m_AssetGUID: 84bda7c2aab03cd48aab307d1ce99ffd
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  references:
+    version: 2
+    RefIds:
+    - rid: 4829460394143383824
+      type: {class: MonoImageItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 2460719814134244412}
+        m_ThumbnailTintColor: {r: 1, g: 1, b: 1, a: 1}
+        m_ThumbnailImage: {fileID: 21300000, guid: 80092d40499bd4e6b9d24358f4c03e31,
+          type: 3}

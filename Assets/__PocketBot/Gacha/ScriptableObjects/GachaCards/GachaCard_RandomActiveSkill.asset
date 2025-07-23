@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28b0f9eb3aa654139bb7ae2ea8fad73d, type: 3}
+  m_Name: GachaCard_RandomActiveSkill
+  m_EditorClassIdentifier: 
+  m_guid: 0d3373a1a57c24b269b13e5fbbd6217f
+  m_ItemModules:
+  - rid: 6503596206039498755
+  - rid: 6503596206039498756
+  gachaPack: {fileID: 11400000, guid: b3672fff56df24f5fab48f64c4646f96, type: 2}
+  references:
+    version: 2
+    RefIds:
+    - rid: 6503596206039498755
+      type: {class: MonoImageItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        m_ThumbnailTintColor: {r: 1, g: 1, b: 1, a: 1}
+        m_ThumbnailImage: {fileID: 21300000, guid: 716bc1388c9ac1c48a699fb62825fc15,
+          type: 3}
+    - rid: 6503596206039498756
+      type: {class: GachaItemCardRewardModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        gachaItemSO: {fileID: 0}

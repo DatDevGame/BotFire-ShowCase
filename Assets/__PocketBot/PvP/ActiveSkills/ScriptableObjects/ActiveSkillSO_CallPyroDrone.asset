@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3058f6e2fc96345c6b2542d282e32eff, type: 3}
+  m_Name: ActiveSkillSO_CallPyroDrone
+  m_EditorClassIdentifier: 
+  m_guid: 5ff69df9fd28a4085a64a780e428f1e9
+  m_ItemModules:
+  - rid: 3166007543499325447
+  - rid: 3166007543499325448
+  m_Cooldown: 20
+  m_SkillBlockingStatusEffects: 11
+  _droneDuration: 11
+  _droneSpeed: 10.5
+  _droneFlyHeight: 3.65
+  _droneAmount: 1
+  _operatingRangeMin: 12
+  _operatingRangeMax: 14
+  _appearRange: 2.8
+  _attackRange: 7
+  _droneHpPercentDmg: 0.03
+  _droneDmgPerHitRatio: 0.3
+  _droneTemplate: {fileID: 7338498605142849741, guid: 8d34d91a5ae0b4236bc216f42ce087a4,
+    type: 3}
+  _playerMat: {fileID: 2100000, guid: f754a3dd3e8f141d3865a126bb47b5e8, type: 2}
+  _enemyMat: {fileID: 2100000, guid: 09d308c4521eb48d1be3b729b9ae4aef, type: 2}
+  references:
+    version: 2
+    RefIds:
+    - rid: 3166007543499325447
+      type: {class: DescriptionItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        description: Lorem ipsum....
+    - rid: 3166007543499325448
+      type: {class: MonoImageItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        m_ThumbnailTintColor: {r: 1, g: 1, b: 1, a: 1}
+        m_ThumbnailImage: {fileID: 21300000, guid: 7096f5b72d82049d28f394864cd89033,
+          type: 3}

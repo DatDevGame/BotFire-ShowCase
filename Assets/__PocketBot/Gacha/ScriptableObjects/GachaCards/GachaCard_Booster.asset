@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2606907f53b9b4f49a8994c821b37117, type: 3}
+  m_Name: GachaCard_Booster
+  m_EditorClassIdentifier: 
+  m_guid: a450e7134673f4f6a996c457c61b6568
+  m_ItemModules:
+  - rid: 3433708914259787782
+  - rid: 3433708914259787783
+  boosterTypeMapping: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 3433708914259787782
+      type: {class: MonoImageItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        m_ThumbnailTintColor: {r: 1, g: 1, b: 1, a: 1}
+        m_ThumbnailImage: {fileID: 0}
+    - rid: 3433708914259787783
+      type: {class: PvPBoosterRewardModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        boosterType: 0
+        boosterSavingSO: {fileID: 0}

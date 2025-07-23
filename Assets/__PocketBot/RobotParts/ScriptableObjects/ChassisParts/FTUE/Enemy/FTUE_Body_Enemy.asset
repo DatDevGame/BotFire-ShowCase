@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e746971daec24a02853d4a21a9a2809, type: 3}
+  m_Name: FTUE_Body_Enemy
+  m_EditorClassIdentifier: 
+  m_guid: 654d13142e578448cb49ff0b6d7c5e15
+  m_ItemModules:
+  - rid: 205144154655686661
+  - rid: 205144154655686663
+  - rid: 5834122204583297024
+  m_FoundInArena: 2
+  isBossPart: 0
+  trophyThreshold: 0
+  partManagerSO: {fileID: 0}
+  stats:
+    power: 8
+    resistance: 0
+    turning: 100
+    damagePerHitRatio: 0
+  upgradePath:
+    attackUpgradeSteps: 00000000
+    hpUpgradeSteps: 0d000000
+  isTransformBot: 0
+  transformBotID: 0
+  speed: 1.1
+  mass: 110
+  steeringSpeed: 100
+  slots:
+  - PartSlotType: 4
+    PartVariableSO: {fileID: 11400000, guid: f49fd47e63d95eb4ca1f62b82e047f4c, type: 2}
+  - PartSlotType: 1
+    PartVariableSO: {fileID: 11400000, guid: 4afbb5d4548e748c4986fad781e4b0e1, type: 2}
+  - PartSlotType: 3
+    PartVariableSO: {fileID: 11400000, guid: f542e7db1c35448339f65725f4c87821, type: 2}
+  attachedWheels:
+  - {fileID: 11400000, guid: e75218e6899094295a3618c5559bf858, type: 2}
+  IsSpecial: 0
+  IsIgnoreClaimRV: 0
+  FoundInName: 
+  SpecialPreviewChassisPrefab: {fileID: 0}
+  CurrentInUse: {fileID: 0}
+  references:
+    version: 2
+    RefIds:
+    - rid: 205144154655686661
+      type: {class: MonoImageItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        m_ThumbnailTintColor: {r: 1, g: 1, b: 1, a: 1}
+        m_ThumbnailImage: {fileID: 21300000, guid: e5593b821638a43e5a8b1c522db4b031,
+          type: 3}
+    - rid: 205144154655686663
+      type: {class: PBMonoPrefabItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        partModelPrefab: {fileID: 7644405375446220183, guid: 351f2cb0050ce4571929d3c0ae219f64,
+          type: 3}
+    - rid: 5834122204583297024
+      type: {class: SkinItemModule, ns: , asm: Assembly-CSharp}
+      data:
+        m_ItemSO: {fileID: 11400000}
+        m_Skins:
+        - {fileID: 3098083185612106937, guid: 2dfb75c6b201a48129eb6c74ed7a7718, type: 2}
